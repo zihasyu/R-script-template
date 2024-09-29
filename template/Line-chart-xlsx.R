@@ -8,14 +8,25 @@ library(dplyr)
 # 设置工作目录
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# 定义生成普通折线图的函数
 create_line_plot <- function(df) {
-  p <- ggplot(df, aes(x = x_value, y = y_value, color = source, shape = source, linetype = source)) +
+  # 计算每个 source 应该显示的间隔
+  df_with_interval <- df %>%
+    group_by(source) %>%
+    mutate(total_points = n(),
+           interval = if(first(total_points) <= 15) 1 else max(floor(first(total_points) / 15), 1),
+           # 如果一个 source 的总点数小于或等于 15，我们设置间隔为 1，这意味着会显示所有的点。
+           # 在 show_point 的计算中，我们添加了一个条件 total_points <= 15。这确保了如果一个 source 的总点数小于或等于 15，所有的点都会被显示。
+           # 对于点数超过 15 的 source，我们仍然使用之前的逻辑来选择要显示的点。
+           show_point = row_number() %% interval == 1 | row_number() == total_points | total_points <= 15) %>%
+    ungroup()
+  
+  p <- ggplot(df_with_interval, aes(x = x_value, y = y_value, color = source, shape = source, linetype = source)) +
     scale_shape_manual(values = c(23, 25, 24, 21, 22)) +
     scale_colour_brewer(palette = "Set1") + 
     scale_linetype_manual(values = c(1, 1, 1, 1, 1)) +              
     geom_line(size = 1.5) +
-    geom_point(size = 6, stroke = 2, fill = "white") + 
+    geom_point(data = df_with_interval %>% filter(show_point),
+               size = 6, stroke = 2, fill = "white") + 
     theme_bw() +
     theme(
       legend.position = "top",
@@ -38,26 +49,8 @@ create_line_plot <- function(df) {
   return(p)
 }
 
-# 手动输入数据
-# x_values <- seq(1, 81, by = 5)
-# y_values <- c(
-#   5, 6, 7, 8, 9, 10, 11, 12, 13, 14,15,16, 17,18,19,20,21, # Finesse
-#   6, 7, 8, 9, 10, 11, 12, 13, 14, 15,16, 17,18,19,20,21,22,# Odess
-#   4, 5, 6, 7, 8, 9, 10, 11, 12, 13,14,15,16, 17,18,19,20,  # NTrans
-#   7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,18,19,20,21,22 ,23,# Palantir
-#   8, 9, 10, 11, 12, 13, 14, 15, 16, 17,18,19,20,21,22,23,24 # BiSearch
-# )
-# 
-# df <- data.frame(
-#   x_value = rep(x_values, 5),
-#   y_value = y_values,
-#   source = factor(rep(c('NTrans', 'Finesse', 'Odess', 'Palantir', 'BiSearch'), each = length(x_values)), 
-#                   levels = c('Finesse', 'Odess', 'NTrans', 'Palantir', 'BiSearch')) # 设置顺序
-# )
-
-# 绘制折线图
 # 读取 Excel 文件
-df <- read_excel("../data/data.xlsx")
+df <- read_excel("../data/9-SF.xlsx")
 
 # 将数据转换为长格式
 df_long <- df %>%
@@ -69,10 +62,9 @@ df_long <- df %>%
 df_long$source <- factor(df_long$source, 
                          levels = c('Finesse', 'Odess', 'NTrans', 'Palantir', 'BiSearch'))
 
-
 p <- create_line_plot(df_long)
 
 # 保存图表到文件
-ggsave('Line-chart.pdf', plot = p, height = 5, width = 10)
+ggsave('Line-chart-xlsx.pdf', plot = p, height = 5, width = 10)
 
 print(p)
