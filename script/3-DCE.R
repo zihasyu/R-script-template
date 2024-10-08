@@ -1,10 +1,10 @@
 library(ggplot2)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 # 定义数据
-heights <- c(69.6868,101.273,68.0525,36.3805,74.0106,47.9555,58.4694,42.7682,17.3831,20.6721,115.726,126.277,112.038,78.2728,95.8702,18.9554,17.3636,17.7068,14.6838,15.6691
+heights <- c(69.6868,101.273,68.0525,36.3805,73.7504,107.902,110.702,107.102,95.8241,19.608,47.9555,58.4694,42.7682,17.3831,19.7671,18.9554,17.3636,17.7068,14.6838,15.3385
 )
 
-group_order <- c('Source', 'WEB', 'Docker', 'Log')
+group_order <- c('Linux', 'Chromium', 'WEB', 'Log')
 # 创建数据框
 df1 <- data.frame(
   group = factor(rep(group_order, each = 5), levels = group_order),

@@ -5,7 +5,7 @@ heights <- c( 1, 1, 1,1, 1, 1, 1, 1,1, 1,1, 1, 1,1, 1, 1)
 
 # 创建数据框
 df1 <- data.frame(
-  group = rep(c('Source','WEB', 'Docker','Log'), each = 4),
+  group = rep(c('Linux', 'Chromium', 'WEB', 'Log'), each = 4),
   category = factor(rep(c( 'Odess+FastCDC', 'Odess+Mtar', 'BiSearch+FastCDC','BiSearch+SAC'), times = 4), levels = c('Odess+FastCDC', 'Odess+Mtar', 'BiSearch+FastCDC','BiSearch+SAC')),
   height = heights
 )
