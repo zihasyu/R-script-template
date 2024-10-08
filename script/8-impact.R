@@ -2,9 +2,9 @@ library(ggplot2)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 # 创建示例数据
 data <- data.frame(
-  category = rep(c('Source', 'WEB', 'Docker',  'Log'), each = 4),
+  category = rep(c('Linux', 'Chromium', 'WEB', 'Log'), each = 4),
   part = rep(c('Deduplication', 'Local Compression', 'Feature-based Delta', 'Locality Delta'), times = 4),
-  value = c(1, 1, 1,1, 1, 1, 1, 1,1, 1,1, 1, 1,1, 1, 1)
+  value = c(26763,2608,6912,7851,381650,3029,1000,1000,270003,849,7483,4255,0,13346,29,12959)
 )
 # 计算每个类别的总和
 total_values <- aggregate(value ~ category, data = data, sum)
@@ -17,7 +17,7 @@ colors <- c( 'Deduplication' = '#f5deb3', 'Local Compression' = '#ac8cf4',
 p <- ggplot(data, aes(x = category, y = value, fill = part)) +
   geom_bar(stat = "identity", width = 0.6, color = "black") +
   scale_fill_manual(values = colors) +
-  labs(y = 'Compression ratio', x = 'Category') +
+  labs(y = 'Reduce Data(MiB)', x = 'Category') +
   scale_y_continuous(
     limits = c(0, max_height),
     expand = expansion(mult = c(0, 0.1))

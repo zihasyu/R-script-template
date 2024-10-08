@@ -2,16 +2,16 @@ library(ggplot2)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 # 创建示例数据
 data <- data.frame(
-  category = rep(c('Source', 'WEB', 'Docker',  'Log'), each = 6),
-  part = rep(c('Deduplication', 'Local Compression', 'Feature-based Delta', 'Locality Delta','Match base block','others'), times = 4),
-  value = c(1, 1, 1,1, 1, 1, 1, 1,1, 1,1, 1, 1,1, 1, 1, 1, 1,1, 1, 1, 1,1, 1)
+  category = rep(c('Linux', 'Chromium', 'WEB', 'Log'), each = 6),
+  part = rep(c('Deduplication', 'Local Compression', 'Locality Match','Locality Delta','Feature-based Match','Feature-based Delta'), times = 4),
+  value = c(85.6282,4.69628,0.0395736,62.1154,289.979,43.416,100,100,100,100,100,100,515.465,1.02679,0.0353757,50.7086,196.795,74.2116,56.8306,9.82831,0.0572857,109.863,11.2892,0.380872)
 )
 # 计算每个类别的总和
 total_values <- aggregate(value ~ category, data = data, sum)
 max_height <- max(total_values$value)
 # 定义颜色
-colors <- c( 'Deduplication' = '#f5deb3', 'Local Compression' = '#ac8cf4', 'Match base block'='#FF5733',
-             'Feature-based Delta' = '#ff7f0e', 'Locality Delta' = '#4a90e2','others'='#aaaaaa')
+colors <- c( 'Deduplication' = '#f5deb3', 'Local Compression' = '#ac8cf4', 'Locality Match'='#FF5733',
+             'Locality Delta' = '#ff7f0e', 'Feature-based Match' = '#4a90e2','Feature-based Delta'='#00F5FF')
 
 # 创建堆叠柱状图
 p <- ggplot(data, aes(x = category, y = value, fill = part)) +
