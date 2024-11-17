@@ -4,7 +4,7 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 data <- data.frame(
   category = rep(c('Linux', 'Chromium', 'WEB', 'Log'), each = 6),
   part = rep(c('Deduplication', 'Local Compression', 'Locality Match','Locality Delta','Feature-based Match','Feature-based Delta'), times = 4),
-  value = c(85.6282,4.69628,0.0395736,62.1154,289.979,43.416,100,100,100,100,100,100,515.465,1.02679,0.0353757,50.7086,196.795,74.2116,56.8306,9.82831,0.0572857,109.863,11.2892,0.380872)
+  value = c(85.2564,4.59822,0.00973535,64.6234,33.9497,42.8017,739.354,5.55645,0.0282299,69.6156,10.1979,24.1337,514.128,1.40798,0.0102741,6.56336,9.03805,95.9007,56.1908,9.68207,0.0281502,101.856,11.2657,0.395646)
 )
 # 计算每个类别的总和
 total_values <- aggregate(value ~ category, data = data, sum)

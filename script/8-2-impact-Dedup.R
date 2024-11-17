@@ -2,18 +2,18 @@ library(ggplot2)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 # 创建示例数据
 data <- data.frame(
-  category = rep(c('Linux', 'Chromium', 'WEB', 'Log'), each = 4),
-  part = rep(c('Deduplication', 'Local Compression', 'Feature-based Delta', 'Locality Delta'), times = 4),
+  category = rep(c('Linux', 'Chromium', 'WEB', 'Log'), each = 3),
+  part = rep(c( 'Local Compression', 'Feature-based Delta', 'Locality Delta'), times = 4),
   value = c(
-26763,2941,6731,7714,363970,8485,4294,10934,270003,1853,9851,876,0,13739,31,12560  
-)
+    2941,6731,7714,8485,4294,10934,1853,9851,876,13739,31,12560
+    )
 )
 # 计算每个类别的总和
 total_values <- aggregate(value ~ category, data = data, sum)
 max_height <- max(total_values$value)
 # 定义颜色
-colors <- c( 'Deduplication' = '#f5deb3', 'Local Compression' = '#ac8cf4', 
-             'Feature-based Delta' = '#ff7f0e', 'Locality Delta' = '#4a90e2')
+colors <- c(  'Local Compression' = '#ac8cf4', 
+              'Feature-based Delta' = '#ff7f0e', 'Locality Delta' = '#4a90e2')
 
 # 创建堆叠柱状图
 p <- ggplot(data, aes(x = category, y = value, fill = part)) +
@@ -43,5 +43,5 @@ p <- ggplot(data, aes(x = category, y = value, fill = part)) +
     legend.title = element_blank()
   ) +
   theme(axis.title.x = element_blank())
-ggsave('../plot/8-impact.pdf', plot = p, width = 10, height = 5)
+ggsave('../plot/8-2-impact-nondedup.pdf', plot = p, width = 10, height = 5)
 print(p)
