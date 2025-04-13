@@ -1,0 +1,1798 @@
+2025-04-09 18:09:54 <Chunker>: chunking done.
+total_size is 8
+Version: 1
+-----------------CHUNK NUM-----------------------
+logical chunk num: 750
+unique chunk num: 731
+base chunk num: 523
+delta chunk num: 208
+Odess Hit is 208
+Header chunk logical num: 60
+Header chunk unique num: 60
+Header chunk base logical num: 0
+Header chunk base unique num: 59
+Header chunk delta logical num: 0
+Header chunk delta unique num: 1
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 2478080
+uniquechunkSize is 873924
+base chunk size: 859690
+delta chunk size: 14234
+Header chunk logical size: 487424
+Header chunk unique size: 39557
+Header chunk base logical size: 483328
+Header chunk base unique size: 39540
+Header chunk delta logical size: 4096
+Header chunk delta unique size: 17
+-----------------METRICS-------------------------
+Overall Compression Ratio: 2.83558
+DCC: 0.284542
+DCR: 8.59688
+DCE: 12.8125
+-----------------Time------------------------------
+Version time: 0.0593876s
+Throughput: 39.7942MiB/s
+Reduce data speed: 25.7603MiB/s
+SF generation time: 0.0015071s
+SF generation throughput: 1568.1MiB/s
+Chunk Time: 0.000859781s
+Dedup Time: 0.00453245s
+Locality Match Time: 0s
+Locality Delta Time: 0s
+Feature Match Time: 0.00158784s
+Feature Match Time1: 0s
+Feature Delta Time: 0.00114657s
+IOGet Time: 6.007e-05s
+IOWrite Time: 0.000365988s
+Lz4 Compression Time: 0.00262304s
+Delta Compression Time: 0.00114657s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.107674MiB
+FP Index Overhead: 0.0278854MiB
+ID Index Overhead: 0.0501938MiB
+SF Index Overhead: 0.023941MiB
+Recipe Overhead: 0.00572205MiB
+nameTable size is 0.00565338MiB
+SF number: 1569
+nameTable size: 0.00565338 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 0.012207MiB
+delta reduct size : 0.103125MiB
+local reduct size : 1.41451MiB
+Feature reduct size: 0.103125MiB
+Locality reduct size: 0MiB
+-----------------END-------------------------------
+2025-04-09 18:09:54 <Chunker>: chunking done.
+total_size is 8
+Version: 2
+-----------------CHUNK NUM-----------------------
+logical chunk num: 1364
+unique chunk num: 1112
+base chunk num: 675
+delta chunk num: 437
+Odess Hit is 354
+Header chunk logical num: 106
+Header chunk unique num: 106
+Header chunk base logical num: 0
+Header chunk base unique num: 94
+Header chunk delta logical num: 0
+Header chunk delta unique num: 12
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 4628480
+uniquechunkSize is 1052028
+base chunk size: 1020299
+delta chunk size: 31729
+Header chunk logical size: 864256
+Header chunk unique size: 67820
+Header chunk base logical size: 770048
+Header chunk base unique size: 63713
+Header chunk delta logical size: 94208
+Header chunk delta unique size: 4107
+-----------------METRICS-------------------------
+Overall Compression Ratio: 4.39958
+DCC: 0.392986
+DCR: 47.6677
+DCE: 64.0275
+-----------------Time------------------------------
+Version time: 0.0246082s
+Throughput: 83.3373MiB/s
+Reduce data speed: 76.435MiB/s
+SF generation time: 0.000975824s
+SF generation throughput: 2101.59MiB/s
+Chunk Time: 0.00115501s
+Dedup Time: 0.00850219s
+Locality Match Time: 3.19e-06s
+Locality Delta Time: 0.00150709s
+Feature Match Time: 0.00263396s
+Feature Match Time1: 0s
+Feature Delta Time: 0.00375356s
+IOGet Time: 0.000629006s
+IOWrite Time: 0.000452655s
+Lz4 Compression Time: 0.00311704s
+Delta Compression Time: 0.00823983s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.15686MiB
+FP Index Overhead: 0.0424194MiB
+ID Index Overhead: 0.076355MiB
+SF Index Overhead: 0.030899MiB
+Recipe Overhead: 0.0104065MiB
+nameTable size is 0.00718689MiB
+SF number: 2025
+nameTable size: 0.00718689 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 0.164062MiB
+delta reduct size : 1.41212MiB
+local reduct size : 1.83458MiB
+Feature reduct size: 1.03419MiB
+Locality reduct size: 0.377935MiB
+-----------------END-------------------------------
+2025-04-09 18:09:54 <Chunker>: chunking done.
+total_size is 8
+Version: 3
+-----------------CHUNK NUM-----------------------
+logical chunk num: 2183
+unique chunk num: 1494
+base chunk num: 881
+delta chunk num: 613
+Odess Hit is 393
+Header chunk logical num: 171
+Header chunk unique num: 170
+Header chunk base logical num: 0
+Header chunk base unique num: 124
+Header chunk delta logical num: 1
+Header chunk delta unique num: 46
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 7475200
+uniquechunkSize is 1427463
+base chunk size: 1360412
+delta chunk size: 67051
+Header chunk logical size: 1392640
+Header chunk unique size: 101369
+Header chunk base logical size: 1015808
+Header chunk base unique size: 84287
+Header chunk delta logical size: 376832
+Header chunk delta unique size: 17082
+-----------------METRICS-------------------------
+Overall Compression Ratio: 5.2367
+DCC: 0.410308
+DCR: 41.5855
+DCE: 63.8923
+-----------------Time------------------------------
+Version time: 0.034162s
+Throughput: 79.4696MiB/s
+Reduce data speed: 68.9889MiB/s
+SF generation time: 0.000774986s
+SF generation throughput: 3503.09MiB/s
+Chunk Time: 0.00167513s
+Dedup Time: 0.0136882s
+Locality Match Time: 1.3043e-05s
+Locality Delta Time: 0.00649151s
+Feature Match Time: 0.00445676s
+Feature Match Time1: 0.00098591s
+Feature Delta Time: 0.00447607s
+IOGet Time: 0.001201s
+IOWrite Time: 0.000595175s
+Lz4 Compression Time: 0.0041482s
+Delta Compression Time: 0.0230067s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.208031MiB
+FP Index Overhead: 0.0569916MiB
+ID Index Overhead: 0.102585MiB
+SF Index Overhead: 0.040329MiB
+Recipe Overhead: 0.016655MiB
+nameTable size is 0.00812531MiB
+SF number: 2643
+nameTable size: 0.00812531 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 0.662598MiB
+delta reduct size : 2.59523MiB
+local reduct size : 2.50974MiB
+Feature reduct size: 1.15969MiB
+Locality reduct size: 1.43554MiB
+-----------------END-------------------------------
+2025-04-09 18:09:54 <Chunker>: chunking done.
+total_size is 8
+Version: 4
+-----------------CHUNK NUM-----------------------
+logical chunk num: 3006
+unique chunk num: 1687
+base chunk num: 933
+delta chunk num: 754
+Odess Hit is 400
+Header chunk logical num: 236
+Header chunk unique num: 235
+Header chunk base logical num: 0
+Header chunk base unique num: 151
+Header chunk delta logical num: 1
+Header chunk delta unique num: 84
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 10332160
+uniquechunkSize is 1503773
+base chunk size: 1409380
+delta chunk size: 94393
+Header chunk logical size: 1918464
+Header chunk unique size: 134224
+Header chunk base logical size: 1236992
+Header chunk base unique size: 102931
+Header chunk delta logical size: 681472
+Header chunk delta unique size: 31293
+-----------------METRICS-------------------------
+Overall Compression Ratio: 6.87082
+DCC: 0.446947
+DCR: 36.5153
+DCE: 59.1034
+-----------------Time------------------------------
+Version time: 0.0264295s
+Throughput: 103.09MiB/s
+Reduce data speed: 100.336MiB/s
+SF generation time: 0.000193313s
+SF generation throughput: 14094.3MiB/s
+Chunk Time: 0.00276802s
+Dedup Time: 0.0191169s
+Locality Match Time: 2.0675e-05s
+Locality Delta Time: 0.0109099s
+Feature Match Time: 0.0046978s
+Feature Match Time1: 0.00101585s
+Feature Delta Time: 0.0046392s
+IOGet Time: 0.0014797s
+IOWrite Time: 0.000659127s
+Lz4 Compression Time: 0.0043169s
+Delta Compression Time: 0.029433s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.23122MiB
+FP Index Overhead: 0.0643539MiB
+ID Index Overhead: 0.115837MiB
+SF Index Overhead: 0.0427094MiB
+Recipe Overhead: 0.022934MiB
+nameTable size is 0.00831985MiB
+SF number: 2799
+nameTable size: 0.00831985 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 2.49121MiB
+delta reduct size : 3.19709MiB
+local reduct size : 2.73111MiB
+Feature reduct size: 1.18424MiB
+Locality reduct size: 2.01285MiB
+-----------------END-------------------------------
+2025-04-09 18:09:54 <Chunker>: chunking done.
+total_size is 8
+Version: 5
+-----------------CHUNK NUM-----------------------
+logical chunk num: 3838
+unique chunk num: 1894
+base chunk num: 965
+delta chunk num: 929
+Odess Hit is 409
+Header chunk logical num: 302
+Header chunk unique num: 301
+Header chunk base logical num: 0
+Header chunk base unique num: 166
+Header chunk delta logical num: 1
+Header chunk delta unique num: 135
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 13240320
+uniquechunkSize is 1605535
+base chunk size: 1478852
+delta chunk size: 126683
+Header chunk logical size: 2452992
+Header chunk unique size: 162881
+Header chunk base logical size: 1359872
+Header chunk base unique size: 113530
+Header chunk delta logical size: 1093120
+Header chunk delta unique size: 49351
+-----------------METRICS-------------------------
+Overall Compression Ratio: 8.24667
+DCC: 0.490496
+DCR: 34.2484
+DCE: 55.3175
+-----------------Time------------------------------
+Version time: 0.0254511s
+Throughput: 108.971MiB/s
+Reduce data speed: 105.158MiB/s
+SF generation time: 0.000210418s
+SF generation throughput: 13180.6MiB/s
+Chunk Time: 0.00318093s
+Dedup Time: 0.0244413s
+Locality Match Time: 2.9033e-05s
+Locality Delta Time: 0.0153817s
+Feature Match Time: 0.00557367s
+Feature Match Time1: 0.00166846s
+Feature Delta Time: 0.00509078s
+IOGet Time: 0.00178379s
+IOWrite Time: 0.000709127s
+Lz4 Compression Time: 0.00454761s
+Delta Compression Time: 0.0377307s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.25491MiB
+FP Index Overhead: 0.0722504MiB
+ID Index Overhead: 0.130051MiB
+SF Index Overhead: 0.0441742MiB
+Recipe Overhead: 0.0292816MiB
+nameTable size is 0.0084343MiB
+SF number: 2895
+nameTable size: 0.0084343 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 4.12305MiB
+delta reduct size : 4.01688MiB
+local reduct size : 2.95587MiB
+Feature reduct size: 1.23841MiB
+Locality reduct size: 2.77847MiB
+-----------------END-------------------------------
+2025-04-09 18:09:54 <Chunker>: chunking done.
+total_size is 8
+Version: 6
+-----------------CHUNK NUM-----------------------
+logical chunk num: 4696
+unique chunk num: 2224
+base chunk num: 1094
+delta chunk num: 1130
+Odess Hit is 435
+Header chunk logical num: 370
+Header chunk unique num: 368
+Header chunk base logical num: 0
+Header chunk base unique num: 200
+Header chunk delta logical num: 2
+Header chunk delta unique num: 168
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 16404480
+uniquechunkSize is 1946441
+base chunk size: 1766414
+delta chunk size: 180027
+Header chunk logical size: 3003904
+Header chunk unique size: 198866
+Header chunk base logical size: 1638400
+Header chunk base unique size: 137093
+Header chunk delta logical size: 1365504
+Header chunk delta unique size: 61773
+-----------------METRICS-------------------------
+Overall Compression Ratio: 8.42794
+DCC: 0.508094
+DCR: 30.9003
+DCE: 52.7664
+-----------------Time------------------------------
+Version time: 0.0394652s
+Throughput: 76.4618MiB/s
+Reduce data speed: 68.2238MiB/s
+SF generation time: 0.000767513s
+SF generation throughput: 3931.63MiB/s
+Chunk Time: 0.00366822s
+Dedup Time: 0.0302509s
+Locality Match Time: 3.8951e-05s
+Locality Delta Time: 0.0227937s
+Feature Match Time: 0.00714189s
+Feature Match Time1: 0.00241899s
+Feature Delta Time: 0.00584345s
+IOGet Time: 0.00233683s
+IOWrite Time: 0.000861074s
+Lz4 Compression Time: 0.00546788s
+Delta Compression Time: 0.0569359s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.296692MiB
+FP Index Overhead: 0.0848389MiB
+ID Index Overhead: 0.15271MiB
+SF Index Overhead: 0.0500793MiB
+Recipe Overhead: 0.0358276MiB
+nameTable size is 0.00906372MiB
+SF number: 3282
+nameTable size: 0.00906372 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 5.10303MiB
+delta reduct size : 5.13349MiB
+local reduct size : 3.55174MiB
+Feature reduct size: 1.34253MiB
+Locality reduct size: 3.79095MiB
+-----------------END-------------------------------
+2025-04-09 18:09:55 <Chunker>: chunking done.
+total_size is 8
+Version: 7
+-----------------CHUNK NUM-----------------------
+logical chunk num: 5554
+unique chunk num: 2392
+base chunk num: 1116
+delta chunk num: 1276
+Odess Hit is 440
+Header chunk logical num: 438
+Header chunk unique num: 435
+Header chunk base logical num: 0
+Header chunk base unique num: 221
+Header chunk delta logical num: 3
+Header chunk delta unique num: 214
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 19568640
+uniquechunkSize is 1984012
+base chunk size: 1781658
+delta chunk size: 202354
+Header chunk logical size: 3556864
+Header chunk unique size: 229322
+Header chunk base logical size: 1810432
+Header chunk base unique size: 151707
+Header chunk delta logical size: 1746432
+Header chunk delta unique size: 77615
+-----------------METRICS-------------------------
+Overall Compression Ratio: 9.86317
+DCC: 0.533445
+DCR: 30.3044
+DCE: 49.8472
+-----------------Time------------------------------
+Version time: 0.0225746s
+Throughput: 133.671MiB/s
+Reduce data speed: 132.084MiB/s
+SF generation time: 0.000119011s
+SF generation throughput: 25355.5MiB/s
+Chunk Time: 0.00418196s
+Dedup Time: 0.0362235s
+Locality Match Time: 4.7585e-05s
+Locality Delta Time: 0.0260663s
+Feature Match Time: 0.00736384s
+Feature Match Time1: 0.00251107s
+Feature Delta Time: 0.00593839s
+IOGet Time: 0.002509s
+IOWrite Time: 0.000890564s
+Lz4 Compression Time: 0.00553854s
+Delta Compression Time: 0.0618261s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.315643MiB
+FP Index Overhead: 0.0912476MiB
+ID Index Overhead: 0.164246MiB
+SF Index Overhead: 0.0510864MiB
+Recipe Overhead: 0.0423737MiB
+nameTable size is 0.00906372MiB
+SF number: 3348
+nameTable size: 0.00906372 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 7.4126MiB
+delta reduct size : 5.65516MiB
+local reduct size : 3.70225MiB
+Feature reduct size: 1.3574MiB
+Locality reduct size: 4.29776MiB
+-----------------END-------------------------------
+2025-04-09 18:09:55 <Chunker>: chunking done.
+total_size is 8
+Version: 8
+-----------------CHUNK NUM-----------------------
+logical chunk num: 6644
+unique chunk num: 3174
+base chunk num: 1544
+delta chunk num: 1630
+Odess Hit is 594
+Header chunk logical num: 521
+Header chunk unique num: 518
+Header chunk base logical num: 0
+Header chunk base unique num: 260
+Header chunk delta logical num: 3
+Header chunk delta unique num: 258
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 27914240
+uniquechunkSize is 4706013
+base chunk size: 4422821
+delta chunk size: 283192
+Header chunk logical size: 4229632
+Header chunk unique size: 273468
+Header chunk base logical size: 2129920
+Header chunk base unique size: 179122
+Header chunk delta logical size: 2099712
+Header chunk delta unique size: 94346
+-----------------METRICS-------------------------
+Overall Compression Ratio: 5.93161
+DCC: 0.513548
+DCR: 27.3599
+DCE: 45.481
+-----------------Time------------------------------
+Version time: 0.0904641s
+Throughput: 87.9795MiB/s
+Reduce data speed: 59.2841MiB/s
+SF generation time: 0.00407881s
+SF generation throughput: 1951.3MiB/s
+Chunk Time: 0.00627084s
+Dedup Time: 0.0510374s
+Locality Match Time: 7.4334e-05s
+Locality Delta Time: 0.0351537s
+Feature Match Time: 0.0124731s
+Feature Match Time1: 0.0033587s
+Feature Delta Time: 0.00775273s
+IOGet Time: 0.01138s
+IOWrite Time: 0.00323273s
+Lz4 Compression Time: 0.0131171s
+Delta Compression Time: 0.100837s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.421131MiB
+FP Index Overhead: 0.121078MiB
+ID Index Overhead: 0.217941MiB
+SF Index Overhead: 0.0706787MiB
+Recipe Overhead: 0.0506897MiB
+nameTable size is 0.0114326MiB
+SF number: 4632
+nameTable size: 0.0114326 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 7.7041MiB
+delta reduct size : 7.11909MiB
+local reduct size : 7.3099MiB
+Feature reduct size: 1.59248MiB
+Locality reduct size: 5.5266MiB
+-----------------END-------------------------------
+2025-04-09 18:09:55 <Chunker>: chunking done.
+total_size is 8
+Version: 9
+-----------------CHUNK NUM-----------------------
+logical chunk num: 7854
+unique chunk num: 3682
+base chunk num: 1769
+delta chunk num: 1913
+Odess Hit is 669
+Header chunk logical num: 612
+Header chunk unique num: 609
+Header chunk base logical num: 0
+Header chunk base unique num: 311
+Header chunk delta logical num: 4
+Header chunk delta unique num: 298
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 38809600
+uniquechunkSize is 5428613
+base chunk size: 5042885
+delta chunk size: 385728
+Header chunk logical size: 4969472
+Header chunk unique size: 323927
+Header chunk base logical size: 2547712
+Header chunk base unique size: 214816
+Header chunk delta logical size: 2425856
+Header chunk delta unique size: 109111
+-----------------METRICS-------------------------
+Overall Compression Ratio: 7.14908
+DCC: 0.519555
+DCR: 29.1422
+DCE: 57.011
+-----------------Time------------------------------
+Version time: 0.0985849s
+Throughput: 105.398MiB/s
+Reduce data speed: 98.4075MiB/s
+SF generation time: 0.00213547s
+SF generation throughput: 4865.72MiB/s
+Chunk Time: 0.00899241s
+Dedup Time: 0.0701421s
+Locality Match Time: 9.1453e-05s
+Locality Delta Time: 0.0480556s
+Feature Match Time: 0.0151674s
+Feature Match Time1: 0.00380275s
+Feature Delta Time: 0.0116408s
+IOGet Time: 0.0414391s
+IOWrite Time: 0.003342s
+Lz4 Compression Time: 0.0147562s
+Delta Compression Time: 0.132848s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.486526MiB
+FP Index Overhead: 0.140457MiB
+ID Index Overhead: 0.252823MiB
+SF Index Overhead: 0.0809784MiB
+Recipe Overhead: 0.0599213MiB
+nameTable size is 0.0122681MiB
+SF number: 5307
+nameTable size: 0.0122681 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 13.1875MiB
+delta reduct size : 10.3524MiB
+local reduct size : 8.29473MiB
+Feature reduct size: 3.09576MiB
+Locality reduct size: 7.25659MiB
+-----------------END-------------------------------
+2025-04-09 18:09:55 <Chunker>: chunking done.
+total_size is 8
+Version: 10
+-----------------CHUNK NUM-----------------------
+logical chunk num: 9083
+unique chunk num: 4037
+base chunk num: 1879
+delta chunk num: 2158
+Odess Hit is 703
+Header chunk logical num: 704
+Header chunk unique num: 701
+Header chunk base logical num: 0
+Header chunk base unique num: 350
+Header chunk delta logical num: 5
+Header chunk delta unique num: 351
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 49838080
+uniquechunkSize is 5798675
+base chunk size: 5316685
+delta chunk size: 481990
+Header chunk logical size: 5720576
+Header chunk unique size: 371092
+Header chunk base logical size: 2867200
+Header chunk base unique size: 242281
+Header chunk delta logical size: 2861568
+Header chunk delta unique size: 128811
+-----------------METRICS-------------------------
+Overall Compression Ratio: 8.59474
+DCC: 0.534555
+DCR: 27.4648
+DCE: 55.2081
+-----------------Time------------------------------
+Version time: 0.0740972s
+Throughput: 141.943MiB/s
+Reduce data speed: 137.18MiB/s
+SF generation time: 0.000777871s
+SF generation throughput: 13521MiB/s
+Chunk Time: 0.0108309s
+Dedup Time: 0.0894524s
+Locality Match Time: 0.000109408s
+Locality Delta Time: 0.0617842s
+Feature Match Time: 0.016326s
+Feature Match Time1: 0.00411451s
+Feature Delta Time: 0.0122322s
+IOGet Time: 0.0584464s
+IOWrite Time: 0.00342737s
+Lz4 Compression Time: 0.0156572s
+Delta Compression Time: 0.155541s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.529675MiB
+FP Index Overhead: 0.153999MiB
+ID Index Overhead: 0.277199MiB
+SF Index Overhead: 0.0860138MiB
+Recipe Overhead: 0.0692978MiB
+nameTable size is 0.0124626MiB
+SF number: 5637
+nameTable size: 0.0124626 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 20.9854MiB
+delta reduct size : 12.1649MiB
+local reduct size : 8.84905MiB
+Feature reduct size: 3.14085MiB
+Locality reduct size: 9.024MiB
+-----------------END-------------------------------
+2025-04-09 18:09:55 <Chunker>: chunking done.
+total_size is 8
+Version: 11
+-----------------CHUNK NUM-----------------------
+logical chunk num: 10315
+unique chunk num: 4245
+base chunk num: 1926
+delta chunk num: 2319
+Odess Hit is 724
+Header chunk logical num: 797
+Header chunk unique num: 793
+Header chunk base logical num: 0
+Header chunk base unique num: 392
+Header chunk delta logical num: 7
+Header chunk delta unique num: 401
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 60876800
+uniquechunkSize is 5879633
+base chunk size: 5351558
+delta chunk size: 528075
+Header chunk logical size: 6476288
+Header chunk unique size: 420253
+Header chunk base logical size: 3211264
+Header chunk base unique size: 271981
+Header chunk delta logical size: 3277312
+Header chunk delta unique size: 148272
+-----------------METRICS-------------------------
+Overall Compression Ratio: 10.3538
+DCC: 0.54629
+DCR: 26.4961
+DCE: 53.019
+-----------------Time------------------------------
+Version time: 0.0484241s
+Throughput: 217.399MiB/s
+Reduce data speed: 215.804MiB/s
+SF generation time: 0.000293305s
+SF generation throughput: 35892.1MiB/s
+Chunk Time: 0.012418s
+Dedup Time: 0.108731s
+Locality Match Time: 0.000116803s
+Locality Delta Time: 0.067606s
+Feature Match Time: 0.0168685s
+Feature Match Time1: 0.00433225s
+Feature Delta Time: 0.0125599s
+IOGet Time: 0.0652457s
+IOWrite Time: 0.0034808s
+Lz4 Compression Time: 0.0157984s
+Delta Compression Time: 0.164729s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.554066MiB
+FP Index Overhead: 0.161934MiB
+ID Index Overhead: 0.291481MiB
+SF Index Overhead: 0.0881653MiB
+Recipe Overhead: 0.0786972MiB
+nameTable size is 0.0124855MiB
+SF number: 5778
+nameTable size: 0.0124855 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 30.4575MiB
+delta reduct size : 12.8401MiB
+local reduct size : 9.15173MiB
+Feature reduct size: 3.1715MiB
+Locality reduct size: 9.66863MiB
+-----------------END-------------------------------
+2025-04-09 18:09:55 <Chunker>: chunking done.
+total_size is 8
+Version: 12
+-----------------CHUNK NUM-----------------------
+logical chunk num: 11585
+unique chunk num: 4885
+base chunk num: 2184
+delta chunk num: 2701
+Odess Hit is 885
+Header chunk logical num: 897
+Header chunk unique num: 893
+Header chunk base logical num: 0
+Header chunk base unique num: 446
+Header chunk delta logical num: 8
+Header chunk delta unique num: 447
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 72478720
+uniquechunkSize is 6610620
+base chunk size: 5963434
+delta chunk size: 647186
+Header chunk logical size: 7294976
+Header chunk unique size: 477233
+Header chunk base logical size: 3653632
+Header chunk base unique size: 310682
+Header chunk delta logical size: 3657728
+Header chunk delta unique size: 166551
+-----------------METRICS-------------------------
+Overall Compression Ratio: 10.964
+DCC: 0.552917
+DCR: 25.5594
+DCE: 49.4632
+-----------------Time------------------------------
+Version time: 0.110161s
+Throughput: 100.439MiB/s
+Reduce data speed: 94.1105MiB/s
+SF generation time: 0.00145932s
+SF generation throughput: 7581.93MiB/s
+Chunk Time: 0.0142003s
+Dedup Time: 0.129293s
+Locality Match Time: 0.000145649s
+Locality Delta Time: 0.0834368s
+Feature Match Time: 0.0190771s
+Feature Match Time1: 0.00493598s
+Feature Delta Time: 0.014435s
+IOGet Time: 0.0966996s
+IOWrite Time: 0.00360604s
+Lz4 Compression Time: 0.0177266s
+Delta Compression Time: 0.20497s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.634991MiB
+FP Index Overhead: 0.186348MiB
+ID Index Overhead: 0.335426MiB
+SF Index Overhead: 0.0999756MiB
+Recipe Overhead: 0.0883865MiB
+nameTable size is 0.0132408MiB
+SF number: 6552
+nameTable size: 0.0132408 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 37.4058MiB
+delta reduct size : 15.1582MiB
+local reduct size : 10.2528MiB
+Feature reduct size: 3.3354MiB
+Locality reduct size: 11.8228MiB
+-----------------END-------------------------------
+2025-04-09 18:09:55 <Chunker>: chunking done.
+total_size is 8
+Version: 13
+-----------------CHUNK NUM-----------------------
+logical chunk num: 12872
+unique chunk num: 5296
+base chunk num: 2296
+delta chunk num: 3000
+Odess Hit is 921
+Header chunk logical num: 999
+Header chunk unique num: 995
+Header chunk base logical num: 0
+Header chunk base unique num: 486
+Header chunk delta logical num: 9
+Header chunk delta unique num: 509
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 81797120
+uniquechunkSize is 7612915
+base chunk size: 6870540
+delta chunk size: 742375
+Header chunk logical size: 8129536
+Header chunk unique size: 529257
+Header chunk base logical size: 3981312
+Header chunk base unique size: 339047
+Header chunk delta logical size: 4168704
+Header chunk delta unique size: 190210
+-----------------METRICS-------------------------
+Overall Compression Ratio: 10.7445
+DCC: 0.566465
+DCR: 25.7036
+DCE: 49.389
+-----------------Time------------------------------
+Version time: 0.115665s
+Throughput: 76.8318MiB/s
+Reduce data speed: 68.5677MiB/s
+SF generation time: 0.0013718s
+SF generation throughput: 6478.16MiB/s
+Chunk Time: 0.0155658s
+Dedup Time: 0.146146s
+Locality Match Time: 0.00016812s
+Locality Delta Time: 0.0975474s
+Feature Match Time: 0.0208248s
+Feature Match Time1: 0.00524523s
+Feature Delta Time: 0.0153814s
+IOGet Time: 0.109591s
+IOWrite Time: 0.00372684s
+Lz4 Compression Time: 0.0198717s
+Delta Compression Time: 0.273891s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.684223MiB
+FP Index Overhead: 0.202026MiB
+ID Index Overhead: 0.363647MiB
+SF Index Overhead: 0.105103MiB
+Recipe Overhead: 0.0982056MiB
+nameTable size is 0.0134468MiB
+SF number: 6888
+nameTable size: 0.0134468 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 41.9663MiB
+delta reduct size : 17.4898MiB
+local reduct size : 11.2915MiB
+Feature reduct size: 3.41132MiB
+Locality reduct size: 14.0784MiB
+-----------------END-------------------------------
+2025-04-09 18:09:55 <Chunker>: chunking done.
+total_size is 8
+Version: 14
+-----------------CHUNK NUM-----------------------
+logical chunk num: 14176
+unique chunk num: 5734
+base chunk num: 2454
+delta chunk num: 3280
+Odess Hit is 942
+Header chunk logical num: 1102
+Header chunk unique num: 1098
+Header chunk base logical num: 0
+Header chunk base unique num: 526
+Header chunk delta logical num: 10
+Header chunk delta unique num: 572
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 91443200
+uniquechunkSize is 8131482
+base chunk size: 7296208
+delta chunk size: 835274
+Header chunk logical size: 8972800
+Header chunk unique size: 581546
+Header chunk base logical size: 4308992
+Header chunk base unique size: 367627
+Header chunk delta logical size: 4688384
+Header chunk delta unique size: 213919
+-----------------METRICS-------------------------
+Overall Compression Ratio: 11.2456
+DCC: 0.572027
+DCR: 26.0728
+DCE: 48.6994
+-----------------Time------------------------------
+Version time: 0.0736546s
+Throughput: 124.897MiB/s
+Reduce data speed: 118.182MiB/s
+SF generation time: 0.000998715s
+SF generation throughput: 9211.05MiB/s
+Chunk Time: 0.0169641s
+Dedup Time: 0.163176s
+Locality Match Time: 0.000191758s
+Locality Delta Time: 0.111935s
+Feature Match Time: 0.0221528s
+Feature Match Time1: 0.00548706s
+Feature Delta Time: 0.0158994s
+IOGet Time: 0.1178s
+IOWrite Time: 0.00381694s
+Lz4 Compression Time: 0.0212346s
+Delta Compression Time: 0.306903s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.738514MiB
+FP Index Overhead: 0.218735MiB
+ID Index Overhead: 0.393723MiB
+SF Index Overhead: 0.112335MiB
+Recipe Overhead: 0.108154MiB
+nameTable size is 0.0137215MiB
+SF number: 7362
+nameTable size: 0.0137215 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 47.3677MiB
+delta reduct size : 19.9725MiB
+local reduct size : 12.1121MiB
+Feature reduct size: 3.47275MiB
+Locality reduct size: 16.4997MiB
+-----------------END-------------------------------
+2025-04-09 18:09:55 <Chunker>: chunking done.
+total_size is 8
+Version: 15
+-----------------CHUNK NUM-----------------------
+logical chunk num: 15499
+unique chunk num: 6178
+base chunk num: 2546
+delta chunk num: 3632
+Odess Hit is 959
+Header chunk logical num: 1206
+Header chunk unique num: 1202
+Header chunk base logical num: 0
+Header chunk base unique num: 572
+Header chunk delta logical num: 11
+Header chunk delta unique num: 630
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 101212160
+uniquechunkSize is 8450038
+base chunk size: 7493036
+delta chunk size: 957002
+Header chunk logical size: 9821184
+Header chunk unique size: 636713
+Header chunk base logical size: 4685824
+Header chunk base unique size: 400795
+Header chunk delta logical size: 5164032
+Header chunk delta unique size: 235918
+-----------------METRICS-------------------------
+Overall Compression Ratio: 11.9777
+DCC: 0.587893
+DCR: 26.2596
+DCE: 48.1509
+-----------------Time------------------------------
+Version time: 0.0796222s
+Throughput: 117.008MiB/s
+Reduce data speed: 113.192MiB/s
+SF generation time: 0.000797971s
+SF generation throughput: 11675.1MiB/s
+Chunk Time: 0.0185266s
+Dedup Time: 0.180856s
+Locality Match Time: 0.000216626s
+Locality Delta Time: 0.131093s
+Feature Match Time: 0.0232704s
+Feature Match Time1: 0.0057297s
+Feature Delta Time: 0.0166892s
+IOGet Time: 0.135388s
+IOWrite Time: 0.00549359s
+Lz4 Compression Time: 0.0218746s
+Delta Compression Time: 0.335282s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.790356MiB
+FP Index Overhead: 0.235672MiB
+ID Index Overhead: 0.42421MiB
+SF Index Overhead: 0.116547MiB
+Recipe Overhead: 0.118248MiB
+nameTable size is 0.0139275MiB
+SF number: 7638
+nameTable size: 0.0139275 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 52.7524MiB
+delta reduct size : 23.0536MiB
+local reduct size : 12.6588MiB
+Feature reduct size: 3.53682MiB
+Locality reduct size: 19.5168MiB
+-----------------END-------------------------------
+2025-04-09 18:09:55 <Chunker>: chunking done.
+total_size is 8
+Version: 16
+-----------------CHUNK NUM-----------------------
+logical chunk num: 16826
+unique chunk num: 6639
+base chunk num: 2657
+delta chunk num: 3982
+Odess Hit is 976
+Header chunk logical num: 1310
+Header chunk unique num: 1306
+Header chunk base logical num: 0
+Header chunk base unique num: 606
+Header chunk delta logical num: 12
+Header chunk delta unique num: 700
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 111011840
+uniquechunkSize is 8960102
+base chunk size: 7869075
+delta chunk size: 1091027
+Header chunk logical size: 10673152
+Header chunk unique size: 686902
+Header chunk base logical size: 4964352
+Header chunk base unique size: 424981
+Header chunk delta logical size: 5741568
+Header chunk delta unique size: 261921
+-----------------METRICS-------------------------
+Overall Compression Ratio: 12.3896
+DCC: 0.599789
+DCR: 25.9917
+DCE: 47.0472
+-----------------Time------------------------------
+Version time: 0.103136s
+Throughput: 90.6156MiB/s
+Reduce data speed: 85.8992MiB/s
+SF generation time: 0.00107708s
+SF generation throughput: 8676.89MiB/s
+Chunk Time: 0.0199369s
+Dedup Time: 0.198647s
+Locality Match Time: 0.000242881s
+Locality Delta Time: 0.151255s
+Feature Match Time: 0.0248461s
+Feature Match Time1: 0.00614519s
+Feature Delta Time: 0.0179546s
+IOGet Time: 0.167405s
+IOWrite Time: 0.00558836s
+Lz4 Compression Time: 0.0231555s
+Delta Compression Time: 0.372415s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.844803MiB
+FP Index Overhead: 0.253258MiB
+ID Index Overhead: 0.455864MiB
+SF Index Overhead: 0.121628MiB
+Recipe Overhead: 0.128372MiB
+nameTable size is 0.0140533MiB
+SF number: 7971
+nameTable size: 0.0140533 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 57.8799MiB
+delta reduct size : 26.0035MiB
+local reduct size : 13.4408MiB
+Feature reduct size: 3.64786MiB
+Locality reduct size: 22.3556MiB
+-----------------END-------------------------------
+2025-04-09 18:09:55 <Chunker>: chunking done.
+total_size is 8
+Version: 17
+-----------------CHUNK NUM-----------------------
+logical chunk num: 18261
+unique chunk num: 7287
+base chunk num: 2916
+delta chunk num: 4371
+Odess Hit is 1039
+Header chunk logical num: 1420
+Header chunk unique num: 1416
+Header chunk base logical num: 0
+Header chunk base unique num: 650
+Header chunk delta logical num: 13
+Header chunk delta unique num: 766
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 121016320
+uniquechunkSize is 9537296
+base chunk size: 8284082
+delta chunk size: 1253214
+Header chunk logical size: 11574272
+Header chunk unique size: 744439
+Header chunk base logical size: 5324800
+Header chunk base unique size: 456744
+Header chunk delta logical size: 6286336
+Header chunk delta unique size: 287695
+-----------------METRICS-------------------------
+Overall Compression Ratio: 12.6887
+DCC: 0.599835
+DCR: 25.7558
+DCE: 45.911
+-----------------Time------------------------------
+Version time: 0.107755s
+Throughput: 88.5432MiB/s
+Reduce data speed: 83.4349MiB/s
+SF generation time: 0.00136367s
+SF generation throughput: 6996.58MiB/s
+Chunk Time: 0.0214419s
+Dedup Time: 0.216771s
+Locality Match Time: 0.000275424s
+Locality Delta Time: 0.175522s
+Feature Match Time: 0.027003s
+Feature Match Time1: 0.00678043s
+Feature Delta Time: 0.0197423s
+IOGet Time: 0.202635s
+IOWrite Time: 0.00571235s
+Lz4 Compression Time: 0.0244466s
+Delta Compression Time: 0.410849s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.926788MiB
+FP Index Overhead: 0.277977MiB
+ID Index Overhead: 0.500359MiB
+SF Index Overhead: 0.133484MiB
+Recipe Overhead: 0.13932MiB
+nameTable size is 0.0149689MiB
+SF number: 8748
+nameTable size: 0.0149689 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 62.5293MiB
+delta reduct size : 29.5871MiB
+local reduct size : 14.1983MiB
+Feature reduct size: 3.78722MiB
+Locality reduct size: 25.7999MiB
+-----------------END-------------------------------
+2025-04-09 18:09:55 <Chunker>: chunking done.
+total_size is 8
+Version: 18
+-----------------CHUNK NUM-----------------------
+logical chunk num: 19788
+unique chunk num: 7755
+base chunk num: 3052
+delta chunk num: 4703
+Odess Hit is 1094
+Header chunk logical num: 1537
+Header chunk unique num: 1533
+Header chunk base logical num: 0
+Header chunk base unique num: 695
+Header chunk delta logical num: 14
+Header chunk delta unique num: 838
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 131276800
+uniquechunkSize is 9914106
+base chunk size: 8519005
+delta chunk size: 1395101
+Header chunk logical size: 12530688
+Header chunk unique size: 803214
+Header chunk base logical size: 5693440
+Header chunk base unique size: 488640
+Header chunk delta logical size: 6878208
+Header chunk delta unique size: 314574
+-----------------METRICS-------------------------
+Overall Compression Ratio: 13.2414
+DCC: 0.606447
+DCR: 25.4202
+DCE: 44.8573
+-----------------Time------------------------------
+Version time: 0.0837741s
+Throughput: 116.804MiB/s
+Reduce data speed: 112.514MiB/s
+SF generation time: 0.000960429s
+SF generation throughput: 10188.3MiB/s
+Chunk Time: 0.022999s
+Dedup Time: 0.235275s
+Locality Match Time: 0.000300248s
+Locality Delta Time: 0.197668s
+Feature Match Time: 0.0285249s
+Feature Match Time1: 0.00723857s
+Feature Delta Time: 0.0209774s
+IOGet Time: 0.220541s
+IOWrite Time: 0.00579467s
+Lz4 Compression Time: 0.0251975s
+Delta Compression Time: 0.443323s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.983597MiB
+FP Index Overhead: 0.29583MiB
+ID Index Overhead: 0.532494MiB
+SF Index Overhead: 0.139709MiB
+Recipe Overhead: 0.15097MiB
+nameTable size is 0.015564MiB
+SF number: 9156
+nameTable size: 0.015564 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 68.4883MiB
+delta reduct size : 32.4903MiB
+local reduct size : 14.7619MiB
+Feature reduct size: 3.89857MiB
+Locality reduct size: 28.5918MiB
+-----------------END-------------------------------
+2025-04-09 18:09:56 <Chunker>: chunking done.
+total_size is 8
+Version: 19
+-----------------CHUNK NUM-----------------------
+logical chunk num: 21320
+unique chunk num: 8068
+base chunk num: 3142
+delta chunk num: 4926
+Odess Hit is 1122
+Header chunk logical num: 1655
+Header chunk unique num: 1649
+Header chunk base logical num: 0
+Header chunk base unique num: 740
+Header chunk delta logical num: 16
+Header chunk delta unique num: 909
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 141568000
+uniquechunkSize is 10146289
+base chunk size: 8649494
+delta chunk size: 1496795
+Header chunk logical size: 13489664
+Header chunk unique size: 863156
+Header chunk base logical size: 6062080
+Header chunk base unique size: 520930
+Header chunk delta logical size: 7472128
+Header chunk delta unique size: 342226
+-----------------METRICS-------------------------
+Overall Compression Ratio: 13.9527
+DCC: 0.61056
+DCR: 25.2772
+DCE: 44.2769
+-----------------Time------------------------------
+Version time: 0.067672s
+Throughput: 145.03MiB/s
+Reduce data speed: 141.758MiB/s
+SF generation time: 0.000653659s
+SF generation throughput: 15014.6MiB/s
+Chunk Time: 0.0249991s
+Dedup Time: 0.253715s
+Locality Match Time: 0.000316947s
+Locality Delta Time: 0.21423s
+Feature Match Time: 0.0295932s
+Feature Match Time1: 0.00757971s
+Feature Delta Time: 0.0216859s
+IOGet Time: 0.230884s
+IOWrite Time: 0.00584634s
+Lz4 Compression Time: 0.0256188s
+Delta Compression Time: 0.466418s
+-----------------OVERHEAD--------------------------
+Index Overhead: 1.02125MiB
+FP Index Overhead: 0.30777MiB
+ID Index Overhead: 0.553986MiB
+SF Index Overhead: 0.143829MiB
+Recipe Overhead: 0.162659MiB
+nameTable size is 0.015667MiB
+SF number: 9426
+nameTable size: 0.015667 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 75.459MiB
+delta reduct size : 34.6546MiB
+local reduct size : 15.2199MiB
+Feature reduct size: 3.95794MiB
+Locality reduct size: 30.6966MiB
+-----------------END-------------------------------
+2025-04-09 18:09:56 <Chunker>: chunking done.
+total_size is 8
+Version: 20
+-----------------CHUNK NUM-----------------------
+logical chunk num: 22856
+unique chunk num: 8701
+base chunk num: 3285
+delta chunk num: 5416
+Odess Hit is 1166
+Header chunk logical num: 1772
+Header chunk unique num: 1766
+Header chunk base logical num: 0
+Header chunk base unique num: 788
+Header chunk delta logical num: 17
+Header chunk delta unique num: 978
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 151910400
+uniquechunkSize is 10607912
+base chunk size: 8907290
+delta chunk size: 1700622
+Header chunk logical size: 14445056
+Header chunk unique size: 923833
+Header chunk base logical size: 6455296
+Header chunk base unique size: 555124
+Header chunk delta logical size: 8038400
+Header chunk delta unique size: 368709
+-----------------METRICS-------------------------
+Overall Compression Ratio: 14.3205
+DCC: 0.622457
+DCR: 25.0466
+DCE: 43.7819
+-----------------Time------------------------------
+Version time: 0.10178s
+Throughput: 96.9075MiB/s
+Reduce data speed: 92.5821MiB/s
+SF generation time: 0.00118964s
+SF generation throughput: 8290.97MiB/s
+Chunk Time: 0.0264957s
+Dedup Time: 0.272207s
+Locality Match Time: 0.000345322s
+Locality Delta Time: 0.244103s
+Feature Match Time: 0.0315072s
+Feature Match Time1: 0.00816868s
+Feature Delta Time: 0.0234743s
+IOGet Time: 0.258746s
+IOWrite Time: 0.00600013s
+Lz4 Compression Time: 0.0264225s
+Delta Compression Time: 0.506502s
+-----------------OVERHEAD--------------------------
+Index Overhead: 1.09558MiB
+FP Index Overhead: 0.331917MiB
+ID Index Overhead: 0.59745MiB
+SF Index Overhead: 0.150375MiB
+Recipe Overhead: 0.174377MiB
+nameTable size is 0.0158386MiB
+SF number: 9855
+nameTable size: 0.0158386 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 79.9346MiB
+delta reduct size : 38.9997MiB
+local reduct size : 15.8222MiB
+Feature reduct size: 4.11055MiB
+Locality reduct size: 34.8892MiB
+-----------------END-------------------------------
+2025-04-09 18:09:56 <Chunker>: chunking done.
+total_size is 8
+Version: 21
+-----------------CHUNK NUM-----------------------
+logical chunk num: 24396
+unique chunk num: 9051
+base chunk num: 3366
+delta chunk num: 5685
+Odess Hit is 1194
+Header chunk logical num: 1889
+Header chunk unique num: 1883
+Header chunk base logical num: 0
+Header chunk base unique num: 834
+Header chunk delta logical num: 18
+Header chunk delta unique num: 1049
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 162344960
+uniquechunkSize is 10925863
+base chunk size: 9105546
+delta chunk size: 1820317
+Header chunk logical size: 15400448
+Header chunk unique size: 983256
+Header chunk base logical size: 6832128
+Header chunk base unique size: 587729
+Header chunk delta logical size: 8621056
+Header chunk delta unique size: 395527
+-----------------METRICS-------------------------
+Overall Compression Ratio: 14.8588
+DCC: 0.628107
+DCR: 24.7253
+DCE: 43.1073
+-----------------Time------------------------------
+Version time: 0.0716221s
+Throughput: 138.94MiB/s
+Reduce data speed: 134.706MiB/s
+SF generation time: 0.000874035s
+SF generation throughput: 11385.3MiB/s
+Chunk Time: 0.0280925s
+Dedup Time: 0.290766s
+Locality Match Time: 0.000367968s
+Locality Delta Time: 0.262334s
+Feature Match Time: 0.0327169s
+Feature Match Time1: 0.00843136s
+Feature Delta Time: 0.024249s
+IOGet Time: 0.270065s
+IOWrite Time: 0.00606439s
+Lz4 Compression Time: 0.0271222s
+Delta Compression Time: 0.533676s
+-----------------OVERHEAD--------------------------
+Index Overhead: 1.13678MiB
+FP Index Overhead: 0.345268MiB
+ID Index Overhead: 0.621483MiB
+SF Index Overhead: 0.154083MiB
+Recipe Overhead: 0.186127MiB
+nameTable size is 0.0159416MiB
+SF number: 10098
+nameTable size: 0.0159416 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 86.813MiB
+delta reduct size : 41.1869MiB
+local reduct size : 16.4047MiB
+Feature reduct size: 4.1775MiB
+Locality reduct size: 37.0094MiB
+-----------------END-------------------------------
+2025-04-09 18:09:56 <Chunker>: chunking done.
+total_size is 8
+Version: 22
+-----------------CHUNK NUM-----------------------
+logical chunk num: 25937
+unique chunk num: 9367
+base chunk num: 3419
+delta chunk num: 5948
+Odess Hit is 1207
+Header chunk logical num: 2006
+Header chunk unique num: 2000
+Header chunk base logical num: 0
+Header chunk base unique num: 864
+Header chunk delta logical num: 19
+Header chunk delta unique num: 1136
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 172840960
+uniquechunkSize is 11148726
+base chunk size: 9228066
+delta chunk size: 1920660
+Header chunk logical size: 16355328
+Header chunk unique size: 1036559
+Header chunk base logical size: 7077888
+Header chunk base unique size: 608707
+Header chunk delta logical size: 9334272
+Header chunk delta unique size: 427852
+-----------------METRICS-------------------------
+Overall Compression Ratio: 15.5032
+DCC: 0.634995
+DCR: 24.74
+DCE: 42.8176
+-----------------Time------------------------------
+Version time: 0.062287s
+Throughput: 160.704MiB/s
+Reduce data speed: 157.292MiB/s
+SF generation time: 0.000481115s
+SF generation throughput: 20805.3MiB/s
+Chunk Time: 0.029739s
+Dedup Time: 0.309149s
+Locality Match Time: 0.000389343s
+Locality Delta Time: 0.278933s
+Feature Match Time: 0.0335461s
+Feature Match Time1: 0.00873072s
+Feature Delta Time: 0.0247068s
+IOGet Time: 0.277575s
+IOWrite Time: 0.00611596s
+Lz4 Compression Time: 0.0275036s
+Delta Compression Time: 0.556742s
+-----------------OVERHEAD--------------------------
+Index Overhead: 1.17297MiB
+FP Index Overhead: 0.357323MiB
+ID Index Overhead: 0.643181MiB
+SF Index Overhead: 0.156509MiB
+Recipe Overhead: 0.197884MiB
+nameTable size is 0.0159531MiB
+SF number: 10257
+nameTable size: 0.0159531 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 93.9575MiB
+delta reduct size : 43.4842MiB
+local reduct size : 16.76MiB
+Feature reduct size: 4.22648MiB
+Locality reduct size: 39.2578MiB
+-----------------END-------------------------------
+2025-04-09 18:09:56 <Chunker>: chunking done.
+total_size is 8
+Version: 23
+-----------------CHUNK NUM-----------------------
+logical chunk num: 27502
+unique chunk num: 9814
+base chunk num: 3537
+delta chunk num: 6277
+Odess Hit is 1239
+Header chunk logical num: 2125
+Header chunk unique num: 2118
+Header chunk base logical num: 0
+Header chunk base unique num: 903
+Header chunk delta logical num: 21
+Header chunk delta unique num: 1215
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 183480320
+uniquechunkSize is 11673086
+base chunk size: 9614615
+delta chunk size: 2058471
+Header chunk logical size: 17328128
+Header chunk unique size: 1094414
+Header chunk base logical size: 7397376
+Header chunk base unique size: 636510
+Header chunk delta logical size: 9991680
+Header chunk delta unique size: 457904
+-----------------METRICS-------------------------
+Overall Compression Ratio: 15.7182
+DCC: 0.639596
+DCR: 24.5246
+DCE: 42.4459
+-----------------Time------------------------------
+Version time: 0.083731s
+Throughput: 121.18MiB/s
+Reduce data speed: 115.207MiB/s
+SF generation time: 0.00106739s
+SF generation throughput: 9505.93MiB/s
+Chunk Time: 0.0316165s
+Dedup Time: 0.328468s
+Locality Match Time: 0.000420508s
+Locality Delta Time: 0.300361s
+Feature Match Time: 0.0352281s
+Feature Match Time1: 0.00929158s
+Feature Delta Time: 0.025449s
+IOGet Time: 0.288732s
+IOWrite Time: 0.00621431s
+Lz4 Compression Time: 0.0288906s
+Delta Compression Time: 0.592999s
+-----------------OVERHEAD--------------------------
+Index Overhead: 1.22644MiB
+FP Index Overhead: 0.374374MiB
+ID Index Overhead: 0.673874MiB
+SF Index Overhead: 0.161911MiB
+Recipe Overhead: 0.209824MiB
+nameTable size is 0.0162849MiB
+SF number: 10611
+nameTable size: 0.0162849 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 100.122MiB
+delta reduct size : 46.1814MiB
+local reduct size : 17.5447MiB
+Feature reduct size: 4.31602MiB
+Locality reduct size: 41.8654MiB
+-----------------END-------------------------------
+2025-04-09 18:09:56 <Chunker>: chunking done.
+total_size is 8
+Version: 24
+-----------------CHUNK NUM-----------------------
+logical chunk num: 29098
+unique chunk num: 10219
+base chunk num: 3634
+delta chunk num: 6585
+Odess Hit is 1266
+Header chunk logical num: 2246
+Header chunk unique num: 2239
+Header chunk base logical num: 0
+Header chunk base unique num: 949
+Header chunk delta logical num: 22
+Header chunk delta unique num: 1290
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 194672640
+uniquechunkSize is 12299890
+base chunk size: 10104203
+delta chunk size: 2195687
+Header chunk logical size: 18317824
+Header chunk unique size: 1155196
+Header chunk base logical size: 7774208
+Header chunk base unique size: 669003
+Header chunk delta logical size: 10608640
+Header chunk delta unique size: 486193
+-----------------METRICS-------------------------
+Overall Compression Ratio: 15.8272
+DCC: 0.644388
+DCR: 24.4664
+DCE: 42.2129
+-----------------Time------------------------------
+Version time: 0.0793897s
+Throughput: 134.448MiB/s
+Reduce data speed: 126.919MiB/s
+SF generation time: 0.00107338s
+SF generation throughput: 9944.11MiB/s
+Chunk Time: 0.0333256s
+Dedup Time: 0.34843s
+Locality Match Time: 0.00044829s
+Locality Delta Time: 0.322524s
+Feature Match Time: 0.0366511s
+Feature Match Time1: 0.00957043s
+Feature Delta Time: 0.0259463s
+IOGet Time: 0.29842s
+IOWrite Time: 0.00631109s
+Lz4 Compression Time: 0.0301167s
+Delta Compression Time: 0.627589s
+-----------------OVERHEAD--------------------------
+Index Overhead: 1.27435MiB
+FP Index Overhead: 0.389824MiB
+ID Index Overhead: 0.701683MiB
+SF Index Overhead: 0.166351MiB
+Recipe Overhead: 0.222MiB
+nameTable size is 0.0164909MiB
+SF number: 10902
+nameTable size: 0.0164909 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 106.504MiB
+delta reduct size : 49.138MiB
+local reduct size : 18.2823MiB
+Feature reduct size: 4.36917MiB
+Locality reduct size: 44.7688MiB
+-----------------END-------------------------------
+2025-04-09 18:09:56 <Chunker>: chunking done.
+total_size is 8
+Version: 25
+-----------------CHUNK NUM-----------------------
+logical chunk num: 30690
+unique chunk num: 10559
+base chunk num: 3704
+delta chunk num: 6855
+Odess Hit is 1279
+Header chunk logical num: 2367
+Header chunk unique num: 2359
+Header chunk base logical num: 0
+Header chunk base unique num: 987
+Header chunk delta logical num: 24
+Header chunk delta unique num: 1372
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 205967360
+uniquechunkSize is 12555230
+base chunk size: 10218056
+delta chunk size: 2337174
+Header chunk logical size: 19307008
+Header chunk unique size: 1213965
+Header chunk base logical size: 8085504
+Header chunk base unique size: 696346
+Header chunk delta logical size: 11290624
+Header chunk delta unique size: 517619
+-----------------METRICS-------------------------
+Overall Compression Ratio: 16.4049
+DCC: 0.649209
+DCR: 24.301
+DCE: 41.9434
+-----------------Time------------------------------
+Version time: 0.0724445s
+Throughput: 148.686MiB/s
+Reduce data speed: 145.325MiB/s
+SF generation time: 0.000674944s
+SF generation throughput: 15959.1MiB/s
+Chunk Time: 0.0347661s
+Dedup Time: 0.368786s
+Locality Match Time: 0.000470915s
+Locality Delta Time: 0.343418s
+Feature Match Time: 0.0385382s
+Feature Match Time1: 0.0107412s
+Feature Delta Time: 0.0283085s
+IOGet Time: 0.305498s
+IOWrite Time: 0.00790256s
+Lz4 Compression Time: 0.0305057s
+Delta Compression Time: 0.657235s
+-----------------OVERHEAD--------------------------
+Index Overhead: 1.31395MiB
+FP Index Overhead: 0.402794MiB
+ID Index Overhead: 0.725029MiB
+SF Index Overhead: 0.169556MiB
+Recipe Overhead: 0.234146MiB
+nameTable size is 0.016571MiB
+SF number: 11112
+nameTable size: 0.016571 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 113.838MiB
+delta reduct size : 51.9356MiB
+local reduct size : 18.6782MiB
+Feature reduct size: 4.5124MiB
+Locality reduct size: 47.4233MiB
+-----------------END-------------------------------
+2025-04-09 18:09:56 <Chunker>: chunking done.
+total_size is 8
+Version: 26
+-----------------CHUNK NUM-----------------------
+logical chunk num: 32284
+unique chunk num: 10885
+base chunk num: 3765
+delta chunk num: 7120
+Odess Hit is 1292
+Header chunk logical num: 2487
+Header chunk unique num: 2479
+Header chunk base logical num: 0
+Header chunk base unique num: 1024
+Header chunk delta logical num: 25
+Header chunk delta unique num: 1455
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 217364480
+uniquechunkSize is 12873472
+base chunk size: 10422687
+delta chunk size: 2450785
+Header chunk logical size: 20289536
+Header chunk unique size: 1271472
+Header chunk base logical size: 8388096
+Header chunk base unique size: 722818
+Header chunk delta logical size: 11974656
+Header chunk delta unique size: 548654
+-----------------METRICS-------------------------
+Overall Compression Ratio: 16.8847
+DCC: 0.654111
+DCR: 24.265
+DCE: 41.7358
+-----------------Time------------------------------
+Version time: 0.0889961s
+Throughput: 122.131MiB/s
+Reduce data speed: 118.72MiB/s
+SF generation time: 0.000825831s
+SF generation throughput: 13161.5MiB/s
+Chunk Time: 0.0364694s
+Dedup Time: 0.393447s
+Locality Match Time: 0.000492669s
+Locality Delta Time: 0.362673s
+Feature Match Time: 0.0398017s
+Feature Match Time1: 0.0111362s
+Feature Delta Time: 0.0287987s
+IOGet Time: 0.326732s
+IOWrite Time: 0.00796488s
+Lz4 Compression Time: 0.0312135s
+Delta Compression Time: 0.685919s
+-----------------OVERHEAD--------------------------
+Index Overhead: 1.35165MiB
+FP Index Overhead: 0.41523MiB
+ID Index Overhead: 0.747414MiB
+SF Index Overhead: 0.172348MiB
+Recipe Overhead: 0.246307MiB
+nameTable size is 0.0166626MiB
+SF number: 11295
+nameTable size: 0.0166626 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 121.346MiB
+delta reduct size : 54.3761MiB
+local reduct size : 19.2955MiB
+Feature reduct size: 4.56449MiB
+Locality reduct size: 49.8116MiB
+-----------------END-------------------------------
+2025-04-09 18:09:56 <Chunker>: chunking done.
+total_size is 8
+Version: 27
+-----------------CHUNK NUM-----------------------
+logical chunk num: 33897
+unique chunk num: 11330
+base chunk num: 3891
+delta chunk num: 7439
+Odess Hit is 1325
+Header chunk logical num: 2609
+Header chunk unique num: 2600
+Header chunk base logical num: 0
+Header chunk base unique num: 1064
+Header chunk delta logical num: 26
+Header chunk delta unique num: 1536
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 229068800
+uniquechunkSize is 13418731
+base chunk size: 10800736
+delta chunk size: 2617995
+Header chunk logical size: 21281280
+Header chunk unique size: 1331238
+Header chunk base logical size: 8715776
+Header chunk base unique size: 751468
+Header chunk delta logical size: 12642304
+Header chunk delta unique size: 579770
+-----------------METRICS-------------------------
+Overall Compression Ratio: 17.0708
+DCC: 0.656575
+DCR: 24.1255
+DCE: 41.617
+-----------------Time------------------------------
+Version time: 0.109809s
+Throughput: 101.651MiB/s
+Reduce data speed: 96.915MiB/s
+SF generation time: 0.00128179s
+SF generation throughput: 8708.23MiB/s
+Chunk Time: 0.0382696s
+Dedup Time: 0.414355s
+Locality Match Time: 0.000523041s
+Locality Delta Time: 0.388366s
+Feature Match Time: 0.0419911s
+Feature Match Time1: 0.0119484s
+Feature Delta Time: 0.0299243s
+IOGet Time: 0.357318s
+IOWrite Time: 0.00805571s
+Lz4 Compression Time: 0.0324063s
+Delta Compression Time: 0.72881s
+-----------------OVERHEAD--------------------------
+Index Overhead: 1.40515MiB
+FP Index Overhead: 0.432205MiB
+ID Index Overhead: 0.777969MiB
+SF Index Overhead: 0.178116MiB
+Recipe Overhead: 0.258614MiB
+nameTable size is 0.0168571MiB
+SF number: 11673
+nameTable size: 0.0168571 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 127.848MiB
+delta reduct size : 57.7377MiB
+local reduct size : 20.0746MiB
+Feature reduct size: 4.6581MiB
+Locality reduct size: 53.0796MiB
+-----------------END-------------------------------
+2025-04-09 18:09:56 <Chunker>: chunking done.
+total_size is 8
+Version: 28
+-----------------CHUNK NUM-----------------------
+logical chunk num: 35493
+unique chunk num: 11735
+base chunk num: 4002
+delta chunk num: 7733
+Odess Hit is 1342
+Header chunk logical num: 2730
+Header chunk unique num: 2720
+Header chunk base logical num: 0
+Header chunk base unique num: 1104
+Header chunk delta logical num: 28
+Header chunk delta unique num: 1616
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 240936960
+uniquechunkSize is 13950923
+base chunk size: 11177640
+delta chunk size: 2773283
+Header chunk logical size: 22265856
+Header chunk unique size: 1390395
+Header chunk base logical size: 9043456
+Header chunk base unique size: 780213
+Header chunk delta logical size: 13303296
+Header chunk delta unique size: 610182
+-----------------METRICS-------------------------
+Overall Compression Ratio: 17.2703
+DCC: 0.658969
+DCR: 24.0538
+DCE: 41.3331
+-----------------Time------------------------------
+Version time: 0.0972871s
+Throughput: 116.34MiB/s
+Reduce data speed: 111.123MiB/s
+SF generation time: 0.001191s
+SF generation throughput: 9503.26MiB/s
+Chunk Time: 0.0400797s
+Dedup Time: 0.435399s
+Locality Match Time: 0.000551973s
+Locality Delta Time: 0.412342s
+Feature Match Time: 0.0437937s
+Feature Match Time1: 0.0124809s
+Feature Delta Time: 0.0309896s
+IOGet Time: 0.377972s
+IOWrite Time: 0.00815946s
+Lz4 Compression Time: 0.033658s
+Delta Compression Time: 0.768813s
+-----------------OVERHEAD--------------------------
+Index Overhead: 1.45365MiB
+FP Index Overhead: 0.447655MiB
+ID Index Overhead: 0.805779MiB
+SF Index Overhead: 0.183197MiB
+Recipe Overhead: 0.27079MiB
+nameTable size is 0.0170174MiB
+SF number: 12006
+nameTable size: 0.0170174 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 134.606MiB
+delta reduct size : 60.9729MiB
+local reduct size : 20.8919MiB
+Feature reduct size: 4.73944MiB
+Locality reduct size: 56.2334MiB
+-----------------END-------------------------------
+Time taken by for loop: 2 s 
+2025-04-09 18:09:56 <BiSearchSystem>: logical Chunk Num is 35493
+2025-04-09 18:09:56 <BiSearchSystem>: unique Chunk Num is 11735
+2025-04-09 18:09:56 <BiSearchSystem>: Total logical size is 240936960
+2025-04-09 18:09:56 <BiSearchSystem>: Total compressed size is 13950923
+2025-04-09 18:09:56 <BiSearchSystem>: Compression ratio is 17.2703

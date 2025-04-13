@@ -1,15 +1,20 @@
 library(ggplot2)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 # 定义数据
-heights <- c(14.3049,10.6584,14.4836,13.1136,24.3907,82.5146,67.1194,84.7032,68.4297,131.901,105.009,115.874,92.1916,53.2259,242.453,6.56484,7.06929,6.60713,7.15088,7.58279
+heights <- c(
+  1,1.179965326,1.193834834,
+  1,2.237740637,1.882894809,
+  1,1.174514729,1.147339575,
+  1,1.02309296,1.061046667
 )
 
-group_order <- c('Linux', 'Chromium', 'WEB', 'Log')
+group_order <- c( 'LKT', 'WEB','chromium','CentOS')
+
 # 创建数据框
 df1 <- data.frame(
-  group = factor(rep(group_order, each = 5), levels = group_order),
-  category = factor(rep(c('NTrans', 'Finesse', 'Odess', 'Palantir','BiSearch'), times = 4),
-                    levels = c('NTrans', 'Finesse', 'Odess', 'Palantir','BiSearch')),
+  group = factor(rep(group_order, each = 3), levels = group_order),
+  category = factor(rep(c('perchunk', 'ours', 'Greedy'), times = 4),
+                    levels = c('perchunk', 'ours', 'Greedy')),
   height = heights
 )
 
@@ -19,8 +24,8 @@ max_height <- max(df1$height)
 p1 <- ggplot(df1, aes(x = group, y = height, fill = category)) + 
   geom_bar(stat = 'identity', position = position_dodge(width = 0.8), 
            colour = "black", width = 0.8) + 
-  scale_fill_manual(values = c("#f5deb3", "#4a90e2", "#ac8cf4", "#ff7f0e","#FF5733")) +
-  labs(y = 'Overall Compression Ratio') +
+  scale_fill_manual(values = c("#f5deb3", "#4a90e2", "#ff7f0e")) +
+  labs(y = 'Grouped Efficiency') +
   scale_y_continuous(
     limits = c(0, max_height),
     expand = expansion(mult = c(0, 0.1))
@@ -45,5 +50,5 @@ p1 <- ggplot(df1, aes(x = group, y = height, fill = category)) +
   ) +
   theme(axis.title.x = element_blank())
 
-ggsave('./group-chunse-histograms.pdf', plot = p1, width = 10, height = 5)
+ggsave('./BF1.png', plot = p1, width = 10, height = 5)
 print(p1)
