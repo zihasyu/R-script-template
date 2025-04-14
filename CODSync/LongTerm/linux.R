@@ -77,4 +77,4 @@ ggplot() +
 
 
 # 保存文件
-ggsave(paste(exportPath, exportName, sep=""), plot = last_plot(), width = 10, height = 5)
+ggsave(paste("./plot.pdf", exportName, sep=""), plot = last_plot(), width = 10, height = 5)

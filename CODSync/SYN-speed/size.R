@@ -7,7 +7,8 @@ username <- Sys.info()[["user"]]
 
 exportPath = sprintf("%s%s%s", exportPath1, username, exportPath2)
 
-
+install.packages("patchwork")
+install.packages("ggbreak")
 library(ggplot2)
 library(ggbreak)
 library(readxl)
