@@ -76,14 +76,14 @@ for(i in 1:num_plots) {
       plot_name <- paste0(system_name1, "_vs_", system_name2, ".pdf")
       
     # 使用plot_line_with_selected_points函数绘图
-      plot_line_comparison(
-        data =plot_nopoint_data ,
-        # column_names = c(system_name1, system_name2),  # 只使用系统名称作为图例标签
-        x_label = "Version",
-        y_label = "OCR",
-        export_path = plot_dir,
-        export_name = paste0("/", plot_name)
-      )
+    #   plot_line_comparison(
+    #     data =plot_nopoint_data ,
+    #     # column_names = c(system_name1, system_name2),  # 只使用系统名称作为图例标签
+    #     x_label = "Version",
+    #     y_label = "OCR",
+    #     export_path = plot_dir,
+    #     export_name = paste0("/", plot_name)
+    #   )
 
       # 使用plot_line_with_points函数绘图
       # plot_with_sampled_points(
@@ -94,15 +94,16 @@ for(i in 1:num_plots) {
       #   export_path = plot_dir,
       #   export_name = paste0("/", plot_name)
       # )
-      # plot_line_with_selected_points(
-      #  data = plot_data,
-      #   # column_names = c(system_name1, system_name2),  # 只使用系统名称作为图例标签
-      #   num_points = 10,
-      #   x_label = "Version",
-      #   y_label = "Compression Ratio",
-      #   export_path = plot_dir,
-      #   export_name = paste0("/", plot_name)
-      # )
+
+      plot_line_with_selected_points(
+        data = plot_data,
+        # column_names = c(system_name1, system_name2),  # 只使用系统名称作为图例标签
+        num_points = 10,
+        x_label = "Version",
+        y_label = "Compression Ratio",
+        export_path = plot_dir,
+        export_name = paste0("/", plot_name)
+      )
       
       cat("已生成图表:", plot_name, "\n")
       
