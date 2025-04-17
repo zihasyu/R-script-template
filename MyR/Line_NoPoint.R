@@ -49,7 +49,7 @@ plot_line_comparison <- function(
     theme(axis.title.x = element_text(size = x_title_size)) +
     theme(axis.title.y = element_text(size = y_title_size)) +
     # ylabel位置
-    # theme(axis.title.y = element_text(hjust = 1.2)) +
+    theme(axis.title.y = element_text(hjust = 0.5)) +
     # 设置label内容
     labs(y = y_label, x = x_label)
   
@@ -195,7 +195,7 @@ plot_line_comparison_xcdf <- function(
     theme(axis.title.x = element_text(size = x_title_size)) +
     theme(axis.title.y = element_text(size = y_title_size)) +
     # ylabel位置
-    # theme(axis.title.y = element_text(hjust = 1.2)) +
+    theme(axis.title.y = element_text(hjust = 0.5)) +
     # 设置label内容
     labs(y = y_label, x = x_label)
   

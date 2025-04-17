@@ -515,7 +515,7 @@ plot_with_sampled_points <- function(
     theme(axis.text = element_text(size = axis_text_size, color = "black"),
           text = element_text(family = "Arial"),
           axis.title.x = element_text(size = x_title_size),
-          axis.title.y = element_text(size = y_title_size, hjust = 1.1)) +
+          axis.title.y = element_text(size = y_title_size, hjust = 0.5)) +
     labs(y = y_label, x = x_label) +
     scale_x_continuous(breaks = x_breaks, labels = x_breaks) +
     scale_y_continuous(breaks = y_breaks, labels = y_breaks)

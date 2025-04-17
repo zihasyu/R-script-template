@@ -3,7 +3,7 @@ library(readxl)
 source(here("MyR", "MyR.R"))
 
 # 读取Excel数据
-excel_path <- here("Paper/FineTarEvaluate/evaluate_nameHash/compression_ratios.xlsx")
+excel_path <- here("Paper/FineTarEvaluate/evaluate_FalseFilter_Is/compression_ratios.xlsx")
 compression_data <- read_excel(excel_path)
 
 # 获取列名（文本）
@@ -19,7 +19,7 @@ if(num_columns %% 2 != 0) {
 num_plots <- floor(num_columns / 2)
 
 # 确保输出文件夹存在
-plot_dir <- here("Paper/FineTarEvaluate/evaluate_nameHash/plots")
+plot_dir <- here("Paper/FineTarEvaluate/evaluate_FalseFilter_Is/plots")
 if(!dir.exists(plot_dir)) {
   dir.create(plot_dir, recursive = TRUE)
 }
@@ -75,17 +75,16 @@ for(i in 1:num_plots) {
       # 生成图表
       plot_name <- paste0(system_name1, "_vs_", system_name2, ".pdf")
       
-    # 使用plot_line_with_selected_points函数绘图
-    #   plot_line_comparison(
-    #     data =plot_nopoint_data ,
-    #     # column_names = c(system_name1, system_name2),  # 只使用系统名称作为图例标签
-    #     x_label = "Version",
-    #     y_label = "OCR",
-    #     export_path = plot_dir,
-    #     export_name = paste0("/", plot_name)
-    #   )
 
-      # 使用plot_line_with_points函数绘图
+      # plot_line_comparison(
+      #   data =plot_nopoint_data ,
+      #   # column_names = c(system_name1, system_name2),  # 只使用系统名称作为图例标签
+      #   x_label = "Version",
+      #   y_label = "OCR",
+      #   export_path = plot_dir,
+      #   export_name = paste0("/", plot_name)
+      # )
+
       plot_with_sampled_points(
         data =plot_data,
       # column_names = c(system_name1, system_name2),  # 只使用系统名称作为图例标签
