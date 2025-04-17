@@ -883,7 +883,7 @@ plot_line_comparison_xcdf_ref <- function(
 x <- seq(0, 10, length.out = 21)
 y1 <- sin(x)
 y2 <- cos(x)
-df <- data.frame(x = x, y1 = y1, y2 = y2)
+df <- data.frame(x = x, y1 = y1)
 
 # 使用默认参考线（在y=0处）
 plot_line_with_points_ref(df, ref_line_y = 0.5)
