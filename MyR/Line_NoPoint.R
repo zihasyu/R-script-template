@@ -263,3 +263,88 @@ plot_line_comparison_xcdf <- function(
   return(p)
 }
 
+create_legend_pdf <- function(
+  series_names,
+  export_path = "./",
+  export_name = "legend.pdf",
+  colors = c("#AD0626", "#B79AD1", "#75B8BF", "#F2BE5C"),
+  legend_title = NULL,
+  legend_position = "horizontal", # "horizontal" 或 "vertical"
+  text_size = 36,
+  title_size = 40,
+  plot_width = 10,
+  plot_height = 3
+) {
+  # 加载必要的库
+  library(ggplot2)
+  library(extrafont)
+  library(showtext)
+  
+  # 尝试加载cowplot
+  if(!requireNamespace("cowplot", quietly = TRUE)) {
+    install.packages("cowplot")
+    library(cowplot)
+  } else {
+    library(cowplot)
+  }
+  
+  # 字体设置
+  font_add('Arial', 'C:/Windows/Fonts/arial.ttf')
+  showtext_auto()
+  windowsFonts(Arial = windowsFont("Arial"))
+  
+  # 确保series_names长度不超过可用颜色数量
+  if(length(series_names) > length(colors)) {
+    warning("提供的系列名称数量超过可用颜色数量，将只使用前", length(colors), "个系列")
+    series_names <- series_names[1:length(colors)]
+  }
+  
+  # 创建一个更可靠的数据框用于生成图例
+  dummy_df <- data.frame(
+    x = 1:length(series_names),
+    y = 1:length(series_names),
+    group = factor(series_names, levels = series_names)
+  )
+  
+  # 创建一个包含实际线条的图（而不是使用点）
+  p <- ggplot(dummy_df, aes(x, y, color = group)) +
+       geom_line(size = 2) +  # 使用实际可见的线条
+       scale_color_manual(
+         values = colors[1:length(series_names)],
+         name = legend_title,
+         guide = guide_legend(
+           title.position = "top",
+           title.hjust = 0.5,
+           nrow = if(legend_position == "horizontal") 1 else length(series_names)
+         )
+       ) +
+       theme_void() +
+       theme(
+         text = element_text(family = "Arial"),
+         legend.text = element_text(size = text_size),
+         legend.title = element_text(size = title_size),
+         legend.position = "bottom",  # 确保图例在可见位置
+         legend.box.margin = margin(0, 0, 0, 0)
+       )
+  
+  # 为了确保生成正确的图例，先保存完整图形
+  temp_plot_path <- paste(export_path, "temp_plot.pdf", sep = "")
+  ggsave(temp_plot_path, plot = p, width = plot_width, height = plot_height)
+  
+  # 创建一个只有图例的图
+  legend_only <- p + theme(legend.position = "bottom") +
+                   guides(color = guide_legend(nrow = if(legend_position == "horizontal") 1 else length(series_names)))
+  
+  # 直接导出图例
+  ggsave(paste(export_path, export_name, sep = ""), 
+         plot = legend_only, 
+         width = plot_width, 
+         height = plot_height)
+  
+  # 删除临时文件
+  if(file.exists(temp_plot_path)) {
+    file.remove(temp_plot_path)
+  }
+  
+  return(legend_only)
+}

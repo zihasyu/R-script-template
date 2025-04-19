@@ -29,3 +29,5 @@ source(here("MyR", "Line_Point.R"))
 - `plot_line_with_points` - 显示所有的点
 - `plot_line_with_selected_points` - 只显示10个点，但线条是显示所有点的
 - `plot_with_sampled_points` - 只显示10个点，线条也只显示10个点 (推荐)
+
+$repoPath = "D:\language\RStudio\project\R-script-template"; Get-ChildItem -Path $repoPath -Recurse -File | Where-Object { $_.Length -gt 20MB -and -not $_.FullName.Contains("\.git\") } | Select-Object @{Name="大小(MB)";Expression={"{0:N2}" -f ($_.Length / 1MB)}}, @{Name="路径";Expression={$_.FullName.Substring($repoPath.Length + 1).Replace("\", "/")}} | Format-Table -AutoSize
