@@ -1,1085 +1,6 @@
 -----------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/Android -c 4 -m 5 -n 36 -r 10 -a 0 -b 1 -t 1 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 159234
-unique chunk num: 154596
-base chunk num: 38697
-delta chunk num: 115899
-finesse hit:2864
------------------CHUNK SIZE-----------------------
-logical chunk size: 3655925760
-unique chunk size: 354540760
-base chunk size: 109552703
-delta chunk size: 244988057
------------------METRICS-------------------------
-Overall Compression Ratio: 10.3117
-DCC: 0.74969
-DCR: 12.3707
-DCE: 11.8736
------------------Time------------------------------
-total time: 76s
-Throughput: 45.8758MiB/s
-Reduce data speed: 41.4269MiB/s
-SF generation time: 0.334662s
-SF generation throughput: 10418.2MiB/s
-Chunk Time: 4.30192s
-Dedup Time: 6.35965s
-Locality Match Time: 0.00789431s
-Locality Delta Time: 27.7725s
-Feature Match Time: 0.379119s
-Feature Delta Time: 0.0253334s
-Lz4 Compression Time: 0.408034s
-Delta Compression Time: 37.7205s
------------------OverHead--------------------------
-Index Overhead: 20.9412MiB
-FP Overhead: 16.5126MiB
-SF Overhead: 4.42852MiB
-Recipe Overhead: 1.21486MiB
-SF number: 116091
------------------Reduct----------------------------
-dedup reduct size : 56MiB
-delta reduct size : 2656MiB
-local reduct size : 435MiB
-Feature reduct size: 1MiB
-Locality reduct size: 2655MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/Android -c 4 -m 5 -n 36 -r 10 -a 0 -b 1 -t 0 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 159234
-unique chunk num: 154596
-base chunk num: 145874
-delta chunk num: 8722
-finesse hit:8722
------------------CHUNK SIZE-----------------------
-logical chunk size: 3655925760
-unique chunk size: 462451664
-base chunk size: 460037618
-delta chunk size: 2414046
------------------METRICS-------------------------
-Overall Compression Ratio: 7.90553
-DCC: 0.056418
-DCR: 12.8995
-DCE: 10.4767
------------------Time------------------------------
-total time: 14s
-Throughput: 249.04MiB/s
-Reduce data speed: 217.538MiB/s
-SF generation time: 2.2608s
-SF generation throughput: 1542.18MiB/s
-Chunk Time: 1.82196s
-Dedup Time: 7.05365s
-Locality Match Time: 0s
-Locality Delta Time: 0s
-Feature Match Time: 2.33671s
-Feature Delta Time: 0.257372s
-Lz4 Compression Time: 1.85238s
-Delta Compression Time: 0.257372s
------------------OverHead--------------------------
-Index Overhead: 33.2066MiB
-FP Overhead: 16.5126MiB
-SF Overhead: 16.694MiB
-Recipe Overhead: 1.21486MiB
-SF number: 437622
------------------Reduct----------------------------
-dedup reduct size : 56MiB
-delta reduct size : 27MiB
-local reduct size : 2961MiB
-Feature reduct size: 27MiB
-Locality reduct size: 0MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/automake_tarballs -c 4 -m 5 -n 100 -r 10 -a 0 -b 1 -t 1 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 101657
-unique chunk num: 32488
-base chunk num: 5477
-delta chunk num: 27011
-finesse hit:9129
------------------CHUNK SIZE-----------------------
-logical chunk size: 504084480
-unique chunk size: 21184428
-base chunk size: 12453999
-delta chunk size: 8730429
------------------METRICS-------------------------
-Overall Compression Ratio: 23.795
-DCC: 0.831415
-DCR: 23.1248
-DCE: 43.0755
------------------Time------------------------------
-total time: 13s
-Throughput: 36.9794MiB/s
-Reduce data speed: 35.4253MiB/s
-SF generation time: 0.0585477s
-SF generation throughput: 8210.95MiB/s
-Chunk Time: 0.0829612s
-Dedup Time: 0.925105s
-Locality Match Time: 0.00148142s
-Locality Delta Time: 1.12306s
-Feature Match Time: 1.08661s
-Feature Delta Time: 0.289603s
-Lz4 Compression Time: 0.0342603s
-Delta Compression Time: 2.83474s
------------------OverHead--------------------------
-Index Overhead: 4.09689MiB
-FP Overhead: 3.47009MiB
-SF Overhead: 0.626793MiB
-Recipe Overhead: 0.775581MiB
-SF number: 16431
------------------Reduct----------------------------
-dedup reduct size : 257MiB
-delta reduct size : 184MiB
-local reduct size : 18MiB
-Feature reduct size: 52MiB
-Locality reduct size: 131MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/automake_tarballs -c 4 -m 5 -n 100 -r 10 -a 0 -b 1 -t 0 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 101657
-unique chunk num: 32488
-base chunk num: 11096
-delta chunk num: 21392
-finesse hit:21392
------------------CHUNK SIZE-----------------------
-logical chunk size: 504084480
-unique chunk size: 24327990
-base chunk size: 18642002
-delta chunk size: 5685988
------------------METRICS-------------------------
-Overall Compression Ratio: 20.7204
-DCC: 0.658459
-DCR: 27.8319
-DCE: 53.6524
------------------Time------------------------------
-total time: 4s
-Throughput: 120.183MiB/s
-Reduce data speed: 114.383MiB/s
-SF generation time: 0.140627s
-SF generation throughput: 3418.5MiB/s
-Chunk Time: 0.0814097s
-Dedup Time: 0.964409s
-Locality Match Time: 0s
-Locality Delta Time: 0s
-Feature Match Time: 0.153113s
-Feature Delta Time: 0.910309s
-Lz4 Compression Time: 0.0571695s
-Delta Compression Time: 0.910309s
------------------OverHead--------------------------
-Index Overhead: 4.73993MiB
-FP Overhead: 3.47009MiB
-SF Overhead: 1.26984MiB
-Recipe Overhead: 0.775581MiB
-SF number: 33288
------------------Reduct----------------------------
-dedup reduct size : 257MiB
-delta reduct size : 145MiB
-local reduct size : 54MiB
-Feature reduct size: 145MiB
-Locality reduct size: 0MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/bash_tarballs -c 4 -m 5 -n 44 -r 10 -a 0 -b 1 -t 1 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 63722
-unique chunk num: 15691
-base chunk num: 4197
-delta chunk num: 11494
-finesse hit:1610
------------------CHUNK SIZE-----------------------
-logical chunk size: 1374453760
-unique chunk size: 131901186
-base chunk size: 99027000
-delta chunk size: 32874186
------------------METRICS-------------------------
-Overall Compression Ratio: 10.4203
-DCC: 0.732522
-DCR: 19.2761
-DCE: 62.3434
------------------Time------------------------------
-total time: 31s
-Throughput: 42.2833MiB/s
-Reduce data speed: 38.2255MiB/s
-SF generation time: 0.18338s
-SF generation throughput: 7147.88MiB/s
-Chunk Time: 0.226743s
-Dedup Time: 2.4182s
-Locality Match Time: 0.000895847s
-Locality Delta Time: 4.67804s
-Feature Match Time: 1.01137s
-Feature Delta Time: 1.4475s
-Lz4 Compression Time: 0.23091s
-Delta Compression Time: 10.3164s
------------------OverHead--------------------------
-Index Overhead: 2.15629MiB
-FP Overhead: 1.67598MiB
-SF Overhead: 0.480309MiB
-Recipe Overhead: 0.48616MiB
-SF number: 12591
------------------Reduct----------------------------
-dedup reduct size : 545MiB
-delta reduct size : 572MiB
-local reduct size : 66MiB
-Feature reduct size: 94MiB
-Locality reduct size: 477MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/bash_tarballs -c 4 -m 5 -n 44 -r 10 -a 0 -b 1 -t 0 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 63722
-unique chunk num: 15691
-base chunk num: 8476
-delta chunk num: 7215
-finesse hit:7215
------------------CHUNK SIZE-----------------------
-logical chunk size: 1374453760
-unique chunk size: 151514811
-base chunk size: 124737883
-delta chunk size: 26776928
------------------METRICS-------------------------
-Overall Compression Ratio: 9.07142
-DCC: 0.459818
-DCR: 20.767
-DCE: 110.663
------------------Time------------------------------
-total time: 10s
-Throughput: 131.078MiB/s
-Reduce data speed: 116.629MiB/s
-SF generation time: 0.461517s
-SF generation throughput: 2840.16MiB/s
-Chunk Time: 0.238367s
-Dedup Time: 2.45615s
-Locality Match Time: 0s
-Locality Delta Time: 0s
-Feature Match Time: 0.468236s
-Feature Delta Time: 5.09187s
-Lz4 Compression Time: 0.332964s
-Delta Compression Time: 5.09187s
------------------OverHead--------------------------
-Index Overhead: 2.64598MiB
-FP Overhead: 1.67598MiB
-SF Overhead: 0.970001MiB
-Recipe Overhead: 0.48616MiB
-SF number: 25428
------------------Reduct----------------------------
-dedup reduct size : 545MiB
-delta reduct size : 504MiB
-local reduct size : 116MiB
-Feature reduct size: 504MiB
-Locality reduct size: 0MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/coreutils_tarballs -c 4 -m 5 -n 28 -r 10 -a 0 -b 1 -t 1 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 35493
-unique chunk num: 11735
-base chunk num: 2512
-delta chunk num: 9223
-finesse hit:1008
------------------CHUNK SIZE-----------------------
-logical chunk size: 240936960
-unique chunk size: 13145498
-base chunk size: 9117386
-delta chunk size: 4028112
------------------METRICS-------------------------
-Overall Compression Ratio: 18.3285
-DCC: 0.785939
-DCR: 19.2483
-DCE: 34.0602
------------------Time------------------------------
-total time: 6s
-Throughput: 38.2959MiB/s
-Reduce data speed: 36.2065MiB/s
-SF generation time: 0.0178455s
-SF generation throughput: 12875.8MiB/s
-Chunk Time: 0.0404882s
-Dedup Time: 0.429064s
-Locality Match Time: 0.000617773s
-Locality Delta Time: 0.579055s
-Feature Match Time: 0.0214141s
-Feature Delta Time: 0.0202763s
-Lz4 Compression Time: 0.0267887s
-Delta Compression Time: 0.830636s
------------------OverHead--------------------------
-Index Overhead: 1.54091MiB
-FP Overhead: 1.25343MiB
-SF Overhead: 0.287476MiB
-Recipe Overhead: 0.27079MiB
-SF number: 7536
------------------Reduct----------------------------
-dedup reduct size : 134MiB
-delta reduct size : 70MiB
-local reduct size : 12MiB
-Feature reduct size: 3MiB
-Locality reduct size: 66MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/coreutils_tarballs -c 4 -m 5 -n 28 -r 10 -a 0 -b 1 -t 0 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 35493
-unique chunk num: 11735
-base chunk num: 6140
-delta chunk num: 5595
-finesse hit:5595
------------------CHUNK SIZE-----------------------
-logical chunk size: 240936960
-unique chunk size: 15722960
-base chunk size: 13710085
-delta chunk size: 2012875
------------------METRICS-------------------------
-Overall Compression Ratio: 15.3239
-DCC: 0.476779
-DCR: 25.1786
-DCE: 51.5455
------------------Time------------------------------
-total time: 1s
-Throughput: 229.775MiB/s
-Reduce data speed: 214.781MiB/s
-SF generation time: 0.0578243s
-SF generation throughput: 3973.68MiB/s
-Chunk Time: 0.0406604s
-Dedup Time: 0.432218s
-Locality Match Time: 0s
-Locality Delta Time: 0s
-Feature Match Time: 0.0619764s
-Feature Delta Time: 0.317075s
-Lz4 Compression Time: 0.0428188s
-Delta Compression Time: 0.317075s
------------------OverHead--------------------------
-Index Overhead: 1.9561MiB
-FP Overhead: 1.25343MiB
-SF Overhead: 0.702667MiB
-Recipe Overhead: 0.27079MiB
-SF number: 18420
------------------Reduct----------------------------
-dedup reduct size : 134MiB
-delta reduct size : 46MiB
-local reduct size : 33MiB
-Feature reduct size: 46MiB
-Locality reduct size: 0MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/fdisk_tarballs -c 4 -m 5 -n 22 -r 10 -a 0 -b 1 -t 1 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 1863
-unique chunk num: 668
-base chunk num: 271
-delta chunk num: 397
-finesse hit:61
------------------CHUNK SIZE-----------------------
-logical chunk size: 16619520
-unique chunk size: 1431627
-base chunk size: 1195918
-delta chunk size: 235709
------------------METRICS-------------------------
-Overall Compression Ratio: 11.6088
-DCC: 0.594311
-DCR: 21.5219
-DCE: 95.1083
------------------Time------------------------------
-total time: 0s
-Throughput: infMiB/s
-Reduce data speed: infMiB/s
-SF generation time: 0.00204511s
-SF generation throughput: 7749.98MiB/s
-Chunk Time: 0.00212631s
-Dedup Time: 0.0295347s
-Locality Match Time: 1.9656e-05s
-Locality Delta Time: 0.042041s
-Feature Match Time: 0.00232546s
-Feature Delta Time: 0.0032245s
-Lz4 Compression Time: 0.0031187s
-Delta Compression Time: 0.0536239s
------------------OverHead--------------------------
-Index Overhead: 0.102364MiB
-FP Overhead: 0.0713501MiB
-SF Overhead: 0.0310135MiB
-Recipe Overhead: 0.0142136MiB
-SF number: 813
------------------Reduct----------------------------
-dedup reduct size : 8MiB
-delta reduct size : 4MiB
-local reduct size : 1MiB
-Feature reduct size: 0MiB
-Locality reduct size: 3MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/fdisk_tarballs -c 4 -m 5 -n 22 -r 10 -a 0 -b 1 -t 0 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 1863
-unique chunk num: 668
-base chunk num: 442
-delta chunk num: 226
-finesse hit:226
------------------CHUNK SIZE-----------------------
-logical chunk size: 16619520
-unique chunk size: 1566991
-base chunk size: 1516207
-delta chunk size: 50784
------------------METRICS-------------------------
-Overall Compression Ratio: 10.606
-DCC: 0.338323
-DCR: 68.4461
-DCE: 182.558
------------------Time------------------------------
-total time: 0s
-Throughput: infMiB/s
-Reduce data speed: infMiB/s
-SF generation time: 0.00443278s
-SF generation throughput: 3575.54MiB/s
-Chunk Time: 0.00224214s
-Dedup Time: 0.0293747s
-Locality Match Time: 0s
-Locality Delta Time: 0s
-Feature Match Time: 0.00462219s
-Feature Delta Time: 0.0122511s
-Lz4 Compression Time: 0.00440886s
-Delta Compression Time: 0.0122511s
------------------OverHead--------------------------
-Index Overhead: 0.121933MiB
-FP Overhead: 0.0713501MiB
-SF Overhead: 0.0505829MiB
-Recipe Overhead: 0.0142136MiB
-SF number: 1326
------------------Reduct----------------------------
-dedup reduct size : 8MiB
-delta reduct size : 3MiB
-local reduct size : 2MiB
-Feature reduct size: 3MiB
-Locality reduct size: 0MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/glibc_tarballs -c 4 -m 5 -n 100 -r 10 -a 0 -b 1 -t 1 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 1631061
-unique chunk num: 316187
-base chunk num: 67286
-delta chunk num: 248901
-finesse hit:58278
------------------CHUNK SIZE-----------------------
-logical chunk size: 14690037760
-unique chunk size: 271694053
-base chunk size: 174256381
-delta chunk size: 97437672
------------------METRICS-------------------------
-Overall Compression Ratio: 54.0683
-DCC: 0.787196
-DCR: 24.2505
-DCE: 53.9197
------------------Time------------------------------
-total time: 217s
-Throughput: 64.56MiB/s
-Reduce data speed: 63.3659MiB/s
-SF generation time: 0.686252s
-SF generation throughput: 20414.5MiB/s
-Chunk Time: 38.3112s
-Dedup Time: 28.0156s
-Locality Match Time: 0.016365s
-Locality Delta Time: 16.553s
-Feature Match Time: 1.93395s
-Feature Delta Time: 2.4453s
-Lz4 Compression Time: 0.584702s
-Delta Compression Time: 27.6652s
------------------OverHead--------------------------
-Index Overhead: 41.4727MiB
-FP Overhead: 33.7724MiB
-SF Overhead: 7.70027MiB
-Recipe Overhead: 12.444MiB
-SF number: 201858
------------------Reduct----------------------------
-dedup reduct size : 11146MiB
-delta reduct size : 2160MiB
-local reduct size : 443MiB
-Feature reduct size: 252MiB
-Locality reduct size: 1908MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/glibc_tarballs -c 4 -m 5 -n 100 -r 10 -a 0 -b 1 -t 0 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 1631061
-unique chunk num: 316187
-base chunk num: 134720
-delta chunk num: 181467
-finesse hit:181467
------------------CHUNK SIZE-----------------------
-logical chunk size: 14690037760
-unique chunk size: 315228917
-base chunk size: 252689071
-delta chunk size: 62539846
------------------METRICS-------------------------
-Overall Compression Ratio: 46.6012
-DCC: 0.573923
-DCR: 28.3396
-DCE: 69.7968
------------------Time------------------------------
-total time: 63s
-Throughput: 222.373MiB/s
-Reduce data speed: 217.601MiB/s
-SF generation time: 1.84155s
-SF generation throughput: 7607.44MiB/s
-Chunk Time: 36.8085s
-Dedup Time: 28.2689s
-Locality Match Time: 0s
-Locality Delta Time: 0s
-Feature Match Time: 1.99571s
-Feature Delta Time: 12.7031s
-Lz4 Compression Time: 0.872133s
-Delta Compression Time: 12.7031s
------------------OverHead--------------------------
-Index Overhead: 49.1899MiB
-FP Overhead: 33.7724MiB
-SF Overhead: 15.4175MiB
-Recipe Overhead: 12.444MiB
-SF number: 404160
------------------Reduct----------------------------
-dedup reduct size : 11146MiB
-delta reduct size : 1630MiB
-local reduct size : 931MiB
-Feature reduct size: 1630MiB
-Locality reduct size: 0MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/smalltalk_tarballs -c 4 -m 5 -n 40 -r 10 -a 0 -b 1 -t 1 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 54818
-unique chunk num: 11295
-base chunk num: 3780
-delta chunk num: 7515
-finesse hit:823
------------------CHUNK SIZE-----------------------
-logical chunk size: 670412800
-unique chunk size: 19632610
-base chunk size: 14377527
-delta chunk size: 5255083
------------------METRICS-------------------------
-Overall Compression Ratio: 34.1479
-DCC: 0.665339
-DCR: 25.1469
-DCE: 84.8397
------------------Time------------------------------
-total time: 11s
-Throughput: 58.1232MiB/s
-Reduce data speed: 56.4211MiB/s
-SF generation time: 0.03977s
-SF generation throughput: 16076.3MiB/s
-Chunk Time: 0.132172s
-Dedup Time: 1.18914s
-Locality Match Time: 0.000479179s
-Locality Delta Time: 0.888668s
-Feature Match Time: 0.057002s
-Feature Delta Time: 0.0474449s
-Lz4 Compression Time: 0.0508849s
-Delta Compression Time: 1.18258s
------------------OverHead--------------------------
-Index Overhead: 1.63902MiB
-FP Overhead: 1.20644MiB
-SF Overhead: 0.432587MiB
-Recipe Overhead: 0.418228MiB
-SF number: 11340
------------------Reduct----------------------------
-dedup reduct size : 474MiB
-delta reduct size : 121MiB
-local reduct size : 24MiB
-Feature reduct size: 7MiB
-Locality reduct size: 113MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/smalltalk_tarballs -c 4 -m 5 -n 40 -r 10 -a 0 -b 1 -t 0 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 54818
-unique chunk num: 11295
-base chunk num: 6602
-delta chunk num: 4693
-finesse hit:4693
------------------CHUNK SIZE-----------------------
-logical chunk size: 670412800
-unique chunk size: 21273674
-base chunk size: 17297664
-delta chunk size: 3976010
------------------METRICS-------------------------
-Overall Compression Ratio: 31.5137
-DCC: 0.415494
-DCR: 27.0802
-DCE: 130.497
------------------Time------------------------------
-total time: 3s
-Throughput: 213.118MiB/s
-Reduce data speed: 206.356MiB/s
-SF generation time: 0.102087s
-SF generation throughput: 6262.87MiB/s
-Chunk Time: 0.109827s
-Dedup Time: 1.22774s
-Locality Match Time: 0s
-Locality Delta Time: 0s
-Feature Match Time: 0.106331s
-Feature Delta Time: 0.771542s
-Lz4 Compression Time: 0.0611269s
-Delta Compression Time: 0.771542s
------------------OverHead--------------------------
-Index Overhead: 1.96198MiB
-FP Overhead: 1.20644MiB
-SF Overhead: 0.755539MiB
-Recipe Overhead: 0.418228MiB
-SF number: 19806
------------------Reduct----------------------------
-dedup reduct size : 474MiB
-delta reduct size : 98MiB
-local reduct size : 45MiB
-Feature reduct size: 98MiB
-Locality reduct size: 0MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/GNU_GCC/gcc-packed/tar -c 4 -m 5 -n 117 -r 10 -a 0 -b 1 -t 1 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 7063299
-unique chunk num: 961902
-base chunk num: 194494
-delta chunk num: 767408
-finesse hit:155793
------------------CHUNK SIZE-----------------------
-logical chunk size: 44142602240
-unique chunk size: 1239167953
-base chunk size: 713157738
-delta chunk size: 526010215
------------------METRICS-------------------------
-Overall Compression Ratio: 35.6228
-DCC: 0.797803
-DCR: 21.2205
-DCE: 35.5938
------------------Time------------------------------
-total time: 752s
-Throughput: 55.9809MiB/s
-Reduce data speed: 54.4094MiB/s
-SF generation time: 2.16174s
-SF generation throughput: 19473.9MiB/s
-Chunk Time: 185.814s
-Dedup Time: 87.1026s
-Locality Match Time: 0.0450214s
-Locality Delta Time: 96.9278s
-Feature Match Time: 7.53391s
-Feature Delta Time: 9.36707s
-Lz4 Compression Time: 2.68315s
-Delta Compression Time: 139.022s
------------------OverHead--------------------------
-Index Overhead: 125MiB
-FP Overhead: 102.742MiB
-SF Overhead: 22.2581MiB
-Recipe Overhead: 53.8887MiB
-SF number: 583482
------------------Reduct----------------------------
-dedup reduct size : 29581MiB
-delta reduct size : 10143MiB
-local reduct size : 1191MiB
-Feature reduct size: 780MiB
-Locality reduct size: 9363MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/GNU_GCC/gcc-packed/tar -c 4 -m 5 -n 117 -r 10 -a 0 -b 1 -t 0 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 7063299
-unique chunk num: 961902
-base chunk num: 601180
-delta chunk num: 360722
-finesse hit:360722
------------------CHUNK SIZE-----------------------
-logical chunk size: 44142602240
-unique chunk size: 1470602821
-base chunk size: 1198450247
-delta chunk size: 272152574
------------------METRICS-------------------------
-Overall Compression Ratio: 30.0167
-DCC: 0.375009
-DCR: 27.092
-DCE: 64.4716
------------------Time------------------------------
-total time: 959s
-Throughput: 43.8975MiB/s
-Reduce data speed: 42.435MiB/s
-SF generation time: 7.84602s
-SF generation throughput: 5365.48MiB/s
-Chunk Time: 117.015s
-Dedup Time: 87.1349s
-Locality Match Time: 0s
-Locality Delta Time: 0s
-Feature Match Time: 8.41244s
-Feature Delta Time: 63.8744s
-Lz4 Compression Time: 4.50445s
-Delta Compression Time: 63.8744s
------------------OverHead--------------------------
-Index Overhead: 171.542MiB
-FP Overhead: 102.742MiB
-SF Overhead: 68.7996MiB
-Recipe Overhead: 53.8887MiB
-SF number: 1803540
------------------Reduct----------------------------
-dedup reduct size : 29581MiB
-delta reduct size : 6772MiB
-local reduct size : 4342MiB
-Feature reduct size: 6772MiB
-Locality reduct size: 0MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/ThunderbirdTar -c 4 -m 5 -n 240 -r 10 -a 0 -b 1 -t 1 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 2699747
-unique chunk num: 2699591
-base chunk num: 740268
-delta chunk num: 1959323
-finesse hit:3958
------------------CHUNK SIZE-----------------------
-logical chunk size: 31809034240
-unique chunk size: 3665676718
-base chunk size: 2170480909
-delta chunk size: 1495195809
------------------METRICS-------------------------
-Overall Compression Ratio: 8.67753
-DCC: 0.725785
-DCR: 14.8238
-DCE: 16.4094
------------------Time------------------------------
-total time: 948s
-Throughput: 31.9994MiB/s
-Reduce data speed: 28.3118MiB/s
-SF generation time: 6.38336s
-SF generation throughput: 4752.27MiB/s
-Chunk Time: 108.345s
-Dedup Time: 61.1477s
-Locality Match Time: 0.0824792s
-Locality Delta Time: 193.038s
-Feature Match Time: 7.07098s
-Feature Delta Time: 0.179604s
-Lz4 Compression Time: 7.89309s
-Delta Compression Time: 435.022s
------------------OverHead--------------------------
-Index Overhead: 373.064MiB
-FP Overhead: 288.347MiB
-SF Overhead: 84.7169MiB
-Recipe Overhead: 20.5974MiB
-SF number: 2220804
------------------Reduct----------------------------
-dedup reduct size : 0MiB
-delta reduct size : 19711MiB
-local reduct size : 7127MiB
-Feature reduct size: 10MiB
-Locality reduct size: 19701MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/ThunderbirdTar -c 4 -m 5 -n 240 -r 10 -a 0 -b 1 -t 0 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 2699747
-unique chunk num: 2699591
-base chunk num: 2581987
-delta chunk num: 117604
-finesse hit:117604
------------------CHUNK SIZE-----------------------
-logical chunk size: 31809034240
-unique chunk size: 4669170093
-base chunk size: 4610761943
-delta chunk size: 58408150
------------------METRICS-------------------------
-Overall Compression Ratio: 6.81257
-DCC: 0.0435636
-DCR: 16.4796
-DCE: 17.4167
------------------Time------------------------------
-total time: 620s
-Throughput: 48.9282MiB/s
-Reduce data speed: 41.7461MiB/s
-SF generation time: 19.6754s
-SF generation throughput: 1541.8MiB/s
-Chunk Time: 37.2133s
-Dedup Time: 60.6334s
-Locality Match Time: 0s
-Locality Delta Time: 0s
-Feature Match Time: 21.4648s
-Feature Delta Time: 7.4081s
-Lz4 Compression Time: 14.6521s
-Delta Compression Time: 7.4081s
------------------OverHead--------------------------
-Index Overhead: 583.832MiB
-FP Overhead: 288.347MiB
-SF Overhead: 295.485MiB
-Recipe Overhead: 20.5974MiB
-SF number: 7745961
------------------Reduct----------------------------
-dedup reduct size : 0MiB
-delta reduct size : 862MiB
-local reduct size : 25019MiB
-Feature reduct size: 862MiB
-Locality reduct size: 0MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/chromium -c 4 -m 5 -n 107 -r 10 -a 0 -b 1 -t 1 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 50810172
-unique chunk num: 3286214
-base chunk num: 414154
-delta chunk num: 2872060
-finesse hit:104314
------------------CHUNK SIZE-----------------------
-logical chunk size: 409560760320
-unique chunk size: 3188542670
-base chunk size: 1659768501
-delta chunk size: 1528774169
------------------METRICS-------------------------
-Overall Compression Ratio: 128.448
-DCC: 0.873972
-DCR: 15.829
-DCE: 17.1103
------------------Time------------------------------
-total time: 6505s
-Throughput: 60.0442MiB/s
-Reduce data speed: 59.5767MiB/s
-SF generation time: 2.61434s
-SF generation throughput: 149402MiB/s
-Chunk Time: 638.415s
-Dedup Time: 782.782s
-Locality Match Time: 0.130839s
-Locality Delta Time: 185.843s
-Feature Match Time: 7.62164s
-Feature Delta Time: 2.88534s
-Lz4 Compression Time: 3.08326s
-Delta Compression Time: 195.558s
------------------OverHead--------------------------
-Index Overhead: 398.402MiB
-FP Overhead: 351.006MiB
-SF Overhead: 47.3962MiB
-Recipe Overhead: 387.651MiB
-SF number: 1242462
------------------Reduct----------------------------
-dedup reduct size : 363970MiB
-delta reduct size : 21620MiB
-local reduct size : 1956MiB
-Feature reduct size: 473MiB
-Locality reduct size: 21146MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/chromium -c 4 -m 5 -n 107 -r 10 -a 0 -b 1 -t 0 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 50810172
-unique chunk num: 3286214
-base chunk num: 2221612
-delta chunk num: 1064602
-finesse hit:1064602
------------------CHUNK SIZE-----------------------
-logical chunk size: 409560760320
-unique chunk size: 3409414101
-base chunk size: 3058888844
-delta chunk size: 350525257
------------------METRICS-------------------------
-Overall Compression Ratio: 120.126
-DCC: 0.32396
-DCR: 26.8718
-DCE: 28.3622
------------------Time------------------------------
-total time: 6613s
-Throughput: 59.0636MiB/s
-Reduce data speed: 58.5719MiB/s
-SF generation time: 16.0728s
-SF generation throughput: 24301.2MiB/s
-Chunk Time: 546.649s
-Dedup Time: 780.032s
-Locality Match Time: 0s
-Locality Delta Time: 0s
-Feature Match Time: 18.66s
-Feature Delta Time: 48.7789s
-Lz4 Compression Time: 8.53588s
-Delta Compression Time: 48.7789s
------------------OverHead--------------------------
-Index Overhead: 605.249MiB
-FP Overhead: 351.006MiB
-SF Overhead: 254.243MiB
-Recipe Overhead: 387.651MiB
-SF number: 6664836
------------------Reduct----------------------------
-dedup reduct size : 363970MiB
-delta reduct size : 8648MiB
-local reduct size : 14717MiB
-Feature reduct size: 8648MiB
-Locality reduct size: 0MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/linux -c 4 -m 5 -n 270 -r 10 -a 0 -b 1 -t 1 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 17513029
-unique chunk num: 2004931
-base chunk num: 501232
-delta chunk num: 1503699
-finesse hit:99841
------------------CHUNK SIZE-----------------------
-logical chunk size: 212796651520
-unique chunk size: 2531759177
-base chunk size: 1484513641
-delta chunk size: 1047245536
------------------METRICS-------------------------
-Overall Compression Ratio: 84.0509
-DCC: 0.75
-DCR: 25.2424
-DCE: 50.815
------------------Time------------------------------
-total time: 4091s
-Throughput: 49.6061MiB/s
-Reduce data speed: 49.0159MiB/s
-SF generation time: 5.69504s
-SF generation throughput: 35634.3MiB/s
-Chunk Time: 219.382s
-Dedup Time: 393.705s
-Locality Match Time: 0.141971s
-Locality Delta Time: 177.18s
-Feature Match Time: 11.6728s
-Feature Delta Time: 15.6513s
-Lz4 Compression Time: 5.31369s
-Delta Compression Time: 246.532s
------------------OverHead--------------------------
-Index Overhead: 271.511MiB
-FP Overhead: 214.15MiB
-SF Overhead: 57.3615MiB
-Recipe Overhead: 133.614MiB
-SF number: 1503696
------------------Reduct----------------------------
-dedup reduct size : 172746MiB
-delta reduct size : 24211MiB
-local reduct size : 3565MiB
-Feature reduct size: 1553MiB
-Locality reduct size: 22657MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/linux -c 4 -m 5 -n 270 -r 10 -a 0 -b 1 -t 0 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 17513029
-unique chunk num: 2004931
-base chunk num: 1163024
-delta chunk num: 841907
-finesse hit:841907
------------------CHUNK SIZE-----------------------
-logical chunk size: 212796651520
-unique chunk size: 2895726291
-base chunk size: 2178646153
-delta chunk size: 717080138
------------------METRICS-------------------------
-Overall Compression Ratio: 73.4865
-DCC: 0.419918
-DCR: 28.8873
-DCE: 87.2803
------------------Time------------------------------
-total time: 3962s
-Throughput: 51.2213MiB/s
-Reduce data speed: 50.5243MiB/s
-SF generation time: 18.624s
-SF generation throughput: 10896.6MiB/s
-Chunk Time: 200.026s
-Dedup Time: 395.495s
-Locality Match Time: 0s
-Locality Delta Time: 0s
-Feature Match Time: 20.0621s
-Feature Delta Time: 139.284s
-Lz4 Compression Time: 7.89022s
-Delta Compression Time: 139.284s
------------------OverHead--------------------------
-Index Overhead: 347.247MiB
-FP Overhead: 214.15MiB
-SF Overhead: 133.098MiB
-Recipe Overhead: 133.614MiB
-SF number: 3489072
------------------Reduct----------------------------
-dedup reduct size : 172746MiB
-delta reduct size : 19071MiB
-local reduct size : 8359MiB
-Feature reduct size: 19071MiB
-Locality reduct size: 0MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/WEB -c 4 -m 5 -n 102 -r 10 -a 0 -b 1 -t 1 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 4635606
-unique chunk num: 916260
-base chunk num: 166930
-delta chunk num: 749330
-finesse hit:373294
------------------CHUNK SIZE-----------------------
-logical chunk size: 297546045440
-unique chunk size: 1209744694
-base chunk size: 327923700
-delta chunk size: 881820994
------------------METRICS-------------------------
-Overall Compression Ratio: 245.958
-DCC: 0.817814
-DCR: 14.9899
-DCE: 21.7447
------------------Time------------------------------
-total time: 5319s
-Throughput: 53.3488MiB/s
-Reduce data speed: 53.1319MiB/s
-SF generation time: 7.04961s
-SF generation throughput: 40252.2MiB/s
-Chunk Time: 68.4836s
-Dedup Time: 535.232s
-Locality Match Time: 0.0349285s
-Locality Delta Time: 14.4507s
-Feature Match Time: 8.92148s
-Feature Delta Time: 97.7124s
-Lz4 Compression Time: 1.01321s
-Delta Compression Time: 116.889s
------------------OverHead--------------------------
-Index Overhead: 116.971MiB
-FP Overhead: 97.8671MiB
-SF Overhead: 19.1036MiB
-Recipe Overhead: 35.3669MiB
-SF number: 500790
------------------Reduct----------------------------
-dedup reduct size : 270003MiB
-delta reduct size : 11765MiB
-local reduct size : 839MiB
-Feature reduct size: 9620MiB
-Locality reduct size: 2144MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
-./BiSearch -i /mnt/dataset2/WEB -c 4 -m 5 -n 102 -r 10 -a 0 -b 1 -t 0 -H 16
------------------CHUNK NUM-----------------------
-logical chunk num: 4635606
-unique chunk num: 916260
-base chunk num: 435378
-delta chunk num: 480882
-finesse hit:480882
------------------CHUNK SIZE-----------------------
-logical chunk size: 297546045440
-unique chunk size: 1273177264
-base chunk size: 528193428
-delta chunk size: 744983836
------------------METRICS-------------------------
-Overall Compression Ratio: 233.704
-DCC: 0.524831
-DCR: 15.0349
-DCE: 25.6458
------------------Time------------------------------
-total time: 5155s
-Throughput: 55.046MiB/s
-Reduce data speed: 54.8104MiB/s
-SF generation time: 8.1273s
-SF generation throughput: 34914.7MiB/s
-Chunk Time: 63.8886s
-Dedup Time: 518.992s
-Locality Match Time: 0s
-Locality Delta Time: 0s
-Feature Match Time: 8.71928s
-Feature Delta Time: 97.2158s
-Lz4 Compression Time: 1.69067s
-Delta Compression Time: 97.2158s
------------------OverHead--------------------------
-Index Overhead: 147.692MiB
-FP Overhead: 97.8671MiB
-SF Overhead: 49.8251MiB
-Recipe Overhead: 35.3669MiB
-SF number: 1306134
------------------Reduct----------------------------
-dedup reduct size : 270003MiB
-delta reduct size : 9971MiB
-local reduct size : 2573MiB
-Feature reduct size: 9971MiB
-Locality reduct size: 0MiB
------------------END-------------------------------
------------------INSTRUCTION----------------------
 ./BiSearch -i /mnt/dataset2/Android -c 1 -m 2 -n 36 -r 10 -a 0 -b 1 -t 1 -H 16
+-----------------CHUNK NUM-----------------------
 logical chunk num: 350804
 unique chunk num: 333112
 base chunk num: 282658
@@ -1096,11 +17,11 @@ DCC: 0.151463
 DCR: 12.3116
 DCE: 14.5744
 -----------------Time------------------------------
-total time: 59s
-Throughput: 59.0943MiB/s
-Reduce data speed: 50.2712MiB/s
-SF generation time: 22.603s
-SF generation throughput: 154.252MiB/s
+total time: 43s
+Throughput: 81.0828MiB/s
+Reduce data speed: 68.9767MiB/s
+SF generation time: 22.5109s
+SF generation throughput: 154.883MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 67.9278MiB
 FP Overhead: 35.5802MiB
@@ -1108,6 +29,9 @@ SF Overhead: 32.3476MiB
 Recipe Overhead: 2.67642MiB
 SF number: 847974
 -----------------Reduct----------------------------
+Dedup ratio : 1.05565
+Lossless ratio : 3.46029
+Delta ratio : 6.69767
 dedup reduct size : 192726440
 delta reduct size : 510685941
 local reduct size : 2406663182
@@ -1130,11 +54,11 @@ DCC: 0.0259402
 DCR: 17.8207
 DCE: 34.0159
 -----------------Time------------------------------
-total time: 25s
-Throughput: 139.463MiB/s
-Reduce data speed: 117.981MiB/s
-SF generation time: 2.06053s
-SF generation throughput: 1692.07MiB/s
+total time: 15s
+Throughput: 232.438MiB/s
+Reduce data speed: 196.635MiB/s
+SF generation time: 2.09698s
+SF generation throughput: 1662.66MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 72.713MiB
 FP Overhead: 35.5802MiB
@@ -1142,6 +66,9 @@ SF Overhead: 37.1328MiB
 Recipe Overhead: 2.67642MiB
 SF number: 973413
 -----------------Reduct----------------------------
+Dedup ratio : 1.05565
+Lossless ratio : 5.84106
+Delta ratio : 6.49222
 dedup reduct size : 192726440
 delta reduct size : 62777325
 local reduct size : 2837297990
@@ -1164,11 +91,11 @@ DCC: 0.156356
 DCR: 12.3069
 DCE: 14.2815
 -----------------Time------------------------------
-total time: 54s
-Throughput: 64.566MiB/s
-Reduce data speed: 54.9552MiB/s
-SF generation time: 22.5585s
-SF generation throughput: 154.556MiB/s
+total time: 99s
+Throughput: 35.2178MiB/s
+Reduce data speed: 29.9755MiB/s
+SF generation time: 22.4159s
+SF generation throughput: 155.54MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 67.7372MiB
 FP Overhead: 35.5781MiB
@@ -1176,6 +103,9 @@ SF Overhead: 32.1592MiB
 Recipe Overhead: 2.67634MiB
 SF number: 843033
 -----------------Reduct----------------------------
+Dedup ratio : 1.05565
+Lossless ratio : 3.40993
+Delta ratio : 6.71806
 dedup reduct size : 192723905
 delta reduct size : 527946621
 local reduct size : 2391061868
@@ -1198,11 +128,11 @@ DCC: 0.0257647
 DCR: 17.7136
 DCE: 33.2193
 -----------------Time------------------------------
-total time: 47s
-Throughput: 74.1822MiB/s
-Reduce data speed: 62.7826MiB/s
-SF generation time: 2.0546s
-SF generation throughput: 1696.96MiB/s
+total time: 27s
+Throughput: 129.132MiB/s
+Reduce data speed: 109.288MiB/s
+SF generation time: 2.1074s
+SF generation throughput: 1654.44MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 72.7153MiB
 FP Overhead: 35.5781MiB
@@ -1210,6 +140,9 @@ SF Overhead: 37.1372MiB
 Recipe Overhead: 2.67634MiB
 SF number: 973530
 -----------------Reduct----------------------------
+Dedup ratio : 1.05565
+Lossless ratio : 5.85811
+Delta ratio : 6.50743
 dedup reduct size : 192723905
 delta reduct size : 62271349
 local reduct size : 2839122602
@@ -1236,16 +169,16 @@ DCE: 11.8736
 total time: 54s
 Throughput: 64.566MiB/s
 Reduce data speed: 58.3046MiB/s
-SF generation time: 0.334343s
-SF generation throughput: 10428.1MiB/s
-Chunk Time: 4.67971s
-Dedup Time: 6.30753s
-Locality Match Time: 0.00759135s
-Locality Delta Time: 27.7056s
-Feature Match Time: 0.378762s
-Feature Delta Time: 0.0256246s
-Lz4 Compression Time: 0.404908s
-Delta Compression Time: 37.6577s
+SF generation time: 0.338908s
+SF generation throughput: 10287.6MiB/s
+Chunk Time: 4.69479s
+Dedup Time: 6.3303s
+Locality Match Time: 0.00736614s
+Locality Delta Time: 27.6004s
+Feature Match Time: 0.382332s
+Feature Delta Time: 0.025148s
+Lz4 Compression Time: 0.404338s
+Delta Compression Time: 37.4964s
 -----------------OverHead--------------------------
 Index Overhead: 20.9412MiB
 FP Overhead: 16.5126MiB
@@ -1253,11 +186,14 @@ SF Overhead: 4.42852MiB
 Recipe Overhead: 1.21486MiB
 SF number: 116091
 -----------------Reduct----------------------------
-dedup reduct size : 56MiB
-delta reduct size : 2656MiB
-local reduct size : 435MiB
-Feature reduct size: 1MiB
-Locality reduct size: 2655MiB
+Dedup ratio : 1.01652
+Lossless ratio : 1.16422
+Delta ratio : 10.3117
+dedup reduct size : 59398607
+delta reduct size : 2785684111
+local reduct size : 456302282
+Feature reduct size: 1676058
+Locality reduct size: 2784008053
 -----------------END-------------------------------
 -----------------INSTRUCTION----------------------
 ./BiSearch -i /mnt/dataset2/automake_tarballs -c 1 -m 2 -n 100 -r 10 -a 0 -b 1 -t 1 -H 16
@@ -1277,11 +213,11 @@ DCC: 0.664181
 DCR: 35.3279
 DCE: 63.8192
 -----------------Time------------------------------
-total time: 26s
-Throughput: 18.4897MiB/s
-Reduce data speed: 16.5214MiB/s
-SF generation time: 2.07978s
-SF generation throughput: 231.146MiB/s
+total time: 11s
+Throughput: 43.7029MiB/s
+Reduce data speed: 39.0506MiB/s
+SF generation time: 2.09393s
+SF generation throughput: 229.584MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 7.47842MiB
 FP Overhead: 5.49962MiB
@@ -1289,6 +225,9 @@ SF Overhead: 1.9788MiB
 Recipe Overhead: 0.584373MiB
 SF number: 51873
 -----------------Reduct----------------------------
+Dedup ratio : 1.60539
+Lossless ratio : 1.95684
+Delta ratio : 9.3938
 dedup reduct size : 190089326
 delta reduct size : 203939781
 local reduct size : 56393981
@@ -1314,8 +253,8 @@ DCE: 51.6616
 total time: 6s
 Throughput: 80.1221MiB/s
 Reduce data speed: 74.3944MiB/s
-SF generation time: 0.193123s
-SF generation throughput: 2489.26MiB/s
+SF generation time: 0.19588s
+SF generation throughput: 2454.21MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 6.63579MiB
 FP Overhead: 5.49962MiB
@@ -1323,6 +262,9 @@ SF Overhead: 1.13617MiB
 Recipe Overhead: 0.584373MiB
 SF number: 29784
 -----------------Reduct----------------------------
+Dedup ratio : 1.60539
+Lossless ratio : 1.79216
+Delta ratio : 13.9886
 dedup reduct size : 190089326
 delta reduct size : 245236935
 local reduct size : 32722938
@@ -1345,11 +287,11 @@ DCC: 0.430411
 DCR: 29.2894
 DCE: 101.613
 -----------------Time------------------------------
-total time: 8s
-Throughput: 60.0916MiB/s
-Reduce data speed: 55.926MiB/s
-SF generation time: 1.26031s
-SF generation throughput: 381.441MiB/s
+total time: 11s
+Throughput: 43.703MiB/s
+Reduce data speed: 40.6735MiB/s
+SF generation time: 1.25503s
+SF generation throughput: 383.045MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 4.32776MiB
 FP Overhead: 2.68759MiB
@@ -1357,6 +299,9 @@ SF Overhead: 1.64017MiB
 Recipe Overhead: 0.47139MiB
 SF number: 42996
 -----------------Reduct----------------------------
+Dedup ratio : 2.63181
+Lossless ratio : 3.91873
+Delta ratio : 14.4255
 dedup reduct size : 312549763
 delta reduct size : 93690986
 local reduct size : 62900539
@@ -1379,11 +324,11 @@ DCC: 0.419124
 DCR: 25.0715
 DCE: 90.2647
 -----------------Time------------------------------
-total time: 7s
-Throughput: 68.6762MiB/s
-Reduce data speed: 65.0218MiB/s
-SF generation time: 0.112416s
-SF generation throughput: 4276.38MiB/s
+total time: 10s
+Throughput: 48.0733MiB/s
+Reduce data speed: 45.5152MiB/s
+SF generation time: 0.113109s
+SF generation throughput: 4250.19MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 4.36026MiB
 FP Overhead: 2.68759MiB
@@ -1391,6 +336,9 @@ SF Overhead: 1.67267MiB
 Recipe Overhead: 0.47139MiB
 SF number: 43848
 -----------------Reduct----------------------------
+Dedup ratio : 2.63181
+Lossless ratio : 3.96419
+Delta ratio : 18.7928
 dedup reduct size : 312549763
 delta reduct size : 100336278
 local reduct size : 64375933
@@ -1417,16 +365,16 @@ DCE: 43.0755
 total time: 7s
 Throughput: 68.6761MiB/s
 Reduce data speed: 65.7899MiB/s
-SF generation time: 0.0583206s
-SF generation throughput: 8242.93MiB/s
-Chunk Time: 0.0856083s
-Dedup Time: 0.924824s
-Locality Match Time: 0.0014944s
-Locality Delta Time: 1.12965s
-Feature Match Time: 1.10246s
-Feature Delta Time: 0.290698s
-Lz4 Compression Time: 0.0339092s
-Delta Compression Time: 2.86472s
+SF generation time: 0.0589604s
+SF generation throughput: 8153.47MiB/s
+Chunk Time: 0.0857221s
+Dedup Time: 0.921393s
+Locality Match Time: 0.00146266s
+Locality Delta Time: 1.10874s
+Feature Match Time: 1.09637s
+Feature Delta Time: 0.283486s
+Lz4 Compression Time: 0.0339003s
+Delta Compression Time: 2.82484s
 -----------------OverHead--------------------------
 Index Overhead: 4.09689MiB
 FP Overhead: 3.47009MiB
@@ -1434,11 +382,14 @@ SF Overhead: 0.626793MiB
 Recipe Overhead: 0.775581MiB
 SF number: 16431
 -----------------Reduct----------------------------
-dedup reduct size : 257MiB
-delta reduct size : 184MiB
-local reduct size : 18MiB
-Feature reduct size: 52MiB
-Locality reduct size: 131MiB
+Dedup ratio : 2.15796
+Lossless ratio : 2.35176
+Delta ratio : 23.795
+dedup reduct size : 270491648
+delta reduct size : 193159363
+local reduct size : 19249041
+Feature reduct size: 54986739
+Locality reduct size: 138172624
 -----------------END-------------------------------
 -----------------INSTRUCTION----------------------
 ./BiSearch -i /mnt/dataset2/bash_tarballs -c 1 -m 2 -n 44 -r 10 -a 0 -b 1 -t 1 -H 16
@@ -1458,11 +409,11 @@ DCC: 0.50623
 DCR: 46.991
 DCE: 94.5512
 -----------------Time------------------------------
-total time: 34s
-Throughput: 38.5524MiB/s
-Reduce data speed: 33.2849MiB/s
-SF generation time: 4.18456s
-SF generation throughput: 313.242MiB/s
+total time: 19s
+Throughput: 68.9885MiB/s
+Reduce data speed: 59.5624MiB/s
+SF generation time: 4.17809s
+SF generation throughput: 313.727MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 13.3561MiB
 FP Overhead: 8.73494MiB
@@ -1470,6 +421,9 @@ SF Overhead: 4.62112MiB
 Recipe Overhead: 1.30748MiB
 SF number: 121140
 -----------------Reduct----------------------------
+Dedup ratio : 2.15568
+Lossless ratio : 2.74267
+Delta ratio : 7.3189
 dedup reduct size : 736858323
 delta reduct size : 313341280
 local reduct size : 136458971
@@ -1492,11 +446,11 @@ DCC: 0.65013
 DCR: 21.8712
 DCE: 69.0375
 -----------------Time------------------------------
-total time: 13s
-Throughput: 100.829MiB/s
-Reduce data speed: 89.6939MiB/s
-SF generation time: 0.394183s
-SF generation throughput: 3325.31MiB/s
+total time: 11s
+Throughput: 119.162MiB/s
+Reduce data speed: 106.002MiB/s
+SF generation time: 0.398928s
+SF generation throughput: 3285.76MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 12.0093MiB
 FP Overhead: 8.73494MiB
@@ -1504,6 +458,9 @@ SF Overhead: 3.27438MiB
 Recipe Overhead: 1.30748MiB
 SF number: 85836
 -----------------Reduct----------------------------
+Dedup ratio : 2.15568
+Lossless ratio : 2.53517
+Delta ratio : 9.05485
 dedup reduct size : 736858323
 delta reduct size : 390362704
 local reduct size : 95440734
@@ -1526,11 +483,11 @@ DCC: 0.372126
 DCR: 38.9868
 DCE: 105.351
 -----------------Time------------------------------
-total time: 13s
-Throughput: 100.829MiB/s
-Reduce data speed: 87.6065MiB/s
-SF generation time: 3.39645s
-SF generation throughput: 385.928MiB/s
+total time: 16s
+Throughput: 81.9238MiB/s
+Reduce data speed: 71.1803MiB/s
+SF generation time: 3.41378s
+SF generation throughput: 383.968MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 11.112MiB
 FP Overhead: 6.64304MiB
@@ -1538,6 +495,9 @@ SF Overhead: 4.46892MiB
 Recipe Overhead: 1.26497MiB
 SF number: 117150
 -----------------Reduct----------------------------
+Dedup ratio : 2.64603
+Lossless ratio : 3.62828
+Delta ratio : 7.62538
 dedup reduct size : 855014431
 delta reduct size : 198569410
 local reduct size : 140622935
@@ -1560,11 +520,11 @@ DCC: 0.478422
 DCR: 18.6285
 DCE: 76.9479
 -----------------Time------------------------------
-total time: 23s
-Throughput: 56.9905MiB/s
-Reduce data speed: 50.8214MiB/s
-SF generation time: 0.316759s
-SF generation throughput: 4138.11MiB/s
+total time: 14s
+Throughput: 93.6273MiB/s
+Reduce data speed: 83.4923MiB/s
+SF generation time: 0.321121s
+SF generation throughput: 4081.9MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 10.3554MiB
 FP Overhead: 6.64304MiB
@@ -1572,6 +532,9 @@ SF Overhead: 3.71235MiB
 Recipe Overhead: 1.26497MiB
 SF number: 97317
 -----------------Reduct----------------------------
+Dedup ratio : 2.64603
+Lossless ratio : 3.40795
+Delta ratio : 9.23801
 dedup reduct size : 855014431
 delta reduct size : 254525681
 local reduct size : 116131508
@@ -1595,19 +558,19 @@ DCC: 0.732522
 DCR: 19.2761
 DCE: 62.3434
 -----------------Time------------------------------
-total time: 19s
-Throughput: 68.9885MiB/s
-Reduce data speed: 62.3679MiB/s
-SF generation time: 0.181127s
-SF generation throughput: 7236.79MiB/s
-Chunk Time: 0.227433s
-Dedup Time: 2.36766s
-Locality Match Time: 0.000899205s
-Locality Delta Time: 4.61867s
-Feature Match Time: 0.997818s
-Feature Delta Time: 1.45481s
-Lz4 Compression Time: 0.232718s
-Delta Compression Time: 10.2068s
+total time: 16s
+Throughput: 81.9238MiB/s
+Reduce data speed: 74.0619MiB/s
+SF generation time: 0.184031s
+SF generation throughput: 7122.61MiB/s
+Chunk Time: 0.230729s
+Dedup Time: 2.37324s
+Locality Match Time: 0.000927821s
+Locality Delta Time: 4.55654s
+Feature Match Time: 0.999089s
+Feature Delta Time: 1.45303s
+Lz4 Compression Time: 0.225014s
+Delta Compression Time: 10.1279s
 -----------------OverHead--------------------------
 Index Overhead: 2.15629MiB
 FP Overhead: 1.67598MiB
@@ -1615,11 +578,14 @@ SF Overhead: 0.480309MiB
 Recipe Overhead: 0.48616MiB
 SF number: 12591
 -----------------Reduct----------------------------
-dedup reduct size : 545MiB
-delta reduct size : 572MiB
-local reduct size : 66MiB
-Feature reduct size: 94MiB
-Locality reduct size: 477MiB
+Dedup ratio : 1.7125
+Lossless ratio : 1.87584
+Delta ratio : 10.4203
+dedup reduct size : 571851776
+delta reduct size : 600810972
+local reduct size : 69889826
+Feature reduct size: 99605086
+Locality reduct size: 501205886
 -----------------END-------------------------------
 -----------------INSTRUCTION----------------------
 ./BiSearch -i /mnt/dataset2/coreutils_tarballs -c 1 -m 2 -n 28 -r 10 -a 0 -b 1 -t 1 -H 16
@@ -1639,11 +605,11 @@ DCC: 0.435062
 DCR: 43.0735
 DCE: 86.4728
 -----------------Time------------------------------
-total time: 6s
-Throughput: 38.2959MiB/s
-Reduce data speed: 33.5987MiB/s
-SF generation time: 0.896994s
-SF generation throughput: 256.161MiB/s
+total time: 4s
+Throughput: 57.4438MiB/s
+Reduce data speed: 50.398MiB/s
+SF generation time: 0.904817s
+SF generation throughput: 253.947MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 3.36652MiB
 FP Overhead: 2.09714MiB
@@ -1651,6 +617,9 @@ SF Overhead: 1.26938MiB
 Recipe Overhead: 0.234451MiB
 SF number: 33276
 -----------------Reduct----------------------------
+Dedup ratio : 1.76653
+Lossless ratio : 2.62364
+Delta ratio : 8.15289
 dedup reduct size : 104547115
 delta reduct size : 62280904
 local reduct size : 44556618
@@ -1676,8 +645,8 @@ DCE: 61.159
 total time: 2s
 Throughput: 114.888MiB/s
 Reduce data speed: 104.845MiB/s
-SF generation time: 0.0820938s
-SF generation throughput: 2798.94MiB/s
+SF generation time: 0.0834044s
+SF generation throughput: 2754.95MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 2.9527MiB
 FP Overhead: 2.09714MiB
@@ -1685,6 +654,9 @@ SF Overhead: 0.85556MiB
 Recipe Overhead: 0.234451MiB
 SF number: 22428
 -----------------Reduct----------------------------
+Dedup ratio : 1.76653
+Lossless ratio : 2.286
+Delta ratio : 11.4398
 dedup reduct size : 104547115
 delta reduct size : 84335539
 local reduct size : 30992996
@@ -1707,11 +679,11 @@ DCC: 0.356355
 DCR: 32.12
 DCE: 109.969
 -----------------Time------------------------------
-total time: 3s
-Throughput: 76.5919MiB/s
-Reduce data speed: 68.7024MiB/s
-SF generation time: 0.718221s
-SF generation throughput: 319.923MiB/s
+total time: 4s
+Throughput: 57.4439MiB/s
+Reduce data speed: 51.5268MiB/s
+SF generation time: 0.718822s
+SF generation throughput: 319.656MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 2.55294MiB
 FP Overhead: 1.51096MiB
@@ -1719,6 +691,9 @@ SF Overhead: 1.04198MiB
 Recipe Overhead: 0.213158MiB
 SF number: 27315
 -----------------Reduct----------------------------
+Dedup ratio : 2.20164
+Lossless ratio : 3.60353
+Delta ratio : 9.70807
 dedup reduct size : 131502031
 delta reduct size : 42043217
 local reduct size : 42573701
@@ -1741,11 +716,11 @@ DCC: 0.407394
 DCR: 26.7921
 DCE: 87.1897
 -----------------Time------------------------------
-total time: 2s
-Throughput: 114.888MiB/s
-Reduce data speed: 105.428MiB/s
-SF generation time: 0.0643853s
-SF generation throughput: 3568.76MiB/s
+total time: 3s
+Throughput: 76.5919MiB/s
+Reduce data speed: 70.2851MiB/s
+SF generation time: 0.0653151s
+SF generation throughput: 3517.96MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 2.47031MiB
 FP Overhead: 1.51096MiB
@@ -1753,6 +728,9 @@ SF Overhead: 0.959358MiB
 Recipe Overhead: 0.213158MiB
 SF number: 25149
 -----------------Reduct----------------------------
+Dedup ratio : 2.20164
+Lossless ratio : 3.37137
+Delta ratio : 12.1444
 dedup reduct size : 131502031
 delta reduct size : 51626280
 local reduct size : 37969452
@@ -1779,16 +757,16 @@ DCE: 34.0602
 total time: 2s
 Throughput: 114.888MiB/s
 Reduce data speed: 108.619MiB/s
-SF generation time: 0.017907s
-SF generation throughput: 12831.6MiB/s
-Chunk Time: 0.0421151s
-Dedup Time: 0.42971s
-Locality Match Time: 0.000591689s
-Locality Delta Time: 0.584463s
-Feature Match Time: 0.0215239s
-Feature Delta Time: 0.0202524s
-Lz4 Compression Time: 0.0273978s
-Delta Compression Time: 0.838107s
+SF generation time: 0.0181683s
+SF generation throughput: 12647.1MiB/s
+Chunk Time: 0.0426818s
+Dedup Time: 0.431027s
+Locality Match Time: 0.000598088s
+Locality Delta Time: 0.574437s
+Feature Match Time: 0.0217646s
+Feature Delta Time: 0.0210933s
+Lz4 Compression Time: 0.0268363s
+Delta Compression Time: 0.829255s
 -----------------OverHead--------------------------
 Index Overhead: 1.54091MiB
 FP Overhead: 1.25343MiB
@@ -1796,11 +774,14 @@ SF Overhead: 0.287476MiB
 Recipe Overhead: 0.27079MiB
 SF number: 7536
 -----------------Reduct----------------------------
-dedup reduct size : 134MiB
-delta reduct size : 70MiB
-local reduct size : 12MiB
-Feature reduct size: 3MiB
-Locality reduct size: 66MiB
+Dedup ratio : 2.41438
+Lossless ratio : 2.78053
+Delta ratio : 18.3285
+dedup reduct size : 141144576
+delta reduct size : 73506096
+local reduct size : 13140790
+Feature reduct size: 3953611
+Locality reduct size: 69552485
 -----------------END-------------------------------
 -----------------INSTRUCTION----------------------
 ./BiSearch -i /mnt/dataset2/fdisk_tarballs -c 1 -m 2 -n 22 -r 10 -a 0 -b 1 -t 1 -H 16
@@ -1820,11 +801,11 @@ DCC: 0.493976
 DCR: 78.501
 DCE: 116.699
 -----------------Time------------------------------
-total time: 1s
-Throughput: 15.8496MiB/s
-Reduce data speed: 13.4276MiB/s
-SF generation time: 0.0740401s
-SF generation throughput: 214.068MiB/s
+total time: 0s
+Throughput: infMiB/s
+Reduce data speed: infMiB/s
+SF generation time: 0.0737408s
+SF generation throughput: 214.937MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 0.246094MiB
 FP Overhead: 0.159576MiB
@@ -1832,6 +813,9 @@ SF Overhead: 0.0865173MiB
 Recipe Overhead: 0.0170822MiB
 SF number: 2268
 -----------------Reduct----------------------------
+Dedup ratio : 1.50029
+Lossless ratio : 2.02006
+Delta ratio : 6.54399
 dedup reduct size : 5542004
 delta reduct size : 5687569
 local reduct size : 2850284
@@ -1857,8 +841,8 @@ DCE: 91.3215
 total time: 0s
 Throughput: infMiB/s
 Reduce data speed: infMiB/s
-SF generation time: 0.00683783s
-SF generation throughput: 2317.93MiB/s
+SF generation time: 0.00693148s
+SF generation throughput: 2286.61MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 0.217712MiB
 FP Overhead: 0.159576MiB
@@ -1866,6 +850,9 @@ SF Overhead: 0.058136MiB
 Recipe Overhead: 0.0170822MiB
 SF number: 1524
 -----------------Reduct----------------------------
+Dedup ratio : 1.50029
+Lossless ratio : 1.81198
+Delta ratio : 8.6656
 dedup reduct size : 5542004
 delta reduct size : 7254165
 local reduct size : 1905478
@@ -1891,8 +878,8 @@ DCE: 159.35
 total time: 1s
 Throughput: 15.8498MiB/s
 Reduce data speed: 13.6664MiB/s
-SF generation time: 0.0515822s
-SF generation throughput: 307.272MiB/s
+SF generation time: 0.0515201s
+SF generation throughput: 307.643MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 0.185104MiB
 FP Overhead: 0.104996MiB
@@ -1900,6 +887,9 @@ SF Overhead: 0.0801086MiB
 Recipe Overhead: 0.0157852MiB
 SF number: 2100
 -----------------Reduct----------------------------
+Dedup ratio : 2.14423
+Lossless ratio : 3.52339
+Delta ratio : 7.25931
 dedup reduct size : 8868805
 delta reduct size : 2427525
 local reduct size : 3033934
@@ -1925,8 +915,8 @@ DCE: 134.577
 total time: 1s
 Throughput: 15.8498MiB/s
 Reduce data speed: 14.0316MiB/s
-SF generation time: 0.00469951s
-SF generation throughput: 3372.64MiB/s
+SF generation time: 0.00480692s
+SF generation throughput: 3297.28MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 0.176064MiB
 FP Overhead: 0.104996MiB
@@ -1934,6 +924,9 @@ SF Overhead: 0.0710678MiB
 Recipe Overhead: 0.0157852MiB
 SF number: 1863
 -----------------Reduct----------------------------
+Dedup ratio : 2.14423
+Lossless ratio : 3.2574
+Delta ratio : 8.71723
 dedup reduct size : 8868805
 delta reduct size : 3195600
 local reduct size : 2648758
@@ -1960,16 +953,16 @@ DCE: 95.1083
 total time: 0s
 Throughput: infMiB/s
 Reduce data speed: infMiB/s
-SF generation time: 0.00207423s
-SF generation throughput: 7641.21MiB/s
-Chunk Time: 0.00230376s
-Dedup Time: 0.029376s
-Locality Match Time: 1.8728e-05s
-Locality Delta Time: 0.0423953s
-Feature Match Time: 0.00234844s
-Feature Delta Time: 0.00321624s
-Lz4 Compression Time: 0.00326802s
-Delta Compression Time: 0.0539247s
+SF generation time: 0.00208335s
+SF generation throughput: 7607.76MiB/s
+Chunk Time: 0.00231998s
+Dedup Time: 0.029282s
+Locality Match Time: 2.075e-05s
+Locality Delta Time: 0.0415761s
+Feature Match Time: 0.00235777s
+Feature Delta Time: 0.00313459s
+Lz4 Compression Time: 0.00391131s
+Delta Compression Time: 0.0529605s
 -----------------OverHead--------------------------
 Index Overhead: 0.102364MiB
 FP Overhead: 0.0713501MiB
@@ -1977,11 +970,14 @@ SF Overhead: 0.0310135MiB
 Recipe Overhead: 0.0142136MiB
 SF number: 813
 -----------------Reduct----------------------------
-dedup reduct size : 8MiB
-delta reduct size : 4MiB
-local reduct size : 1MiB
-Feature reduct size: 0MiB
-Locality reduct size: 3MiB
+Dedup ratio : 2.18116
+Lossless ratio : 2.65114
+Delta ratio : 11.6088
+dedup reduct size : 8999936
+delta reduct size : 4837187
+local reduct size : 1350770
+Feature reduct size: 874367
+Locality reduct size: 3962820
 -----------------END-------------------------------
 -----------------INSTRUCTION----------------------
 ./BiSearch -i /mnt/dataset2/glibc_tarballs -c 1 -m 2 -n 100 -r 10 -a 0 -b 1 -t 1 -H 16
@@ -2001,11 +997,11 @@ DCC: 0.725153
 DCR: 44.751
 DCE: 72.6237
 -----------------Time------------------------------
-total time: 283s
-Throughput: 49.5036MiB/s
-Reduce data speed: 47.4655MiB/s
-SF generation time: 32.2153s
-SF generation throughput: 434.872MiB/s
+total time: 200s
+Throughput: 70.0476MiB/s
+Reduce data speed: 67.1636MiB/s
+SF generation time: 32.158s
+SF generation throughput: 435.646MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 109.279MiB
 FP Overhead: 84.4194MiB
@@ -2013,6 +1009,9 @@ SF Overhead: 24.8598MiB
 Recipe Overhead: 14.8585MiB
 SF number: 651684
 -----------------Reduct----------------------------
+Dedup ratio : 3.01367
+Lossless ratio : 3.63472
+Delta ratio : 24.289
 dedup reduct size : 9815564436
 delta reduct size : 3436788862
 local reduct size : 832883495
@@ -2035,11 +1034,11 @@ DCC: 0.831299
 DCR: 25.9398
 DCE: 54.264
 -----------------Time------------------------------
-total time: 308s
-Throughput: 45.4854MiB/s
-Reduce data speed: 44.049MiB/s
-SF generation time: 2.98178s
-SF generation throughput: 4698.37MiB/s
+total time: 185s
+Throughput: 75.7271MiB/s
+Reduce data speed: 73.3357MiB/s
+SF generation time: 3.0309s
+SF generation throughput: 4622.22MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 99.6783MiB
 FP Overhead: 84.4194MiB
@@ -2047,6 +1046,9 @@ SF Overhead: 15.2589MiB
 Recipe Overhead: 14.8585MiB
 SF number: 400002
 -----------------Reduct----------------------------
+Dedup ratio : 3.01367
+Lossless ratio : 3.39484
+Delta ratio : 31.6662
 dedup reduct size : 9815564436
 delta reduct size : 3863269156
 local reduct size : 547301562
@@ -2069,11 +1071,11 @@ DCC: 0.434262
 DCR: 29.4912
 DCE: 80.1733
 -----------------Time------------------------------
-total time: 301s
-Throughput: 46.5432MiB/s
-Reduce data speed: 45.2784MiB/s
-SF generation time: 15.0234s
-SF generation throughput: 932.513MiB/s
+total time: 257s
+Throughput: 54.5117MiB/s
+Reduce data speed: 53.0304MiB/s
+SF generation time: 14.9979s
+SF generation throughput: 934.097MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 61.0473MiB
 FP Overhead: 38.0086MiB
@@ -2081,6 +1083,9 @@ SF Overhead: 23.0388MiB
 Recipe Overhead: 14.1926MiB
 SF number: 603948
 -----------------Reduct----------------------------
+Dedup ratio : 6.44994
+Lossless ratio : 10.694
+Delta ratio : 36.7994
 dedup reduct size : 12412493708
 delta reduct size : 974478309
 local reduct size : 903873885
@@ -2103,11 +1108,11 @@ DCC: 0.406422
 DCR: 23.3607
 DCE: 70.7308
 -----------------Time------------------------------
-total time: 238s
-Throughput: 58.8635MiB/s
-Reduce data speed: 57.5381MiB/s
-SF generation time: 1.35427s
-SF generation throughput: 10344.7MiB/s
+total time: 295s
+Throughput: 47.4899MiB/s
+Reduce data speed: 46.4206MiB/s
+SF generation time: 1.36019s
+SF generation throughput: 10299.7MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 62.1811MiB
 FP Overhead: 38.0086MiB
@@ -2115,6 +1120,9 @@ SF Overhead: 24.1726MiB
 Recipe Overhead: 14.1926MiB
 SF number: 633669
 -----------------Reduct----------------------------
+Dedup ratio : 6.44994
+Lossless ratio : 10.9855
+Delta ratio : 44.4125
 dedup reduct size : 12412493708
 delta reduct size : 1006453716
 local reduct size : 940327473
@@ -2138,19 +1146,19 @@ DCC: 0.787196
 DCR: 24.2505
 DCE: 53.9197
 -----------------Time------------------------------
-total time: 188s
-Throughput: 74.5187MiB/s
-Reduce data speed: 73.1404MiB/s
-SF generation time: 0.649359s
-SF generation throughput: 21574.4MiB/s
-Chunk Time: 41.5133s
-Dedup Time: 25.8007s
-Locality Match Time: 0.0156088s
-Locality Delta Time: 15.3318s
-Feature Match Time: 1.8039s
-Feature Delta Time: 2.25264s
-Lz4 Compression Time: 0.544197s
-Delta Compression Time: 25.6232s
+total time: 86s
+Throughput: 162.901MiB/s
+Reduce data speed: 159.888MiB/s
+SF generation time: 0.656204s
+SF generation throughput: 21349.3MiB/s
+Chunk Time: 41.6661s
+Dedup Time: 25.8716s
+Locality Match Time: 0.0156467s
+Locality Delta Time: 15.1707s
+Feature Match Time: 1.7993s
+Feature Delta Time: 2.22503s
+Lz4 Compression Time: 0.547599s
+Delta Compression Time: 25.394s
 -----------------OverHead--------------------------
 Index Overhead: 41.4727MiB
 FP Overhead: 33.7724MiB
@@ -2158,11 +1166,14 @@ SF Overhead: 7.70027MiB
 Recipe Overhead: 12.444MiB
 SF number: 201858
 -----------------Reduct----------------------------
-dedup reduct size : 11146MiB
-delta reduct size : 2160MiB
-local reduct size : 443MiB
-Feature reduct size: 252MiB
-Locality reduct size: 1908MiB
+Dedup ratio : 4.89304
+Lossless ratio : 5.78992
+Delta ratio : 54.0683
+dedup reduct size : 11687805579
+delta reduct size : 2265478897
+local reduct size : 465059231
+Feature reduct size: 264609428
+Locality reduct size: 2000869469
 -----------------END-------------------------------
 -----------------INSTRUCTION----------------------
 ./BiSearch -i /mnt/dataset2/smalltalk_tarballs -c 1 -m 2 -n 40 -r 10 -a 0 -b 1 -t 1 -H 16
@@ -2182,11 +1193,11 @@ DCC: 0.73026
 DCR: 75.3985
 DCE: 99.5465
 -----------------Time------------------------------
-total time: 22s
-Throughput: 29.0616MiB/s
-Reduce data speed: 27.3963MiB/s
-SF generation time: 1.94191s
-SF generation throughput: 329.24MiB/s
+total time: 10s
+Throughput: 63.9355MiB/s
+Reduce data speed: 60.2719MiB/s
+SF generation time: 1.94358s
+SF generation throughput: 328.958MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 5.91119MiB
 FP Overhead: 4.58585MiB
@@ -2194,6 +1205,9 @@ SF Overhead: 1.32534MiB
 Recipe Overhead: 0.690147MiB
 SF number: 34743
 -----------------Reduct----------------------------
+Dedup ratio : 2.2756
+Lossless ratio : 2.66997
+Delta ratio : 17.4514
 dedup reduct size : 375802973
 delta reduct size : 212677751
 local reduct size : 43516143
@@ -2216,11 +1230,11 @@ DCC: 0.841501
 DCR: 33.41
 DCE: 75.4094
 -----------------Time------------------------------
-total time: 6s
-Throughput: 106.559MiB/s
-Reduce data speed: 102.037MiB/s
-SF generation time: 0.182893s
-SF generation throughput: 3495.79MiB/s
+total time: 5s
+Throughput: 127.871MiB/s
+Reduce data speed: 122.444MiB/s
+SF generation time: 0.185721s
+SF generation throughput: 3442.56MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 5.36462MiB
 FP Overhead: 4.58585MiB
@@ -2228,6 +1242,9 @@ SF Overhead: 0.77877MiB
 Recipe Overhead: 0.690147MiB
 SF number: 20415
 -----------------Reduct----------------------------
+Dedup ratio : 2.2756
+Lossless ratio : 2.5007
+Delta ratio : 23.5628
 dedup reduct size : 375802973
 delta reduct size : 239637525
 local reduct size : 26520152
@@ -2250,11 +1267,11 @@ DCC: 0.427546
 DCR: 36.7612
 DCE: 101.126
 -----------------Time------------------------------
-total time: 5s
-Throughput: 127.871MiB/s
-Reduce data speed: 121.943MiB/s
-SF generation time: 0.887506s
-SF generation throughput: 720.396MiB/s
+total time: 7s
+Throughput: 91.3365MiB/s
+Reduce data speed: 87.1024MiB/s
+SF generation time: 0.88497s
+SF generation throughput: 722.461MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 3.19299MiB
 FP Overhead: 1.97911MiB
@@ -2262,6 +1279,9 @@ SF Overhead: 1.21387MiB
 Recipe Overhead: 0.635345MiB
 SF number: 31821
 -----------------Reduct----------------------------
+Dedup ratio : 4.97109
+Lossless ratio : 7.555
+Delta ratio : 21.5712
 dedup reduct size : 535550658
 delta reduct size : 57658631
 local reduct size : 46124777
@@ -2284,11 +1304,11 @@ DCC: 0.399104
 DCR: 26.8758
 DCE: 97.1874
 -----------------Time------------------------------
-total time: 5s
-Throughput: 127.871MiB/s
-Reduce data speed: 123.166MiB/s
-SF generation time: 0.0818259s
-SF generation throughput: 7813.61MiB/s
+total time: 7s
+Throughput: 91.3365MiB/s
+Reduce data speed: 87.976MiB/s
+SF generation time: 0.082203s
+SF generation throughput: 7777.77MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 3.2533MiB
 FP Overhead: 1.97911MiB
@@ -2296,6 +1316,9 @@ SF Overhead: 1.27419MiB
 Recipe Overhead: 0.635345MiB
 SF number: 33402
 -----------------Reduct----------------------------
+Dedup ratio : 4.97109
+Lossless ratio : 7.70979
+Delta ratio : 27.1787
 dedup reduct size : 535550658
 delta reduct size : 62289222
 local reduct size : 47906411
@@ -2322,16 +1345,16 @@ DCE: 84.8397
 total time: 4s
 Throughput: 159.839MiB/s
 Reduce data speed: 155.158MiB/s
-SF generation time: 0.0379781s
-SF generation throughput: 16834.8MiB/s
-Chunk Time: 0.13245s
-Dedup Time: 1.17642s
-Locality Match Time: 0.000500461s
-Locality Delta Time: 0.895945s
-Feature Match Time: 0.0550424s
-Feature Delta Time: 0.0473585s
-Lz4 Compression Time: 0.0477529s
-Delta Compression Time: 1.19034s
+SF generation time: 0.042364s
+SF generation throughput: 15092MiB/s
+Chunk Time: 0.114036s
+Dedup Time: 1.19373s
+Locality Match Time: 0.000488001s
+Locality Delta Time: 0.881685s
+Feature Match Time: 0.059321s
+Feature Delta Time: 0.0464065s
+Lz4 Compression Time: 0.0771361s
+Delta Compression Time: 1.17216s
 -----------------OverHead--------------------------
 Index Overhead: 1.63902MiB
 FP Overhead: 1.20644MiB
@@ -2339,11 +1362,14 @@ SF Overhead: 0.432587MiB
 Recipe Overhead: 0.418228MiB
 SF number: 11340
 -----------------Reduct----------------------------
-dedup reduct size : 474MiB
-delta reduct size : 121MiB
-local reduct size : 24MiB
-Feature reduct size: 7MiB
-Locality reduct size: 113MiB
+Dedup ratio : 3.88995
+Lossless ratio : 4.57536
+Delta ratio : 34.1479
+dedup reduct size : 498067968
+delta reduct size : 126894165
+local reduct size : 25818057
+Feature reduct size: 8322051
+Locality reduct size: 118572114
 -----------------END-------------------------------
 -----------------INSTRUCTION----------------------
 ./BiSearch -i /mnt/dataset2/GNU_GCC/gcc-packed/tar -c 1 -m 2 -n 117 -r 10 -a 0 -b 1 -t 1 -H 16
@@ -2363,11 +1389,11 @@ DCC: 0.716307
 DCR: 32.9328
 DCE: 99.2037
 -----------------Time------------------------------
-total time: 804s
-Throughput: 52.3603MiB/s
-Reduce data speed: 48.9976MiB/s
-SF generation time: 149.742s
-SF generation throughput: 281.135MiB/s
+total time: 631s
+Throughput: 66.7158MiB/s
+Reduce data speed: 62.4312MiB/s
+SF generation time: 149.479s
+SF generation throughput: 281.63MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 317.747MiB
 FP Overhead: 243.679MiB
@@ -2375,6 +1401,9 @@ SF Overhead: 74.0678MiB
 Recipe Overhead: 37.3523MiB
 SF number: 1941642
 -----------------Reduct----------------------------
+Dedup ratio : 1.92596
+Lossless ratio : 2.28591
+Delta ratio : 15.5711
 dedup reduct size : 21222793658
 delta reduct size : 16475803640
 local reduct size : 3609092210
@@ -2397,11 +1426,11 @@ DCC: 0.789708
 DCR: 29.6181
 DCE: 78.7588
 -----------------Time------------------------------
-total time: 765s
-Throughput: 55.0296MiB/s
-Reduce data speed: 52.2063MiB/s
-SF generation time: 13.6795s
-SF generation throughput: 3077.44MiB/s
+total time: 589s
+Throughput: 71.4731MiB/s
+Reduce data speed: 67.8062MiB/s
+SF generation time: 13.8542s
+SF generation throughput: 3038.63MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 298.583MiB
 FP Overhead: 243.679MiB
@@ -2409,6 +1438,9 @@ SF Overhead: 54.9041MiB
 Recipe Overhead: 37.3523MiB
 SF number: 1439277
 -----------------Reduct----------------------------
+Dedup ratio : 1.92596
+Lossless ratio : 2.19257
+Delta ratio : 19.4913
 dedup reduct size : 21222793658
 delta reduct size : 17868037795
 local reduct size : 2787035997
@@ -2431,11 +1463,11 @@ DCC: 0.509328
 DCR: 22.7422
 DCE: 81.3727
 -----------------Time------------------------------
-total time: 964s
-Throughput: 43.6698MiB/s
-Reduce data speed: 41.6736MiB/s
-SF generation time: 67.1646s
-SF generation throughput: 626.784MiB/s
+total time: 1183s
+Throughput: 35.5855MiB/s
+Reduce data speed: 33.9589MiB/s
+SF generation time: 67.1082s
+SF generation throughput: 627.31MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 165.341MiB
 FP Overhead: 108.369MiB
@@ -2443,6 +1475,9 @@ SF Overhead: 56.9719MiB
 Recipe Overhead: 37.2524MiB
 SF number: 1493484
 -----------------Reduct----------------------------
+Dedup ratio : 4.2932
+Lossless ratio : 5.9101
+Delta ratio : 21.8771
 dedup reduct size : 33860618814
 delta reduct size : 5451256122
 local reduct size : 2812971474
@@ -2465,11 +1500,11 @@ DCC: 0.407066
 DCR: 23.1221
 DCE: 88.7226
 -----------------Time------------------------------
-total time: 745s
-Throughput: 56.5069MiB/s
-Reduce data speed: 54.4155MiB/s
-SF generation time: 5.96687s
-SF generation throughput: 7055.24MiB/s
+total time: 1022s
+Throughput: 41.1915MiB/s
+Reduce data speed: 39.6669MiB/s
+SF generation time: 6.06896s
+SF generation throughput: 6936.56MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 177.215MiB
 FP Overhead: 108.369MiB
@@ -2477,6 +1512,9 @@ SF Overhead: 68.8455MiB
 Recipe Overhead: 37.2524MiB
 SF number: 1804743
 -----------------Reduct----------------------------
+Dedup ratio : 4.2932
+Lossless ratio : 7.98355
+Delta ratio : 27.0188
 dedup reduct size : 33860618814
 delta reduct size : 3895421937
 local reduct size : 4752791326
@@ -2500,19 +1538,19 @@ DCC: 0.797803
 DCR: 21.2205
 DCE: 35.5938
 -----------------Time------------------------------
-total time: 559s
-Throughput: 75.3089MiB/s
-Reduce data speed: 73.1948MiB/s
-SF generation time: 2.02232s
-SF generation throughput: 20816.5MiB/s
-Chunk Time: 192.281s
-Dedup Time: 79.7816s
-Locality Match Time: 0.040706s
-Locality Delta Time: 88.6036s
-Feature Match Time: 6.96792s
-Feature Delta Time: 8.5637s
-Lz4 Compression Time: 2.42387s
-Delta Compression Time: 126.809s
+total time: 476s
+Throughput: 88.4405MiB/s
+Reduce data speed: 85.9578MiB/s
+SF generation time: 2.05305s
+SF generation throughput: 20505MiB/s
+Chunk Time: 202.035s
+Dedup Time: 79.9766s
+Locality Match Time: 0.0409817s
+Locality Delta Time: 87.2814s
+Feature Match Time: 6.96233s
+Feature Delta Time: 8.49438s
+Lz4 Compression Time: 2.43043s
+Delta Compression Time: 125.276s
 -----------------OverHead--------------------------
 Index Overhead: 125MiB
 FP Overhead: 102.742MiB
@@ -2520,11 +1558,14 @@ SF Overhead: 22.2581MiB
 Recipe Overhead: 53.8887MiB
 SF number: 583482
 -----------------Reduct----------------------------
-dedup reduct size : 29581MiB
-delta reduct size : 10143MiB
-local reduct size : 1191MiB
-Feature reduct size: 780MiB
-Locality reduct size: 9363MiB
+Dedup ratio : 3.36337
+Lossless ratio : 3.71716
+Delta ratio : 35.6228
+dedup reduct size : 31018080825
+delta reduct size : 10636188326
+local reduct size : 1249165136
+Feature reduct size: 818273130
+Locality reduct size: 9817915196
 -----------------END-------------------------------
 -----------------INSTRUCTION----------------------
 ./BiSearch -i /mnt/dataset2/ThunderbirdTar -c 1 -m 2 -n 240 -r 10 -a 0 -b 1 -t 1 -H 16
@@ -2544,11 +1585,11 @@ DCC: 0.265427
 DCR: 16.2301
 DCE: 17.3636
 -----------------Time------------------------------
-total time: 750s
-Throughput: 40.4473MiB/s
-Reduce data speed: 34.7257MiB/s
-SF generation time: 206.797s
-SF generation throughput: 146.692MiB/s
+total time: 567s
+Throughput: 53.5017MiB/s
+Reduce data speed: 45.9335MiB/s
+SF generation time: 206.997s
+SF generation throughput: 146.55MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 592.528MiB
 FP Overhead: 331.569MiB
@@ -2556,6 +1597,9 @@ SF Overhead: 260.959MiB
 Recipe Overhead: 23.6837MiB
 SF number: 6840885
 -----------------Reduct----------------------------
+Dedup ratio : 1
+Lossless ratio : 2.49057
+Delta ratio : 7.06929
 dedup reduct size : 96390
 delta reduct size : 8272182184
 local reduct size : 19037147061
@@ -2578,11 +1622,11 @@ DCC: 0.0378978
 DCR: 16.2427
 DCE: 17.7068
 -----------------Time------------------------------
-total time: 433s
-Throughput: 70.0588MiB/s
-Reduce data speed: 59.4553MiB/s
-SF generation time: 18.7568s
-SF generation throughput: 1617.31MiB/s
+total time: 268s
+Throughput: 113.192MiB/s
+Reduce data speed: 96.0602MiB/s
+SF generation time: 19.0808s
+SF generation throughput: 1589.84MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 673.359MiB
 FP Overhead: 331.569MiB
@@ -2590,6 +1634,9 @@ SF Overhead: 341.789MiB
 Recipe Overhead: 23.6837MiB
 SF number: 8959806
 -----------------Reduct----------------------------
+Dedup ratio : 1
+Lossless ratio : 5.54603
+Delta ratio : 6.60713
 dedup reduct size : 96390
 delta reduct size : 921109703
 local reduct size : 26073475326
@@ -2612,11 +1659,11 @@ DCC: 0.265635
 DCR: 16.2119
 DCE: 17.3106
 -----------------Time------------------------------
-total time: 1004s
-Throughput: 30.2146MiB/s
-Reduce data speed: 25.9418MiB/s
-SF generation time: 206.993s
-SF generation throughput: 146.553MiB/s
+total time: 1066s
+Throughput: 28.4573MiB/s
+Reduce data speed: 24.433MiB/s
+SF generation time: 206.848s
+SF generation throughput: 146.656MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 592.447MiB
 FP Overhead: 331.565MiB
@@ -2624,6 +1671,9 @@ SF Overhead: 260.882MiB
 Recipe Overhead: 23.6836MiB
 SF number: 6838863
 -----------------Reduct----------------------------
+Dedup ratio : 1.00001
+Lossless ratio : 2.48971
+Delta ratio : 7.07145
 dedup reduct size : 195966
 delta reduct size : 8277980054
 local reduct size : 19032623796
@@ -2646,11 +1696,11 @@ DCC: 0.0378863
 DCR: 16.2576
 DCE: 17.7082
 -----------------Time------------------------------
-total time: 672s
-Throughput: 45.1421MiB/s
-Reduce data speed: 38.3116MiB/s
-SF generation time: 19.0134s
-SF generation throughput: 1595.48MiB/s
+total time: 841s
+Throughput: 36.0707MiB/s
+Reduce data speed: 30.6128MiB/s
+SF generation time: 19.2682s
+SF generation throughput: 1574.38MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 673.354MiB
 FP Overhead: 331.565MiB
@@ -2658,6 +1708,9 @@ SF Overhead: 341.789MiB
 Recipe Overhead: 23.6836MiB
 SF number: 8959800
 -----------------Reduct----------------------------
+Dedup ratio : 1.00001
+Lossless ratio : 5.54739
+Delta ratio : 6.60889
 dedup reduct size : 195966
 delta reduct size : 920988677
 local reduct size : 26074785522
@@ -2681,19 +1734,19 @@ DCC: 0.725785
 DCR: 14.8238
 DCE: 16.4094
 -----------------Time------------------------------
-total time: 648s
-Throughput: 46.814MiB/s
-Reduce data speed: 41.4191MiB/s
-SF generation time: 6.03207s
-SF generation throughput: 5029.03MiB/s
-Chunk Time: 135.014s
-Dedup Time: 56.419s
-Locality Match Time: 0.0759853s
-Locality Delta Time: 178.814s
-Feature Match Time: 6.67845s
-Feature Delta Time: 0.161239s
-Lz4 Compression Time: 7.39032s
-Delta Compression Time: 405.401s
+total time: 647s
+Throughput: 46.8863MiB/s
+Reduce data speed: 41.4831MiB/s
+SF generation time: 6.18107s
+SF generation throughput: 4907.8MiB/s
+Chunk Time: 134.692s
+Dedup Time: 56.6761s
+Locality Match Time: 0.0838213s
+Locality Delta Time: 177.053s
+Feature Match Time: 6.82191s
+Feature Delta Time: 0.159203s
+Lz4 Compression Time: 7.47481s
+Delta Compression Time: 403.373s
 -----------------OverHead--------------------------
 Index Overhead: 373.064MiB
 FP Overhead: 288.347MiB
@@ -2701,11 +1754,14 @@ SF Overhead: 84.7169MiB
 Recipe Overhead: 20.5974MiB
 SF number: 2220804
 -----------------Reduct----------------------------
-dedup reduct size : 0MiB
-delta reduct size : 19711MiB
-local reduct size : 7127MiB
-Feature reduct size: 10MiB
-Locality reduct size: 19701MiB
+Dedup ratio : 1.00002
+Lossless ratio : 1.30713
+Delta ratio : 8.67753
+dedup reduct size : 584655
+delta reduct size : 20669338457
+local reduct size : 7473434410
+Feature reduct size: 10762200
+Locality reduct size: 20658576257
 -----------------END-------------------------------
 -----------------INSTRUCTION----------------------
 ./BiSearch -i /mnt/dataset2/chromium -c 1 -m 2 -n 107 -r 10 -a 0 -b 1 -t 1 -H 16
@@ -2725,11 +1781,11 @@ DCC: 0.920431
 DCR: 78.8404
 DCE: 110.702
 -----------------Time------------------------------
-total time: 5709s
-Throughput: 68.4161MiB/s
-Reduce data speed: 67.3968MiB/s
-SF generation time: 1013.11s
-SF generation throughput: 385.533MiB/s
+total time: 4686s
+Throughput: 83.352MiB/s
+Reduce data speed: 82.1102MiB/s
+SF generation time: 1010.97s
+SF generation throughput: 386.348MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 2339.28MiB
 FP Overhead: 2155.52MiB
@@ -2737,6 +1793,9 @@ SF Overhead: 183.764MiB
 Recipe Overhead: 385.972MiB
 SF number: 4817265
 -----------------Reduct----------------------------
+Dedup ratio : 2.66986
+Lossless ratio : 2.79834
+Delta ratio : 67.1194
 dedup reduct size : 256159318346
 delta reduct size : 140256475427
 local reduct size : 7042996352
@@ -2759,11 +1818,11 @@ DCC: 0.946135
 DCR: 73.7776
 DCE: 107.102
 -----------------Time------------------------------
-total time: 4458s
-Throughput: 87.615MiB/s
-Reduce data speed: 86.5806MiB/s
-SF generation time: 94.0409s
-SF generation throughput: 4153.38MiB/s
+total time: 4454s
+Throughput: 87.6937MiB/s
+Reduce data speed: 86.6584MiB/s
+SF generation time: 94.8964s
+SF generation throughput: 4115.94MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 2279.92MiB
 FP Overhead: 2155.52MiB
@@ -2771,6 +1830,9 @@ SF Overhead: 124.4MiB
 Recipe Overhead: 385.972MiB
 SF number: 3261084
 -----------------Reduct----------------------------
+Dedup ratio : 2.66986
+Lossless ratio : 2.75551
+Delta ratio : 84.7032
 dedup reduct size : 256159318346
 delta reduct size : 143798307331
 local reduct size : 4767888361
@@ -2793,11 +1855,11 @@ DCC: 0.507311
 DCR: 15.2426
 DCE: 17.4707
 -----------------Time------------------------------
-total time: 7055s
-Throughput: 55.3632MiB/s
-Reduce data speed: 54.8687MiB/s
-SF generation time: 178.541s
-SF generation throughput: 2187.67MiB/s
+total time: 9993s
+Throughput: 39.0861MiB/s
+Reduce data speed: 38.737MiB/s
+SF generation time: 178.173s
+SF generation throughput: 2192.18MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 723.983MiB
 FP Overhead: 473.848MiB
@@ -2805,6 +1867,9 @@ SF Overhead: 250.135MiB
 Recipe Overhead: 363.312MiB
 SF number: 6557151
 -----------------Reduct----------------------------
+Dedup ratio : 15.2161
+Lossless ratio : 24.3967
+Delta ratio : 111.942
 dedup reduct size : 382644531017
 delta reduct size : 13128864804
 local reduct size : 10128693868
@@ -2827,11 +1892,11 @@ DCC: 0.323427
 DCR: 22.0258
 DCE: 24.874
 -----------------Time------------------------------
-total time: 6732s
-Throughput: 58.0195MiB/s
-Reduce data speed: 57.5048MiB/s
-SF generation time: 15.623s
-SF generation throughput: 25000.8MiB/s
+total time: 10776s
+Throughput: 36.2461MiB/s
+Reduce data speed: 35.9245MiB/s
+SF generation time: 15.7373s
+SF generation throughput: 24819.2MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 817.34MiB
 FP Overhead: 473.848MiB
@@ -2839,6 +1904,9 @@ SF Overhead: 343.492MiB
 Recipe Overhead: 363.312MiB
 SF number: 9004440
 -----------------Reduct----------------------------
+Dedup ratio : 15.2161
+Lossless ratio : 35.4426
+Delta ratio : 112.718
 dedup reduct size : 382644531017
 delta reduct size : 7922087146
 local reduct size : 15360631538
@@ -2862,19 +1930,19 @@ DCC: 0.873972
 DCR: 15.829
 DCE: 17.1103
 -----------------Time------------------------------
-total time: 2800s
-Throughput: 139.496MiB/s
-Reduce data speed: 138.41MiB/s
-SF generation time: 2.52022s
-SF generation throughput: 154982MiB/s
-Chunk Time: 760.099s
-Dedup Time: 738.492s
-Locality Match Time: 0.128222s
-Locality Delta Time: 174.692s
-Feature Match Time: 5.01948s
-Feature Delta Time: 2.73968s
-Lz4 Compression Time: 2.93306s
-Delta Compression Time: 183.942s
+total time: 2806s
+Throughput: 139.197MiB/s
+Reduce data speed: 138.114MiB/s
+SF generation time: 2.55485s
+SF generation throughput: 152881MiB/s
+Chunk Time: 765.606s
+Dedup Time: 738.589s
+Locality Match Time: 0.129101s
+Locality Delta Time: 171.257s
+Feature Match Time: 5.0287s
+Feature Delta Time: 2.66698s
+Lz4 Compression Time: 2.94472s
+Delta Compression Time: 180.32s
 -----------------OverHead--------------------------
 Index Overhead: 398.402MiB
 FP Overhead: 351.006MiB
@@ -2882,11 +1950,14 @@ SF Overhead: 47.3962MiB
 Recipe Overhead: 387.651MiB
 SF number: 1242462
 -----------------Reduct----------------------------
-dedup reduct size : 363970MiB
-delta reduct size : 21620MiB
-local reduct size : 1956MiB
-Feature reduct size: 473MiB
-Locality reduct size: 21146MiB
+Dedup ratio : 14.6742
+Lossless ratio : 15.8384
+Delta ratio : 128.448
+dedup reduct size : 381650540821
+delta reduct size : 22670249032
+local reduct size : 2051427797
+Feature reduct size: 496789310
+Locality reduct size: 22173459722
 -----------------END-------------------------------
 -----------------INSTRUCTION----------------------
 ./BiSearch -i /mnt/dataset2/linux -c 1 -m 2 -n 270 -r 10 -a 0 -b 1 -t 1 -H 16
@@ -2906,11 +1977,11 @@ DCC: 0.848413
 DCR: 66.3306
 DCE: 95.4152
 -----------------Time------------------------------
-total time: 3024s
-Throughput: 67.1094MiB/s
-Reduce data speed: 64.9559MiB/s
-SF generation time: 534.18s
-SF generation throughput: 379.907MiB/s
+total time: 2979s
+Throughput: 68.1231MiB/s
+Reduce data speed: 65.9371MiB/s
+SF generation time: 533.163s
+SF generation throughput: 380.632MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 1324.04MiB
 FP Overhead: 1139.04MiB
@@ -2918,6 +1989,9 @@ SF Overhead: 184.998MiB
 Recipe Overhead: 202.619MiB
 SF number: 4849602
 -----------------Reduct----------------------------
+Dedup ratio : 2.62882
+Lossless ratio : 2.87109
+Delta ratio : 31.1635
 dedup reduct size : 131849027984
 delta reduct size : 67288544405
 local reduct size : 6830678461
@@ -2940,11 +2014,11 @@ DCC: 0.918592
 DCR: 28.313
 DCE: 68.227
 -----------------Time------------------------------
-total time: 3263s
-Throughput: 62.1939MiB/s
-Reduce data speed: 60.5343MiB/s
-SF generation time: 51.0668s
-SF generation throughput: 3973.99MiB/s
+total time: 3264s
+Throughput: 62.1748MiB/s
+Reduce data speed: 60.5158MiB/s
+SF generation time: 51.7354s
+SF generation throughput: 3922.63MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 1238.39MiB
 FP Overhead: 1139.04MiB
@@ -2952,6 +2026,9 @@ SF Overhead: 99.3507MiB
 Recipe Overhead: 202.619MiB
 SF number: 2604420
 -----------------Reduct----------------------------
+Dedup ratio : 2.62882
+Lossless ratio : 2.75554
+Delta ratio : 37.4756
 dedup reduct size : 131849027984
 delta reduct size : 71546803197
 local reduct size : 3722541229
@@ -2974,11 +2051,11 @@ DCC: 0.481847
 DCR: 32.2607
 DCE: 93.005
 -----------------Time------------------------------
-total time: 4069s
-Throughput: 49.8743MiB/s
-Reduce data speed: 48.6597MiB/s
-SF generation time: 181.132s
-SF generation throughput: 1120.39MiB/s
+total time: 5760s
+Throughput: 35.2324MiB/s
+Reduce data speed: 34.3744MiB/s
+SF generation time: 180.495s
+SF generation throughput: 1124.35MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 595.434MiB
 FP Overhead: 382.876MiB
@@ -2986,6 +2063,9 @@ SF Overhead: 212.559MiB
 Recipe Overhead: 190.35MiB
 SF number: 5572098
 -----------------Reduct----------------------------
+Dedup ratio : 7.77567
+Lossless ratio : 11.0483
+Delta ratio : 41.0605
 dedup reduct size : 185429658365
 delta reduct size : 14078054156
 local reduct size : 8106424579
@@ -3008,11 +2088,11 @@ DCC: 0.482372
 DCR: 21.4103
 DCE: 75.9236
 -----------------Time------------------------------
-total time: 3870s
-Throughput: 52.4389MiB/s
-Reduce data speed: 51.487MiB/s
-SF generation time: 16.5876s
-SF generation throughput: 12234.4MiB/s
+total time: 5247s
+Throughput: 38.6771MiB/s
+Reduce data speed: 37.975MiB/s
+SF generation time: 16.7737s
+SF generation throughput: 12098.7MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 595.219MiB
 FP Overhead: 382.876MiB
@@ -3020,6 +2100,9 @@ SF Overhead: 212.344MiB
 Recipe Overhead: 190.35MiB
 SF number: 5566458
 -----------------Reduct----------------------------
+Dedup ratio : 7.77567
+Lossless ratio : 11.5646
+Delta ratio : 55.0854
 dedup reduct size : 185429658365
 delta reduct size : 14537630882
 local reduct size : 8966331798
@@ -3043,19 +2126,19 @@ DCC: 0.75
 DCR: 25.2424
 DCE: 50.815
 -----------------Time------------------------------
-total time: 1519s
-Throughput: 133.6MiB/s
-Reduce data speed: 132.011MiB/s
-SF generation time: 5.57314s
-SF generation throughput: 36413.7MiB/s
-Chunk Time: 382.511s
-Dedup Time: 377.02s
-Locality Match Time: 0.138569s
-Locality Delta Time: 171.333s
-Feature Match Time: 11.3423s
-Feature Delta Time: 15.137s
-Lz4 Compression Time: 5.08866s
-Delta Compression Time: 238.248s
+total time: 1518s
+Throughput: 133.688MiB/s
+Reduce data speed: 132.098MiB/s
+SF generation time: 5.62313s
+SF generation throughput: 36090MiB/s
+Chunk Time: 381.921s
+Dedup Time: 376.363s
+Locality Match Time: 0.139315s
+Locality Delta Time: 167.601s
+Feature Match Time: 11.3401s
+Feature Delta Time: 14.8784s
+Lz4 Compression Time: 5.10262s
+Delta Compression Time: 233.598s
 -----------------OverHead--------------------------
 Index Overhead: 271.511MiB
 FP Overhead: 214.15MiB
@@ -3063,11 +2146,14 @@ SF Overhead: 57.3615MiB
 Recipe Overhead: 133.614MiB
 SF number: 1503696
 -----------------Reduct----------------------------
-dedup reduct size : 172746MiB
-delta reduct size : 24211MiB
-local reduct size : 3565MiB
-Feature reduct size: 1553MiB
-Locality reduct size: 22657MiB
+Dedup ratio : 6.72161
+Lossless ratio : 7.62179
+Delta ratio : 84.0509
+dedup reduct size : 181138049375
+delta reduct size : 25387767590
+local reduct size : 3739075378
+Feature reduct size: 1629220555
+Locality reduct size: 23758547035
 -----------------END-------------------------------
 -----------------INSTRUCTION----------------------
 ./BiSearch -i /mnt/dataset2/WEB -c 1 -m 2 -n 102 -r 10 -a 0 -b 1 -t 1 -H 16
@@ -3087,11 +2173,11 @@ DCC: 0.932648
 DCR: 24.247
 DCE: 58.4694
 -----------------Time------------------------------
-total time: 2379s
-Throughput: 119.278MiB/s
-Reduce data speed: 118.248MiB/s
-SF generation time: 256.597s
-SF generation throughput: 1105.86MiB/s
+total time: 2368s
+Throughput: 119.832MiB/s
+Reduce data speed: 118.798MiB/s
+SF generation time: 256.261s
+SF generation throughput: 1107.31MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 471.369MiB
 FP Overhead: 439.643MiB
@@ -3099,6 +2185,9 @@ SF Overhead: 31.7259MiB
 Recipe Overhead: 273.941MiB
 SF number: 831675
 -----------------Reduct----------------------------
+Dedup ratio : 7.61789
+Lossless ratio : 7.82449
+Delta ratio : 115.874
 dedup reduct size : 258487172501
 delta reduct size : 35459707899
 local reduct size : 1031334546
@@ -3121,11 +2210,11 @@ DCC: 0.964785
 DCR: 14.3198
 DCE: 42.7682
 -----------------Time------------------------------
-total time: 2230s
-Throughput: 127.248MiB/s
-Reduce data speed: 125.867MiB/s
-SF generation time: 23.8473s
-SF generation throughput: 11899.1MiB/s
+total time: 2207s
+Throughput: 128.574MiB/s
+Reduce data speed: 127.179MiB/s
+SF generation time: 23.9711s
+SF generation throughput: 11837.7MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 456.231MiB
 FP Overhead: 439.643MiB
@@ -3133,6 +2222,9 @@ SF Overhead: 16.5878MiB
 Recipe Overhead: 273.941MiB
 SF number: 434838
 -----------------Reduct----------------------------
+Dedup ratio : 7.61789
+Lossless ratio : 7.73469
+Delta ratio : 92.1916
 dedup reduct size : 258487172501
 delta reduct size : 35241542757
 local reduct size : 589856079
@@ -3155,11 +2247,11 @@ DCC: 0.749678
 DCR: 25.7168
 DCE: 70.0789
 -----------------Time------------------------------
-total time: 4900s
-Throughput: 57.9106MiB/s
-Reduce data speed: 57.6514MiB/s
-SF generation time: 93.5349s
-SF generation throughput: 3033.75MiB/s
+total time: 7097s
+Throughput: 39.9834MiB/s
+Reduce data speed: 39.8044MiB/s
+SF generation time: 93.2947s
+SF generation throughput: 3041.57MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 183.445MiB
 FP Overhead: 144.649MiB
@@ -3167,6 +2259,9 @@ SF Overhead: 38.7952MiB
 Recipe Overhead: 272.019MiB
 SF number: 1016994
 -----------------Reduct----------------------------
+Dedup ratio : 20.8448
+Lossless ratio : 24.5805
+Delta ratio : 223.438
 dedup reduct size : 283271669106
 delta reduct size : 10773271763
 local reduct size : 2169436296
@@ -3189,11 +2284,11 @@ DCC: 0.722273
 DCR: 18.4243
 DCE: 58.3701
 -----------------Time------------------------------
-total time: 4804s
-Throughput: 59.0679MiB/s
-Reduce data speed: 58.8078MiB/s
-SF generation time: 8.53682s
-SF generation throughput: 33239.8MiB/s
+total time: 7361s
+Throughput: 38.5494MiB/s
+Reduce data speed: 38.3797MiB/s
+SF generation time: 8.57637s
+SF generation throughput: 33086.5MiB/s
 -----------------OverHead--------------------------
 Index Overhead: 187.692MiB
 FP Overhead: 144.649MiB
@@ -3201,6 +2296,9 @@ SF Overhead: 43.0425MiB
 Recipe Overhead: 272.019MiB
 SF number: 1128333
 -----------------Reduct----------------------------
+Dedup ratio : 20.8448
+Lossless ratio : 26.0281
+Delta ratio : 227.162
 dedup reduct size : 283271669106
 delta reduct size : 10121864511
 local reduct size : 2842674012
@@ -3224,19 +2322,19 @@ DCC: 0.817814
 DCR: 14.9899
 DCE: 21.7447
 -----------------Time------------------------------
-total time: 1353s
-Throughput: 209.728MiB/s
-Reduce data speed: 208.875MiB/s
-SF generation time: 6.86275s
-SF generation throughput: 41348.2MiB/s
-Chunk Time: 69.3294s
-Dedup Time: 514.968s
-Locality Match Time: 0.0355705s
-Locality Delta Time: 13.968s
-Feature Match Time: 8.70495s
-Feature Delta Time: 95.3154s
-Lz4 Compression Time: 0.974892s
-Delta Compression Time: 113.861s
+total time: 1556s
+Throughput: 182.366MiB/s
+Reduce data speed: 181.625MiB/s
+SF generation time: 6.90466s
+SF generation throughput: 41097.2MiB/s
+Chunk Time: 54.7588s
+Dedup Time: 512.753s
+Locality Match Time: 0.0339446s
+Locality Delta Time: 13.5401s
+Feature Match Time: 8.69555s
+Feature Delta Time: 93.1412s
+Lz4 Compression Time: 0.974764s
+Delta Compression Time: 111.127s
 -----------------OverHead--------------------------
 Index Overhead: 116.971MiB
 FP Overhead: 97.8671MiB
@@ -3244,9 +2342,12 @@ SF Overhead: 19.1036MiB
 Recipe Overhead: 35.3669MiB
 SF number: 500790
 -----------------Reduct----------------------------
-dedup reduct size : 270003MiB
-delta reduct size : 11765MiB
-local reduct size : 839MiB
-Feature reduct size: 9620MiB
-Locality reduct size: 2144MiB
+Dedup ratio : 20.624
+Lossless ratio : 21.965
+Delta ratio : 245.958
+dedup reduct size : 283118897152
+delta reduct size : 12336601278
+local reduct size : 880802316
+Feature reduct size: 10087794564
+Locality reduct size: 2248806714
 -----------------END-------------------------------

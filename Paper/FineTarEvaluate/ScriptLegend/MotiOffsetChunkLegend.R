@@ -13,8 +13,8 @@ create_legend_pdf(
   legend_title = "",
   legend_position = "horizontal",  # 或 "vertical"
     # colors = c("#AD0626", "#2C3359", "#B79AD1", "#75B8BF"),
-  plot_width = 10,
-  plot_height = 0.5,
-  text_size = 22,
-  title_size = 22,
+  plot_width = 8,
+  plot_height =0.5,
+  text_size = 38,
+  title_size = 38
 )

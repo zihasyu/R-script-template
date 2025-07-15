@@ -25,16 +25,23 @@ plot <- plot_line_comparison_xcdf(
   data = offset_data,
   export_path = output_dir,
   export_name = "/offsetchunk_comparison.pdf",
-  x_label = "CDF For Version Numbers",
+  x_label = "CDF of backups",
   y_label = "SCR",
   # colors = c("#AD0626", "#2C3359", "#B79AD1", "#75B8BF"),
   line_size = 2.8,
-  axis_text_size = 20,
-  x_title_size = 22,
-  y_title_size = 22,
-  plot_width = 10,
-  plot_height = 3,
-  range_extension = 1.1,  # 新参数：控制轴范围的扩展系数
+  # axis_text_size = 20,
+  axis_text_size = 30,
+  x_title_size = 30,
+  y_title_size = 30,
+  # x_title_size = 22,
+  # y_title_size = 22,
+  plot_width = 5,
+  plot_height = 3.4,
+  range_extension = 1,  # 新参数：控制轴范围的扩展系数
+  x_breaks = c(0,0.25,0.5,0.75,1),
+  y_breaks = c(0.1,0.2,0.3),
+  x_expand = c(0,0),
+  y_expand = c(0,0.05)
 )
 
 # 可选：如果希望返回或打印一些信息
