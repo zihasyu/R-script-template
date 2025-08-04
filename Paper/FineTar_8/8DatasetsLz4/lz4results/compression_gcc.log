@@ -1,0 +1,1307 @@
+=== gcc LZ4压缩报告 ===
+开始时间: 2025年 07月 31日 星期四 12:32:16 CST
+源路径: /mnt/dataset2/GNU_GCC/gcc-packed/tar
+预期文件数量: 117
+压缩算法: LZ4
+
+文件处理顺序:
+  1. gcc-2.8.0.tar
+  2. gcc-2.8.1.tar
+  3. gcc-2.95.0.tar
+  4. gcc-2.95.1.tar
+  5. gcc-2.95.2.1.tar
+  6. gcc-2.95.2.tar
+  7. gcc-2.95.3.tar
+  8. gcc-3.0.0.tar
+  9. gcc-3.0.1.tar
+  10. gcc-3.0.2.tar
+  11. gcc-3.0.3.tar
+  12. gcc-3.0.4.tar
+  13. gcc-3.1.0.tar
+  14. gcc-3.1.1.tar
+  15. gcc-3.2.0.tar
+  16. gcc-3.2.1.tar
+  17. gcc-3.2.2.tar
+  18. gcc-3.2.3.tar
+  19. gcc-3.3.0.tar
+  20. gcc-3.3.1.tar
+  21. gcc-3.3.2.tar
+  22. gcc-3.3.3.tar
+  23. gcc-3.3.4.tar
+  24. gcc-3.3.5.tar
+  25. gcc-3.3.6.tar
+  26. gcc-3.4.0.tar
+  27. gcc-3.4.1.tar
+  28. gcc-3.4.2.tar
+  29. gcc-3.4.3.tar
+  30. gcc-3.4.4.tar
+  31. gcc-3.4.5.tar
+  32. gcc-3.4.6.tar
+  33. gcc-4.0.0.tar
+  34. gcc-4.0.1.tar
+  35. gcc-4.0.2.tar
+  36. gcc-4.0.3.tar
+  37. gcc-4.0.4.tar
+  38. gcc-4.1.0.tar
+  39. gcc-4.1.1.tar
+  40. gcc-4.1.2.tar
+  41. gcc-4.2.0.tar
+  42. gcc-4.2.1.tar
+  43. gcc-4.2.2.tar
+  44. gcc-4.2.3.tar
+  45. gcc-4.2.4.tar
+  46. gcc-4.3.0.tar
+  47. gcc-4.3.1.tar
+  48. gcc-4.3.2.tar
+  49. gcc-4.3.3.tar
+  50. gcc-4.3.4.tar
+  51. gcc-4.3.5.tar
+  52. gcc-4.3.6.tar
+  53. gcc-4.4.0.tar
+  54. gcc-4.4.1.tar
+  55. gcc-4.4.2.tar
+  56. gcc-4.4.3.tar
+  57. gcc-4.4.4.tar
+  58. gcc-4.4.5.tar
+  59. gcc-4.4.6.tar
+  60. gcc-4.4.7.tar
+  61. gcc-4.5.0.tar
+  62. gcc-4.5.1.tar
+  63. gcc-4.5.2.tar
+  64. gcc-4.5.3.tar
+  65. gcc-4.5.4.tar
+  66. gcc-4.6.0.tar
+  67. gcc-4.6.1.tar
+  68. gcc-4.6.2.tar
+  69. gcc-4.6.3.tar
+  70. gcc-4.6.4.tar
+  71. gcc-4.7.0.tar
+  72. gcc-4.7.1.tar
+  73. gcc-4.7.2.tar
+  74. gcc-4.7.3.tar
+  75. gcc-4.7.4.tar
+  76. gcc-4.8.0.tar
+  77. gcc-4.8.1.tar
+  78. gcc-4.8.2.tar
+  79. gcc-4.8.3.tar
+  80. gcc-4.8.4.tar
+  81. gcc-4.8.5.tar
+  82. gcc-4.9.0.tar
+  83. gcc-4.9.1.tar
+  84. gcc-4.9.2.tar
+  85. gcc-4.9.3.tar
+  86. gcc-4.9.4.tar
+  87. gcc-5.1.0.tar
+  88. gcc-5.2.0.tar
+  89. gcc-5.3.0.tar
+  90. gcc-5.4.0.tar
+  91. gcc-5.5.0.tar
+  92. gcc-6.1.0.tar
+  93. gcc-6.2.0.tar
+  94. gcc-6.3.0.tar
+  95. gcc-6.4.0.tar
+  96. gcc-6.5.0.tar
+  97. gcc-7.1.0.tar
+  98. gcc-7.2.0.tar
+  99. gcc-7.3.0.tar
+  100. gcc-7.4.0.tar
+  101. gcc-7.5.0.tar
+  102. gcc-8.1.0.tar
+  103. gcc-8.2.0.tar
+  104. gcc-8.3.0.tar
+  105. gcc-8.4.0.tar
+  106. gcc-8.5.0.tar
+  107. gcc-9.1.0.tar
+  108. gcc-9.2.0.tar
+  109. gcc-9.3.0.tar
+  110. gcc-9.4.0.tar
+  111. gcc-10.1.0.tar
+  112. gcc-10.2.0.tar
+  113. gcc-10.3.0.tar
+  114. gcc-11.1.0.tar
+  115. gcc-11.2.0.tar
+  116. gcc-11.3.0.tar
+  117. gcc-12.1.0.tar
+
+文件 #1: gcc-2.8.0.tar
+  原始大小: 31.94 MiB
+  LZ4压缩大小: 12.90 MiB
+  压缩率: 2.47x
+  压缩时间: 0.10 秒
+  压缩吞吐量: 319.400000 MiB/s
+  解压时间: 0.03 秒
+  解压吞吐量: 1089.26 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-2.8.0.tar.lz4
+
+文件 #2: gcc-2.8.1.tar
+  原始大小: 28.79 MiB
+  LZ4压缩大小: 11.59 MiB
+  压缩率: 2.48x
+  压缩时间: 0.07 秒
+  压缩吞吐量: 411.285714 MiB/s
+  解压时间: 0.03 秒
+  解压吞吐量: 1088.12 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-2.8.1.tar.lz4
+
+文件 #3: gcc-2.95.0.tar
+  原始大小: 57.87 MiB
+  LZ4压缩大小: 20.82 MiB
+  压缩率: 2.77x
+  压缩时间: 0.18 秒
+  压缩吞吐量: 321.500000 MiB/s
+  解压时间: 0.05 秒
+  解压吞吐量: 1141.91 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-2.95.0.tar.lz4
+
+文件 #4: gcc-2.95.1.tar
+  原始大小: 57.45 MiB
+  LZ4压缩大小: 20.68 MiB
+  压缩率: 2.77x
+  压缩时间: 0.18 秒
+  压缩吞吐量: 319.166666 MiB/s
+  解压时间: 0.05 秒
+  解压吞吐量: 1127.40 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-2.95.1.tar.lz4
+
+文件 #5: gcc-2.95.2.1.tar
+  原始大小: 57.48 MiB
+  LZ4压缩大小: 20.69 MiB
+  压缩率: 2.77x
+  压缩时间: 0.18 秒
+  压缩吞吐量: 319.333333 MiB/s
+  解压时间: 0.05 秒
+  解压吞吐量: 1146.92 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-2.95.2.1.tar.lz4
+
+文件 #6: gcc-2.95.2.tar
+  原始大小: 57.48 MiB
+  LZ4压缩大小: 20.69 MiB
+  压缩率: 2.77x
+  压缩时间: 0.18 秒
+  压缩吞吐量: 319.333333 MiB/s
+  解压时间: 0.05 秒
+  解压吞吐量: 1157.61 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-2.95.2.tar.lz4
+
+文件 #7: gcc-2.95.3.tar
+  原始大小: 52.61 MiB
+  LZ4压缩大小: 19.81 MiB
+  压缩率: 2.65x
+  压缩时间: 0.18 秒
+  压缩吞吐量: 292.277777 MiB/s
+  解压时间: 0.05 秒
+  解压吞吐量: 1125.54 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-2.95.3.tar.lz4
+
+文件 #8: gcc-3.0.0.tar
+  原始大小: 76.98 MiB
+  LZ4压缩大小: 25.51 MiB
+  压缩率: 3.01x
+  压缩时间: 0.23 秒
+  压缩吞吐量: 334.695652 MiB/s
+  解压时间: 0.06 秒
+  解压吞吐量: 1212.74 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.0.0.tar.lz4
+
+文件 #9: gcc-3.0.1.tar
+  原始大小: 77.77 MiB
+  LZ4压缩大小: 25.72 MiB
+  压缩率: 3.02x
+  压缩时间: 0.23 秒
+  压缩吞吐量: 338.130434 MiB/s
+  解压时间: 0.06 秒
+  解压吞吐量: 1234.43 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.0.1.tar.lz4
+
+文件 #10: gcc-3.0.2.tar
+  原始大小: 78.42 MiB
+  LZ4压缩大小: 25.98 MiB
+  压缩率: 3.01x
+  压缩时间: 0.23 秒
+  压缩吞吐量: 340.956521 MiB/s
+  解压时间: 0.06 秒
+  解压吞吐量: 1209.38 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.0.2.tar.lz4
+
+文件 #11: gcc-3.0.3.tar
+  原始大小: 78.83 MiB
+  LZ4压缩大小: 26.15 MiB
+  压缩率: 3.01x
+  压缩时间: 0.24 秒
+  压缩吞吐量: 328.458333 MiB/s
+  解压时间: 0.06 秒
+  解压吞吐量: 1223.26 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.0.3.tar.lz4
+
+文件 #12: gcc-3.0.4.tar
+  原始大小: 79.14 MiB
+  LZ4压缩大小: 26.26 MiB
+  压缩率: 3.01x
+  压缩时间: 0.23 秒
+  压缩吞吐量: 344.086956 MiB/s
+  解压时间: 0.06 秒
+  解压吞吐量: 1220.41 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.0.4.tar.lz4
+
+文件 #13: gcc-3.1.0.tar
+  原始大小: 117.13 MiB
+  LZ4压缩大小: 38.33 MiB
+  压缩率: 3.05x
+  压缩时间: 0.35 秒
+  压缩吞吐量: 334.657142 MiB/s
+  解压时间: 0.10 秒
+  解压吞吐量: 1219.60 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.1.0.tar.lz4
+
+文件 #14: gcc-3.1.1.tar
+  原始大小: 117.53 MiB
+  LZ4压缩大小: 38.42 MiB
+  压缩率: 3.05x
+  压缩时间: 0.35 秒
+  压缩吞吐量: 335.800000 MiB/s
+  解压时间: 0.09 秒
+  解压吞吐量: 1249.70 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.1.1.tar.lz4
+
+文件 #15: gcc-3.2.0.tar
+  原始大小: 117.62 MiB
+  LZ4压缩大小: 38.44 MiB
+  压缩率: 3.05x
+  压缩时间: 0.35 秒
+  压缩吞吐量: 336.057142 MiB/s
+  解压时间: 0.09 秒
+  解压吞吐量: 1245.04 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.2.0.tar.lz4
+
+文件 #16: gcc-3.2.1.tar
+  原始大小: 118.47 MiB
+  LZ4压缩大小: 38.64 MiB
+  压缩率: 3.06x
+  压缩时间: 0.35 秒
+  压缩吞吐量: 338.485714 MiB/s
+  解压时间: 0.09 秒
+  解压吞吐量: 1251.08 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.2.1.tar.lz4
+
+文件 #17: gcc-3.2.2.tar
+  原始大小: 118.72 MiB
+  LZ4压缩大小: 38.73 MiB
+  压缩率: 3.06x
+  压缩时间: 0.41 秒
+  压缩吞吐量: 289.560975 MiB/s
+  解压时间: 0.10 秒
+  解压吞吐量: 1142.75 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.2.2.tar.lz4
+
+文件 #18: gcc-3.2.3.tar
+  原始大小: 118.83 MiB
+  LZ4压缩大小: 38.76 MiB
+  压缩率: 3.06x
+  压缩时间: 0.38 秒
+  压缩吞吐量: 312.710526 MiB/s
+  解压时间: 0.14 秒
+  解压吞吐量: 874.40 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.2.3.tar.lz4
+
+文件 #19: gcc-3.3.0.tar
+  原始大小: 132.29 MiB
+  LZ4压缩大小: 42.99 MiB
+  压缩率: 3.07x
+  压缩时间: 0.40 秒
+  压缩吞吐量: 330.725000 MiB/s
+  解压时间: 0.11 秒
+  解压吞吐量: 1234.97 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.3.0.tar.lz4
+
+文件 #20: gcc-3.3.1.tar
+  原始大小: 133.70 MiB
+  LZ4压缩大小: 43.25 MiB
+  压缩率: 3.09x
+  压缩时间: 0.40 秒
+  压缩吞吐量: 334.250000 MiB/s
+  解压时间: 0.11 秒
+  解压吞吐量: 1237.91 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.3.1.tar.lz4
+
+文件 #21: gcc-3.3.2.tar
+  原始大小: 133.82 MiB
+  LZ4压缩大小: 43.29 MiB
+  压缩率: 3.09x
+  压缩时间: 0.40 秒
+  压缩吞吐量: 334.550000 MiB/s
+  解压时间: 0.11 秒
+  解压吞吐量: 1249.95 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.3.2.tar.lz4
+
+文件 #22: gcc-3.3.3.tar
+  原始大小: 134.76 MiB
+  LZ4压缩大小: 43.62 MiB
+  压缩率: 3.08x
+  压缩时间: 0.41 秒
+  压缩吞吐量: 328.682926 MiB/s
+  解压时间: 0.12 秒
+  解压吞吐量: 1110.66 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.3.3.tar.lz4
+
+文件 #23: gcc-3.3.4.tar
+  原始大小: 134.91 MiB
+  LZ4压缩大小: 43.67 MiB
+  压缩率: 3.08x
+  压缩时间: 0.42 秒
+  压缩吞吐量: 321.214285 MiB/s
+  解压时间: 0.11 秒
+  解压吞吐量: 1210.19 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.3.4.tar.lz4
+
+文件 #24: gcc-3.3.5.tar
+  原始大小: 134.95 MiB
+  LZ4压缩大小: 43.68 MiB
+  压缩率: 3.08x
+  压缩时间: 0.40 秒
+  压缩吞吐量: 337.375000 MiB/s
+  解压时间: 0.11 秒
+  解压吞吐量: 1245.94 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.3.5.tar.lz4
+
+文件 #25: gcc-3.3.6.tar
+  原始大小: 135.56 MiB
+  LZ4压缩大小: 43.89 MiB
+  压缩率: 3.08x
+  压缩时间: 0.40 秒
+  压缩吞吐量: 338.900000 MiB/s
+  解压时间: 0.11 秒
+  解压吞吐量: 1226.96 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.3.6.tar.lz4
+
+文件 #26: gcc-3.4.0.tar
+  原始大小: 171.57 MiB
+  LZ4压缩大小: 52.35 MiB
+  压缩率: 3.27x
+  压缩时间: 0.55 秒
+  压缩吞吐量: 311.945454 MiB/s
+  解压时间: 0.16 秒
+  解压吞吐量: 1084.42 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.4.0.tar.lz4
+
+文件 #27: gcc-3.4.1.tar
+  原始大小: 169.68 MiB
+  LZ4压缩大小: 51.42 MiB
+  压缩率: 3.29x
+  压缩时间: 0.49 秒
+  压缩吞吐量: 346.285714 MiB/s
+  解压时间: 0.13 秒
+  解压吞吐量: 1281.05 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.4.1.tar.lz4
+
+文件 #28: gcc-3.4.2.tar
+  原始大小: 171.72 MiB
+  LZ4压缩大小: 51.72 MiB
+  压缩率: 3.31x
+  压缩时间: 0.50 秒
+  压缩吞吐量: 343.440000 MiB/s
+  解压时间: 0.13 秒
+  解压吞吐量: 1273.46 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.4.2.tar.lz4
+
+文件 #29: gcc-3.4.3.tar
+  原始大小: 172.28 MiB
+  LZ4压缩大小: 51.82 MiB
+  压缩率: 3.32x
+  压缩时间: 0.50 秒
+  压缩吞吐量: 344.560000 MiB/s
+  解压时间: 0.13 秒
+  解压吞吐量: 1282.38 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.4.3.tar.lz4
+
+文件 #30: gcc-3.4.4.tar
+  原始大小: 173.43 MiB
+  LZ4压缩大小: 52.17 MiB
+  压缩率: 3.32x
+  压缩时间: 0.58 秒
+  压缩吞吐量: 299.017241 MiB/s
+  解压时间: 0.15 秒
+  解压吞吐量: 1190.35 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.4.4.tar.lz4
+
+文件 #31: gcc-3.4.5.tar
+  原始大小: 173.62 MiB
+  LZ4压缩大小: 52.22 MiB
+  压缩率: 3.32x
+  压缩时间: 0.50 秒
+  压缩吞吐量: 347.240000 MiB/s
+  解压时间: 0.14 秒
+  解压吞吐量: 1239.00 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.4.5.tar.lz4
+
+文件 #32: gcc-3.4.6.tar
+  原始大小: 171.88 MiB
+  LZ4压缩大小: 52.11 MiB
+  压缩率: 3.29x
+  压缩时间: 0.55 秒
+  压缩吞吐量: 312.509090 MiB/s
+  解压时间: 0.14 秒
+  解压吞吐量: 1272.40 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-3.4.6.tar.lz4
+
+文件 #33: gcc-4.0.0.tar
+  原始大小: 204.02 MiB
+  LZ4压缩大小: 60.75 MiB
+  压缩率: 3.35x
+  压缩时间: 0.59 秒
+  压缩吞吐量: 345.796610 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1113.84 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.0.0.tar.lz4
+
+文件 #34: gcc-4.0.1.tar
+  原始大小: 206.32 MiB
+  LZ4压缩大小: 61.26 MiB
+  压缩率: 3.36x
+  压缩时间: 0.61 秒
+  压缩吞吐量: 338.229508 MiB/s
+  解压时间: 0.17 秒
+  解压吞吐量: 1236.49 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.0.1.tar.lz4
+
+文件 #35: gcc-4.0.2.tar
+  原始大小: 205.78 MiB
+  LZ4压缩大小: 61.21 MiB
+  压缩率: 3.36x
+  压缩时间: 0.60 秒
+  压缩吞吐量: 342.966666 MiB/s
+  解压时间: 0.16 秒
+  解压吞吐量: 1283.32 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.0.2.tar.lz4
+
+文件 #36: gcc-4.0.3.tar
+  原始大小: 204.67 MiB
+  LZ4压缩大小: 61.27 MiB
+  压缩率: 3.34x
+  压缩时间: 0.66 秒
+  压缩吞吐量: 310.106060 MiB/s
+  解压时间: 0.16 秒
+  解压吞吐量: 1256.14 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.0.3.tar.lz4
+
+文件 #37: gcc-4.0.4.tar
+  原始大小: 204.94 MiB
+  LZ4压缩大小: 61.33 MiB
+  压缩率: 3.34x
+  压缩时间: 0.59 秒
+  压缩吞吐量: 347.355932 MiB/s
+  解压时间: 0.16 秒
+  解压吞吐量: 1275.67 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.0.4.tar.lz4
+
+文件 #38: gcc-4.1.0.tar
+  原始大小: 242.64 MiB
+  LZ4压缩大小: 71.92 MiB
+  压缩率: 3.37x
+  压缩时间: 0.72 秒
+  压缩吞吐量: 337.000000 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1302.28 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.1.0.tar.lz4
+
+文件 #39: gcc-4.1.1.tar
+  原始大小: 243.93 MiB
+  LZ4压缩大小: 72.33 MiB
+  压缩率: 3.37x
+  压缩时间: 0.78 秒
+  压缩吞吐量: 312.730769 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1283.77 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.1.1.tar.lz4
+
+文件 #40: gcc-4.1.2.tar
+  原始大小: 245.75 MiB
+  LZ4压缩大小: 72.86 MiB
+  压缩率: 3.37x
+  压缩时间: 0.71 秒
+  压缩吞吐量: 346.126760 MiB/s
+  解压时间: 0.22 秒
+  解压吞吐量: 1130.51 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.1.2.tar.lz4
+
+文件 #41: gcc-4.2.0.tar
+  原始大小: 272.18 MiB
+  LZ4压缩大小: 80.08 MiB
+  压缩率: 3.39x
+  压缩时间: 0.79 秒
+  压缩吞吐量: 344.531645 MiB/s
+  解压时间: 0.21 秒
+  解压吞吐量: 1308.94 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.2.0.tar.lz4
+
+文件 #42: gcc-4.2.1.tar
+  原始大小: 273.99 MiB
+  LZ4压缩大小: 80.51 MiB
+  压缩率: 3.40x
+  压缩时间: 0.78 秒
+  压缩吞吐量: 351.269230 MiB/s
+  解压时间: 0.21 秒
+  解压吞吐量: 1282.84 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.2.1.tar.lz4
+
+文件 #43: gcc-4.2.2.tar
+  原始大小: 274.13 MiB
+  LZ4压缩大小: 80.59 MiB
+  压缩率: 3.40x
+  压缩时间: 0.78 秒
+  压缩吞吐量: 351.448717 MiB/s
+  解压时间: 0.36 秒
+  解压吞吐量: 753.15 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.2.2.tar.lz4
+
+文件 #44: gcc-4.2.3.tar
+  原始大小: 274.36 MiB
+  LZ4压缩大小: 80.66 MiB
+  压缩率: 3.40x
+  压缩时间: 0.80 秒
+  压缩吞吐量: 342.950000 MiB/s
+  解压时间: 0.21 秒
+  解压吞吐量: 1290.88 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.2.3.tar.lz4
+
+文件 #45: gcc-4.2.4.tar
+  原始大小: 272.10 MiB
+  LZ4压缩大小: 79.95 MiB
+  压缩率: 3.40x
+  压缩时间: 0.92 秒
+  压缩吞吐量: 295.760869 MiB/s
+  解压时间: 0.23 秒
+  解压吞吐量: 1199.70 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.2.4.tar.lz4
+
+文件 #46: gcc-4.3.0.tar
+  原始大小: 366.45 MiB
+  LZ4压缩大小: 108.74 MiB
+  压缩率: 3.36x
+  压缩时间: 1.06 秒
+  压缩吞吐量: 345.707547 MiB/s
+  解压时间: 0.28 秒
+  解压吞吐量: 1296.91 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.3.0.tar.lz4
+
+文件 #47: gcc-4.3.1.tar
+  原始大小: 364.73 MiB
+  LZ4压缩大小: 108.09 MiB
+  压缩率: 3.37x
+  压缩时间: 1.02 秒
+  压缩吞吐量: 357.578431 MiB/s
+  解压时间: 0.28 秒
+  解压吞吐量: 1297.29 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.3.1.tar.lz4
+
+文件 #48: gcc-4.3.2.tar
+  原始大小: 365.12 MiB
+  LZ4压缩大小: 108.21 MiB
+  压缩率: 3.37x
+  压缩时间: 1.11 秒
+  压缩吞吐量: 328.936936 MiB/s
+  解压时间: 0.28 秒
+  解压吞吐量: 1282.77 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.3.2.tar.lz4
+
+文件 #49: gcc-4.3.3.tar
+  原始大小: 367.39 MiB
+  LZ4压缩大小: 108.94 MiB
+  压缩率: 3.37x
+  压缩时间: 1.05 秒
+  压缩吞吐量: 349.895238 MiB/s
+  解压时间: 0.28 秒
+  解压吞吐量: 1315.27 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.3.3.tar.lz4
+
+文件 #50: gcc-4.3.4.tar
+  原始大小: 367.66 MiB
+  LZ4压缩大小: 109.00 MiB
+  压缩率: 3.37x
+  压缩时间: 1.08 秒
+  压缩吞吐量: 340.425925 MiB/s
+  解压时间: 0.40 秒
+  解压吞吐量: 914.74 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.3.4.tar.lz4
+
+文件 #51: gcc-4.3.5.tar
+  原始大小: 367.71 MiB
+  LZ4压缩大小: 108.99 MiB
+  压缩率: 3.37x
+  压缩时间: 1.04 秒
+  压缩吞吐量: 353.567307 MiB/s
+  解压时间: 0.29 秒
+  解压吞吐量: 1277.82 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.3.5.tar.lz4
+
+文件 #52: gcc-4.3.6.tar
+  原始大小: 367.74 MiB
+  LZ4压缩大小: 109.00 MiB
+  压缩率: 3.37x
+  压缩时间: 1.05 秒
+  压缩吞吐量: 350.228571 MiB/s
+  解压时间: 0.30 秒
+  解压吞吐量: 1245.26 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.3.6.tar.lz4
+
+文件 #53: gcc-4.4.0.tar
+  原始大小: 387.06 MiB
+  LZ4压缩大小: 115.10 MiB
+  压缩率: 3.36x
+  压缩时间: 1.12 秒
+  压缩吞吐量: 345.589285 MiB/s
+  解压时间: 0.30 秒
+  解压吞吐量: 1282.27 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.4.0.tar.lz4
+
+文件 #54: gcc-4.4.1.tar
+  原始大小: 387.40 MiB
+  LZ4压缩大小: 115.22 MiB
+  压缩率: 3.36x
+  压缩时间: 1.08 秒
+  压缩吞吐量: 358.703703 MiB/s
+  解压时间: 0.30 秒
+  解压吞吐量: 1298.09 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.4.1.tar.lz4
+
+文件 #55: gcc-4.4.2.tar
+  原始大小: 387.76 MiB
+  LZ4压缩大小: 115.32 MiB
+  压缩率: 3.36x
+  压缩时间: 1.11 秒
+  压缩吞吐量: 349.333333 MiB/s
+  解压时间: 0.34 秒
+  解压吞吐量: 1133.74 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.4.2.tar.lz4
+
+文件 #56: gcc-4.4.3.tar
+  原始大小: 388.13 MiB
+  LZ4压缩大小: 115.41 MiB
+  压缩率: 3.36x
+  压缩时间: 1.11 秒
+  压缩吞吐量: 349.666666 MiB/s
+  解压时间: 0.30 秒
+  解压吞吐量: 1310.67 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.4.3.tar.lz4
+
+文件 #57: gcc-4.4.4.tar
+  原始大小: 388.42 MiB
+  LZ4压缩大小: 115.48 MiB
+  压缩率: 3.36x
+  压缩时间: 1.12 秒
+  压缩吞吐量: 346.803571 MiB/s
+  解压时间: 0.31 秒
+  解压吞吐量: 1268.07 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.4.4.tar.lz4
+
+文件 #58: gcc-4.4.5.tar
+  原始大小: 388.67 MiB
+  LZ4压缩大小: 115.54 MiB
+  压缩率: 3.36x
+  压缩时间: 1.11 秒
+  压缩吞吐量: 350.153153 MiB/s
+  解压时间: 0.32 秒
+  解压吞吐量: 1231.07 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.4.5.tar.lz4
+
+文件 #59: gcc-4.4.6.tar
+  原始大小: 388.79 MiB
+  LZ4压缩大小: 115.58 MiB
+  压缩率: 3.36x
+  压缩时间: 1.13 秒
+  压缩吞吐量: 344.061946 MiB/s
+  解压时间: 0.32 秒
+  解压吞吐量: 1220.62 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.4.6.tar.lz4
+
+文件 #60: gcc-4.4.7.tar
+  原始大小: 388.89 MiB
+  LZ4压缩大小: 115.61 MiB
+  压缩率: 3.36x
+  压缩时间: 1.11 秒
+  压缩吞吐量: 350.351351 MiB/s
+  解压时间: 0.30 秒
+  解压吞吐量: 1313.89 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.4.7.tar.lz4
+
+文件 #61: gcc-4.5.0.tar
+  原始大小: 404.84 MiB
+  LZ4压缩大小: 121.07 MiB
+  压缩率: 3.34x
+  压缩时间: 1.15 秒
+  压缩吞吐量: 352.034782 MiB/s
+  解压时间: 0.31 秒
+  解压吞吐量: 1297.83 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.5.0.tar.lz4
+
+文件 #62: gcc-4.5.1.tar
+  原始大小: 405.51 MiB
+  LZ4压缩大小: 121.27 MiB
+  压缩率: 3.34x
+  压缩时间: 1.15 秒
+  压缩吞吐量: 352.617391 MiB/s
+  解压时间: 0.32 秒
+  解压吞吐量: 1283.48 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.5.1.tar.lz4
+
+文件 #63: gcc-4.5.2.tar
+  原始大小: 406.82 MiB
+  LZ4压缩大小: 121.66 MiB
+  压缩率: 3.34x
+  压缩时间: 1.19 秒
+  压缩吞吐量: 341.865546 MiB/s
+  解压时间: 0.32 秒
+  解压吞吐量: 1280.52 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.5.2.tar.lz4
+
+文件 #64: gcc-4.5.3.tar
+  原始大小: 407.11 MiB
+  LZ4压缩大小: 121.75 MiB
+  压缩率: 3.34x
+  压缩时间: 1.21 秒
+  压缩吞吐量: 336.454545 MiB/s
+  解压时间: 0.31 秒
+  解压吞吐量: 1306.12 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.5.3.tar.lz4
+
+文件 #65: gcc-4.5.4.tar
+  原始大小: 407.38 MiB
+  LZ4压缩大小: 121.84 MiB
+  压缩率: 3.34x
+  压缩时间: 1.16 秒
+  压缩吞吐量: 351.189655 MiB/s
+  解压时间: 0.33 秒
+  解压吞吐量: 1249.72 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.5.4.tar.lz4
+
+文件 #66: gcc-4.6.0.tar
+  原始大小: 442.16 MiB
+  LZ4压缩大小: 131.30 MiB
+  压缩率: 3.36x
+  压缩时间: 1.25 秒
+  压缩吞吐量: 353.728000 MiB/s
+  解压时间: 0.34 秒
+  解压吞吐量: 1313.17 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.6.0.tar.lz4
+
+文件 #67: gcc-4.6.1.tar
+  原始大小: 443.58 MiB
+  LZ4压缩大小: 131.57 MiB
+  压缩率: 3.37x
+  压缩时间: 1.25 秒
+  压缩吞吐量: 354.864000 MiB/s
+  解压时间: 0.34 秒
+  解压吞吐量: 1301.46 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.6.1.tar.lz4
+
+文件 #68: gcc-4.6.2.tar
+  原始大小: 444.97 MiB
+  LZ4压缩大小: 131.93 MiB
+  压缩率: 3.37x
+  压缩时间: 1.30 秒
+  压缩吞吐量: 342.284615 MiB/s
+  解压时间: 0.34 秒
+  解压吞吐量: 1296.69 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.6.2.tar.lz4
+
+文件 #69: gcc-4.6.3.tar
+  原始大小: 445.26 MiB
+  LZ4压缩大小: 132.02 MiB
+  压缩率: 3.37x
+  压缩时间: 1.26 秒
+  压缩吞吐量: 353.380952 MiB/s
+  解压时间: 0.38 秒
+  解压吞吐量: 1159.37 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.6.3.tar.lz4
+
+文件 #70: gcc-4.6.4.tar
+  原始大小: 445.47 MiB
+  LZ4压缩大小: 132.05 MiB
+  压缩率: 3.37x
+  压缩时间: 1.28 秒
+  压缩吞吐量: 348.023437 MiB/s
+  解压时间: 0.35 秒
+  解压吞吐量: 1285.91 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.6.4.tar.lz4
+
+文件 #71: gcc-4.7.0.tar
+  原始大小: 479.10 MiB
+  LZ4压缩大小: 146.75 MiB
+  压缩率: 3.26x
+  压缩时间: 1.34 秒
+  压缩吞吐量: 357.537313 MiB/s
+  解压时间: 0.37 秒
+  解压吞吐量: 1284.16 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.7.0.tar.lz4
+
+文件 #72: gcc-4.7.1.tar
+  原始大小: 479.84 MiB
+  LZ4压缩大小: 146.96 MiB
+  压缩率: 3.26x
+  压缩时间: 1.36 秒
+  压缩吞吐量: 352.823529 MiB/s
+  解压时间: 0.37 秒
+  解压吞吐量: 1283.63 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.7.1.tar.lz4
+
+文件 #73: gcc-4.7.2.tar
+  原始大小: 481.16 MiB
+  LZ4压缩大小: 147.29 MiB
+  压缩率: 3.26x
+  压缩时间: 1.60 秒
+  压缩吞吐量: 300.725000 MiB/s
+  解压时间: 0.41 秒
+  解压吞吐量: 1185.53 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.7.2.tar.lz4
+
+文件 #74: gcc-4.7.3.tar
+  原始大小: 481.61 MiB
+  LZ4压缩大小: 147.43 MiB
+  压缩率: 3.26x
+  压缩时间: 1.38 秒
+  压缩吞吐量: 348.992753 MiB/s
+  解压时间: 0.37 秒
+  解压吞吐量: 1288.43 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.7.3.tar.lz4
+
+文件 #75: gcc-4.7.4.tar
+  原始大小: 481.88 MiB
+  LZ4压缩大小: 147.51 MiB
+  压缩率: 3.26x
+  压缩时间: 1.35 秒
+  压缩吞吐量: 356.948148 MiB/s
+  解压时间: 0.37 秒
+  解压吞吐量: 1305.97 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.7.4.tar.lz4
+
+文件 #76: gcc-4.8.0.tar
+  原始大小: 503.42 MiB
+  LZ4压缩大小: 154.49 MiB
+  压缩率: 3.25x
+  压缩时间: 1.47 秒
+  压缩吞吐量: 342.462585 MiB/s
+  解压时间: 0.39 秒
+  解压吞吐量: 1307.30 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.8.0.tar.lz4
+
+文件 #77: gcc-4.8.1.tar
+  原始大小: 503.78 MiB
+  LZ4压缩大小: 154.58 MiB
+  压缩率: 3.25x
+  压缩时间: 1.43 秒
+  压缩吞吐量: 352.293706 MiB/s
+  解压时间: 0.38 秒
+  解压吞吐量: 1311.40 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.8.1.tar.lz4
+
+文件 #78: gcc-4.8.2.tar
+  原始大小: 499.91 MiB
+  LZ4压缩大小: 153.01 MiB
+  压缩率: 3.26x
+  压缩时间: 1.44 秒
+  压缩吞吐量: 347.159722 MiB/s
+  解压时间: 0.38 秒
+  解压吞吐量: 1315.03 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.8.2.tar.lz4
+
+文件 #79: gcc-4.8.3.tar
+  原始大小: 501.44 MiB
+  LZ4压缩大小: 153.43 MiB
+  压缩率: 3.26x
+  压缩时间: 1.45 秒
+  压缩吞吐量: 345.820689 MiB/s
+  解压时间: 0.40 秒
+  解压吞吐量: 1251.78 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.8.3.tar.lz4
+
+文件 #80: gcc-4.8.4.tar
+  原始大小: 501.75 MiB
+  LZ4压缩大小: 153.52 MiB
+  压缩率: 3.26x
+  压缩时间: 1.51 秒
+  压缩吞吐量: 332.284768 MiB/s
+  解压时间: 0.39 秒
+  解压吞吐量: 1276.34 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.8.4.tar.lz4
+
+文件 #81: gcc-4.8.5.tar
+  原始大小: 502.05 MiB
+  LZ4压缩大小: 153.62 MiB
+  压缩率: 3.26x
+  压缩时间: 1.42 秒
+  压缩吞吐量: 353.556338 MiB/s
+  解压时间: 0.39 秒
+  解压吞吐量: 1288.80 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.8.5.tar.lz4
+
+文件 #82: gcc-4.9.0.tar
+  原始大小: 525.67 MiB
+  LZ4压缩大小: 160.13 MiB
+  压缩率: 3.28x
+  压缩时间: 1.51 秒
+  压缩吞吐量: 348.125827 MiB/s
+  解压时间: 0.75 秒
+  解压吞吐量: 704.48 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.9.0.tar.lz4
+
+文件 #83: gcc-4.9.1.tar
+  原始大小: 526.56 MiB
+  LZ4压缩大小: 160.36 MiB
+  压缩率: 3.28x
+  压缩时间: 1.52 秒
+  压缩吞吐量: 346.421052 MiB/s
+  解压时间: 0.41 秒
+  解压吞吐量: 1289.90 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.9.1.tar.lz4
+
+文件 #84: gcc-4.9.2.tar
+  原始大小: 527.03 MiB
+  LZ4压缩大小: 160.47 MiB
+  压缩率: 3.28x
+  压缩时间: 1.48 秒
+  压缩吞吐量: 356.101351 MiB/s
+  解压时间: 0.40 秒
+  解压吞吐量: 1304.65 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.9.2.tar.lz4
+
+文件 #85: gcc-4.9.3.tar
+  原始大小: 527.73 MiB
+  LZ4压缩大小: 160.68 MiB
+  压缩率: 3.28x
+  压缩时间: 1.49 秒
+  压缩吞吐量: 354.181208 MiB/s
+  解压时间: 0.40 秒
+  解压吞吐量: 1312.13 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.9.3.tar.lz4
+
+文件 #86: gcc-4.9.4.tar
+  原始大小: 528.21 MiB
+  LZ4压缩大小: 160.80 MiB
+  压缩率: 3.28x
+  压缩时间: 1.53 秒
+  压缩吞吐量: 345.235294 MiB/s
+  解压时间: 0.41 秒
+  解压吞吐量: 1294.59 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-4.9.4.tar.lz4
+
+文件 #87: gcc-5.1.0.tar
+  原始大小: 558.72 MiB
+  LZ4压缩大小: 170.08 MiB
+  压缩率: 3.28x
+  压缩时间: 1.63 秒
+  压缩吞吐量: 342.773006 MiB/s
+  解压时间: 0.49 秒
+  解压吞吐量: 1151.54 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-5.1.0.tar.lz4
+
+文件 #88: gcc-5.2.0.tar
+  原始大小: 559.84 MiB
+  LZ4压缩大小: 170.37 MiB
+  压缩率: 3.28x
+  压缩时间: 1.74 秒
+  压缩吞吐量: 321.747126 MiB/s
+  解压时间: 0.43 秒
+  解压吞吐量: 1302.60 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-5.2.0.tar.lz4
+
+文件 #89: gcc-5.3.0.tar
+  原始大小: 561.84 MiB
+  LZ4压缩大小: 170.90 MiB
+  压缩率: 3.28x
+  压缩时间: 1.64 秒
+  压缩吞吐量: 342.585365 MiB/s
+  解压时间: 0.44 秒
+  解压吞吐量: 1281.77 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-5.3.0.tar.lz4
+
+文件 #90: gcc-5.4.0.tar
+  原始大小: 562.65 MiB
+  LZ4压缩大小: 171.12 MiB
+  压缩率: 3.28x
+  压缩时间: 1.62 秒
+  压缩吞吐量: 347.314814 MiB/s
+  解压时间: 0.43 秒
+  解压吞吐量: 1305.56 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-5.4.0.tar.lz4
+
+文件 #91: gcc-5.5.0.tar
+  原始大小: 564.69 MiB
+  LZ4压缩大小: 172.05 MiB
+  压缩率: 3.28x
+  压缩时间: 1.60 秒
+  压缩吞吐量: 352.931250 MiB/s
+  解压时间: 0.45 秒
+  解压吞吐量: 1257.02 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-5.5.0.tar.lz4
+
+文件 #92: gcc-6.1.0.tar
+  原始大小: 589.84 MiB
+  LZ4压缩大小: 179.03 MiB
+  压缩率: 3.29x
+  压缩时间: 1.72 秒
+  压缩吞吐量: 342.930232 MiB/s
+  解压时间: 0.46 秒
+  解压吞吐量: 1295.62 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-6.1.0.tar.lz4
+
+文件 #93: gcc-6.2.0.tar
+  原始大小: 591.60 MiB
+  LZ4压缩大小: 179.50 MiB
+  压缩率: 3.29x
+  压缩时间: 1.67 秒
+  压缩吞吐量: 354.251497 MiB/s
+  解压时间: 0.53 秒
+  解压吞吐量: 1106.48 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-6.2.0.tar.lz4
+
+文件 #94: gcc-6.3.0.tar
+  原始大小: 592.35 MiB
+  LZ4压缩大小: 179.71 MiB
+  压缩率: 3.29x
+  压缩时间: 1.67 秒
+  压缩吞吐量: 354.700598 MiB/s
+  解压时间: 0.46 秒
+  解压吞吐量: 1283.30 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-6.3.0.tar.lz4
+
+文件 #95: gcc-6.4.0.tar
+  原始大小: 592.99 MiB
+  LZ4压缩大小: 179.89 MiB
+  压缩率: 3.29x
+  压缩时间: 1.67 秒
+  压缩吞吐量: 355.083832 MiB/s
+  解压时间: 0.46 秒
+  解压吞吐量: 1301.57 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-6.4.0.tar.lz4
+
+文件 #96: gcc-6.5.0.tar
+  原始大小: 594.04 MiB
+  LZ4压缩大小: 180.15 MiB
+  压缩率: 3.29x
+  压缩时间: 1.67 秒
+  压缩吞吐量: 355.712574 MiB/s
+  解压时间: 0.46 秒
+  解压吞吐量: 1303.91 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-6.5.0.tar.lz4
+
+文件 #97: gcc-7.1.0.tar
+  原始大小: 482.39 MiB
+  LZ4压缩大小: 149.43 MiB
+  压缩率: 3.22x
+  压缩时间: 1.42 秒
+  压缩吞吐量: 339.711267 MiB/s
+  解压时间: 0.38 秒
+  解压吞吐量: 1280.44 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-7.1.0.tar.lz4
+
+文件 #98: gcc-7.2.0.tar
+  原始大小: 482.90 MiB
+  LZ4压缩大小: 149.56 MiB
+  压缩率: 3.22x
+  压缩时间: 1.38 秒
+  压缩吞吐量: 349.927536 MiB/s
+  解压时间: 0.39 秒
+  解压吞吐量: 1234.02 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-7.2.0.tar.lz4
+
+文件 #99: gcc-7.3.0.tar
+  原始大小: 483.82 MiB
+  LZ4压缩大小: 149.82 MiB
+  压缩率: 3.22x
+  压缩时间: 1.43 秒
+  压缩吞吐量: 338.335664 MiB/s
+  解压时间: 0.37 秒
+  解压吞吐量: 1292.94 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-7.3.0.tar.lz4
+
+文件 #100: gcc-7.4.0.tar
+  原始大小: 484.75 MiB
+  LZ4压缩大小: 150.09 MiB
+  压缩率: 3.22x
+  压缩时间: 1.38 秒
+  压缩吞吐量: 351.268115 MiB/s
+  解压时间: 0.37 秒
+  解压吞吐量: 1297.83 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-7.4.0.tar.lz4
+
+文件 #101: gcc-7.5.0.tar
+  原始大小: 486.04 MiB
+  LZ4压缩大小: 150.47 MiB
+  压缩率: 3.23x
+  压缩时间: 1.38 秒
+  压缩吞吐量: 352.202898 MiB/s
+  解压时间: 0.37 秒
+  解压吞吐量: 1312.40 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-7.5.0.tar.lz4
+
+文件 #102: gcc-8.1.0.tar
+  原始大小: 508.98 MiB
+  LZ4压缩大小: 156.87 MiB
+  压缩率: 3.24x
+  压缩时间: 1.51 秒
+  压缩吞吐量: 337.072847 MiB/s
+  解压时间: 0.44 秒
+  解压吞吐量: 1169.14 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-8.1.0.tar.lz4
+
+文件 #103: gcc-8.2.0.tar
+  原始大小: 509.62 MiB
+  LZ4压缩大小: 157.06 MiB
+  压缩率: 3.24x
+  压缩时间: 1.47 秒
+  压缩吞吐量: 346.680272 MiB/s
+  解压时间: 0.41 秒
+  解压吞吐量: 1238.11 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-8.2.0.tar.lz4
+
+文件 #104: gcc-8.3.0.tar
+  原始大小: 510.37 MiB
+  LZ4压缩大小: 157.28 MiB
+  压缩率: 3.24x
+  压缩时间: 1.45 秒
+  压缩吞吐量: 351.979310 MiB/s
+  解压时间: 0.39 秒
+  解压吞吐量: 1294.36 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-8.3.0.tar.lz4
+
+文件 #105: gcc-8.4.0.tar
+  原始大小: 511.95 MiB
+  LZ4压缩大小: 157.73 MiB
+  压缩率: 3.24x
+  压缩时间: 1.49 秒
+  压缩吞吐量: 343.590604 MiB/s
+  解压时间: 0.39 秒
+  解压吞吐量: 1313.09 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-8.4.0.tar.lz4
+
+文件 #106: gcc-8.5.0.tar
+  原始大小: 513.05 MiB
+  LZ4压缩大小: 158.01 MiB
+  压缩率: 3.24x
+  压缩时间: 1.52 秒
+  压缩吞吐量: 337.532894 MiB/s
+  解压时间: 0.40 秒
+  解压吞吐量: 1291.25 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-8.5.0.tar.lz4
+
+文件 #107: gcc-9.1.0.tar
+  原始大小: 558.98 MiB
+  LZ4压缩大小: 172.22 MiB
+  压缩率: 3.24x
+  压缩时间: 1.60 秒
+  压缩吞吐量: 349.362500 MiB/s
+  解压时间: 0.43 秒
+  解压吞吐量: 1295.42 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-9.1.0.tar.lz4
+
+文件 #108: gcc-9.2.0.tar
+  原始大小: 559.83 MiB
+  LZ4压缩大小: 172.46 MiB
+  压缩率: 3.24x
+  压缩时间: 1.61 秒
+  压缩吞吐量: 347.720496 MiB/s
+  解压时间: 0.43 秒
+  解压吞吐量: 1300.30 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-9.2.0.tar.lz4
+
+文件 #109: gcc-9.3.0.tar
+  原始大小: 560.88 MiB
+  LZ4压缩大小: 172.73 MiB
+  压缩率: 3.24x
+  压缩时间: 1.60 秒
+  压缩吞吐量: 350.550000 MiB/s
+  解压时间: 0.42 秒
+  解压吞吐量: 1321.92 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-9.3.0.tar.lz4
+
+文件 #110: gcc-9.4.0.tar
+  原始大小: 562.66 MiB
+  LZ4压缩大小: 173.17 MiB
+  压缩率: 3.24x
+  压缩时间: 1.64 秒
+  压缩吞吐量: 343.085365 MiB/s
+  解压时间: 0.43 秒
+  解压吞吐量: 1307.57 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-9.4.0.tar.lz4
+
+文件 #111: gcc-10.1.0.tar
+  原始大小: 605.91 MiB
+  LZ4压缩大小: 183.38 MiB
+  压缩率: 3.30x
+  压缩时间: 1.77 秒
+  压缩吞吐量: 342.322033 MiB/s
+  解压时间: 0.53 秒
+  解压吞吐量: 1148.79 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-10.1.0.tar.lz4
+
+文件 #112: gcc-10.2.0.tar
+  原始大小: 606.91 MiB
+  LZ4压缩大小: 183.65 MiB
+  压缩率: 3.30x
+  压缩时间: 1.77 秒
+  压缩吞吐量: 342.887005 MiB/s
+  解压时间: 0.47 秒
+  解压吞吐量: 1288.96 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-10.2.0.tar.lz4
+
+文件 #113: gcc-10.3.0.tar
+  原始大小: 608.62 MiB
+  LZ4压缩大小: 184.07 MiB
+  压缩率: 3.30x
+  压缩时间: 1.72 秒
+  压缩吞吐量: 353.848837 MiB/s
+  解压时间: 0.47 秒
+  解压吞吐量: 1295.15 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-10.3.0.tar.lz4
+
+文件 #114: gcc-11.1.0.tar
+  原始大小: 641.50 MiB
+  LZ4压缩大小: 194.79 MiB
+  压缩率: 3.29x
+  压缩时间: 1.81 秒
+  压缩吞吐量: 354.419889 MiB/s
+  解压时间: 0.49 秒
+  解压吞吐量: 1316.08 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-11.1.0.tar.lz4
+
+文件 #115: gcc-11.2.0.tar
+  原始大小: 642.45 MiB
+  LZ4压缩大小: 194.98 MiB
+  压缩率: 3.29x
+  压缩时间: 1.83 秒
+  压缩吞吐量: 351.065573 MiB/s
+  解压时间: 0.50 秒
+  解压吞吐量: 1287.12 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-11.2.0.tar.lz4
+
+文件 #116: gcc-11.3.0.tar
+  原始大小: 643.88 MiB
+  LZ4压缩大小: 195.36 MiB
+  压缩率: 3.29x
+  压缩时间: 1.82 秒
+  压缩吞吐量: 353.780219 MiB/s
+  解压时间: 0.51 秒
+  解压吞吐量: 1273.15 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-11.3.0.tar.lz4
+
+文件 #117: gcc-12.1.0.tar
+  原始大小: 674.87 MiB
+  LZ4压缩大小: 203.81 MiB
+  压缩率: 3.31x
+  压缩时间: 1.93 秒
+  压缩吞吐量: 349.673575 MiB/s
+  解压时间: 0.52 秒
+  解压吞吐量: 1294.67 MiB/s
+  LZ4文件: ./compressed_datasets/gcc/gcc-12.1.0.tar.lz4
+
+=== gcc LZ4总体统计 ===
+实际处理文件数量: 117
+预期文件数量: 117
+总原始大小: 42097.66 MiB
+总LZ4压缩大小: 12813.11 MiB
+总体压缩率: 3.28x
+总压缩时间: 122.19 秒
+总解压时间: 33.88 秒
+压缩总体吞吐量: 344.52 MiB/s
+解压总体吞吐量: 1242.60 MiB/s
+LZ4文件保存目录: ./compressed_datasets/gcc/
+完成时间: 2025年 07月 31日 星期四 12:46:54 CST

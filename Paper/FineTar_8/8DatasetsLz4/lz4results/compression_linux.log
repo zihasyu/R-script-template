@@ -1,0 +1,2990 @@
+=== linux LZ4压缩报告 ===
+开始时间: 2025年 07月 31日 星期四 12:46:59 CST
+源路径: /mnt/dataset2/linux
+预期文件数量: 270
+压缩算法: LZ4
+
+文件处理顺序:
+  1. v2.6.11.tar
+  2. v2.6.12-rc2.tar
+  3. v2.6.12-rc3.tar
+  4. v2.6.12-rc4.tar
+  5. v2.6.12-rc5.tar
+  6. v2.6.12-rc6.tar
+  7. v2.6.12.tar
+  8. v2.6.13-rc1.tar
+  9. v2.6.13-rc2.tar
+  10. v2.6.13-rc3.tar
+  11. v2.6.13-rc4.tar
+  12. v2.6.13-rc5.tar
+  13. v2.6.13-rc6.tar
+  14. v2.6.13-rc7.tar
+  15. v2.6.13.tar
+  16. v2.6.14-rc1.tar
+  17. v2.6.14-rc2.tar
+  18. v2.6.14-rc3.tar
+  19. v2.6.14-rc4.tar
+  20. v2.6.14-rc5.tar
+  21. v2.6.14.tar
+  22. v2.6.15-rc1.tar
+  23. v2.6.15-rc2.tar
+  24. v2.6.15-rc3.tar
+  25. v2.6.15-rc4.tar
+  26. v2.6.15-rc5.tar
+  27. v2.6.15-rc6.tar
+  28. v2.6.15-rc7.tar
+  29. v2.6.15.tar
+  30. v2.6.16-rc1.tar
+  31. v2.6.16-rc2.tar
+  32. v2.6.16-rc3.tar
+  33. v2.6.16-rc4.tar
+  34. v2.6.16-rc5.tar
+  35. v2.6.16-rc6.tar
+  36. v2.6.16.tar
+  37. v2.6.17-rc1.tar
+  38. v2.6.17-rc2.tar
+  39. v2.6.17-rc3.tar
+  40. v2.6.17-rc4.tar
+  41. v2.6.17-rc5.tar
+  42. v2.6.17-rc6.tar
+  43. v2.6.17.tar
+  44. v2.6.18-rc1.tar
+  45. v2.6.18-rc2.tar
+  46. v2.6.18-rc3.tar
+  47. v2.6.18-rc4.tar
+  48. v2.6.18-rc5.tar
+  49. v2.6.18-rc6.tar
+  50. v2.6.18-rc7.tar
+  51. v2.6.18.tar
+  52. v2.6.19-rc1.tar
+  53. v2.6.19-rc2.tar
+  54. v2.6.19-rc3.tar
+  55. v2.6.19-rc4.tar
+  56. v2.6.19-rc5.tar
+  57. v2.6.19-rc6.tar
+  58. v2.6.19.tar
+  59. v2.6.20-rc1.tar
+  60. v2.6.20-rc2.tar
+  61. v2.6.20-rc3.tar
+  62. v2.6.20-rc4.tar
+  63. v2.6.20-rc5.tar
+  64. v2.6.20-rc6.tar
+  65. v2.6.20-rc7.tar
+  66. v2.6.20.tar
+  67. v2.6.21-rc1.tar
+  68. v2.6.21-rc2.tar
+  69. v2.6.21-rc3.tar
+  70. v2.6.21-rc4.tar
+  71. v2.6.21-rc5.tar
+  72. v2.6.21-rc6.tar
+  73. v2.6.21-rc7.tar
+  74. v2.6.21.tar
+  75. v2.6.22.tar
+  76. v2.6.23.tar
+  77. v2.6.24.tar
+  78. v2.6.25.tar
+  79. v2.6.26.tar
+  80. v2.6.27.tar
+  81. v2.6.28.tar
+  82. v2.6.29.tar
+  83. v2.6.30.tar
+  84. v2.6.31.tar
+  85. v2.6.32.tar
+  86. v2.6.33.tar
+  87. v2.6.34.tar
+  88. v2.6.35.tar
+  89. v2.6.36.tar
+  90. v2.6.37.tar
+  91. v2.6.38.tar
+  92. v2.6.39.tar
+  93. v3.0.tar
+  94. v3.1.tar
+  95. v3.2.tar
+  96. v3.3.tar
+  97. v3.4.tar
+  98. v3.5.tar
+  99. v3.6.tar
+  100. v3.7.tar
+  101. v3.8.tar
+  102. v3.9.tar
+  103. v3.10.tar
+  104. v3.11.tar
+  105. v3.12.tar
+  106. v3.13.tar
+  107. v3.14.tar
+  108. v3.15.tar
+  109. v3.16.tar
+  110. v3.17.tar
+  111. v3.18.tar
+  112. v3.19.tar
+  113. v4.0.tar
+  114. v4.1.tar
+  115. v4.2.tar
+  116. v4.3.tar
+  117. v4.4.tar
+  118. v4.5.tar
+  119. v4.6.tar
+  120. v4.7.tar
+  121. v4.8.tar
+  122. v4.9.tar
+  123. v4.10.tar
+  124. v4.11.tar
+  125. v4.12.tar
+  126. v4.13.tar
+  127. v4.14.tar
+  128. v4.15.tar
+  129. v4.16.tar
+  130. v4.17.tar
+  131. v4.18.tar
+  132. v4.19.tar
+  133. v4.20.tar
+  134. v5.0.tar
+  135. v5.1.tar
+  136. v5.2.tar
+  137. v5.3.tar
+  138. v5.4.tar
+  139. v5.5.tar
+  140. v5.6.tar
+  141. v5.7.tar
+  142. v5.8.tar
+  143. v5.9.tar
+  144. v5.10-rc1.tar
+  145. v5.10-rc2.tar
+  146. v5.10-rc3.tar
+  147. v5.10-rc4.tar
+  148. v5.10-rc5.tar
+  149. v5.10-rc6.tar
+  150. v5.10-rc7.tar
+  151. v5.10.tar
+  152. v5.11-rc1.tar
+  153. v5.11-rc2.tar
+  154. v5.11-rc3.tar
+  155. v5.11-rc4.tar
+  156. v5.11-rc5.tar
+  157. v5.11-rc6.tar
+  158. v5.11-rc7.tar
+  159. v5.11.tar
+  160. v5.12-rc1-dontuse.tar
+  161. v5.12-rc2.tar
+  162. v5.12-rc3.tar
+  163. v5.12-rc4.tar
+  164. v5.12-rc5.tar
+  165. v5.12-rc6.tar
+  166. v5.12-rc7.tar
+  167. v5.12-rc8.tar
+  168. v5.12.tar
+  169. v5.13-rc1.tar
+  170. v5.13-rc2.tar
+  171. v5.13-rc3.tar
+  172. v5.13-rc4.tar
+  173. v5.13-rc5.tar
+  174. v5.13-rc6.tar
+  175. v5.13-rc7.tar
+  176. v5.13.tar
+  177. v5.14-rc1.tar
+  178. v5.14-rc2.tar
+  179. v5.14-rc3.tar
+  180. v5.14-rc4.tar
+  181. v5.14-rc5.tar
+  182. v5.14-rc6.tar
+  183. v5.14-rc7.tar
+  184. v5.14.tar
+  185. v5.15-rc1.tar
+  186. v5.15-rc2.tar
+  187. v5.15-rc3.tar
+  188. v5.15-rc4.tar
+  189. v5.15-rc5.tar
+  190. v5.15-rc6.tar
+  191. v5.15-rc7.tar
+  192. v5.15.tar
+  193. v5.16-rc1.tar
+  194. v5.16-rc2.tar
+  195. v5.16-rc3.tar
+  196. v5.16-rc4.tar
+  197. v5.16-rc5.tar
+  198. v5.16-rc6.tar
+  199. v5.16-rc7.tar
+  200. v5.16-rc8.tar
+  201. v5.16.tar
+  202. v5.17-rc1.tar
+  203. v5.17-rc2.tar
+  204. v5.17-rc3.tar
+  205. v5.17-rc4.tar
+  206. v5.17-rc5.tar
+  207. v5.17-rc6.tar
+  208. v5.17-rc7.tar
+  209. v5.17-rc8.tar
+  210. v5.17.tar
+  211. v5.18-rc1.tar
+  212. v5.18-rc2.tar
+  213. v5.18-rc3.tar
+  214. v5.18-rc4.tar
+  215. v5.18-rc5.tar
+  216. v5.18-rc6.tar
+  217. v5.18-rc7.tar
+  218. v5.18.tar
+  219. v5.19-rc1.tar
+  220. v5.19-rc2.tar
+  221. v5.19-rc3.tar
+  222. v5.19-rc4.tar
+  223. v5.19-rc5.tar
+  224. v5.19-rc6.tar
+  225. v5.19-rc7.tar
+  226. v5.19-rc8.tar
+  227. v5.19.tar
+  228. v6.0-rc1.tar
+  229. v6.0-rc2.tar
+  230. v6.0-rc3.tar
+  231. v6.0-rc4.tar
+  232. v6.0-rc5.tar
+  233. v6.0-rc6.tar
+  234. v6.0-rc7.tar
+  235. v6.0.tar
+  236. v6.1-rc1.tar
+  237. v6.1-rc2.tar
+  238. v6.1-rc3.tar
+  239. v6.1-rc4.tar
+  240. v6.1-rc5.tar
+  241. v6.1-rc6.tar
+  242. v6.1-rc7.tar
+  243. v6.1-rc8.tar
+  244. v6.1.tar
+  245. v6.2-rc1.tar
+  246. v6.2-rc2.tar
+  247. v6.2-rc3.tar
+  248. v6.2-rc4.tar
+  249. v6.2-rc5.tar
+  250. v6.2-rc6.tar
+  251. v6.2-rc7.tar
+  252. v6.2-rc8.tar
+  253. v6.2.tar
+  254. v6.3-rc1.tar
+  255. v6.3-rc2.tar
+  256. v6.3-rc3.tar
+  257. v6.3-rc4.tar
+  258. v6.3-rc5.tar
+  259. v6.3-rc6.tar
+  260. v6.3-rc7.tar
+  261. v6.3.tar
+  262. v6.4-rc1.tar
+  263. v6.4-rc2.tar
+  264. v6.4-rc3.tar
+  265. v6.4-rc4.tar
+  266. v6.4-rc5.tar
+  267. v6.4-rc6.tar
+  268. v6.4-rc7.tar
+  269. v6.4.tar
+  270. v6.5-rc1.tar
+
+文件 #1: v2.6.11.tar
+  原始大小: 198.60 MiB
+  LZ4压缩大小: 71.61 MiB
+  压缩率: 2.77x
+  压缩时间: 0.70 秒
+  压缩吞吐量: 283.714285 MiB/s
+  解压时间: 0.17 秒
+  解压吞吐量: 1177.61 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.11.tar.lz4
+
+文件 #2: v2.6.12-rc2.tar
+  原始大小: 201.11 MiB
+  LZ4压缩大小: 71.33 MiB
+  压缩率: 2.81x
+  压缩时间: 0.62 秒
+  压缩吞吐量: 324.370967 MiB/s
+  解压时间: 0.16 秒
+  解压吞吐量: 1231.36 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.12-rc2.tar.lz4
+
+文件 #3: v2.6.12-rc3.tar
+  原始大小: 201.72 MiB
+  LZ4压缩大小: 71.55 MiB
+  压缩率: 2.81x
+  压缩时间: 0.62 秒
+  压缩吞吐量: 325.354838 MiB/s
+  解压时间: 0.20 秒
+  解压吞吐量: 985.20 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.12-rc3.tar.lz4
+
+文件 #4: v2.6.12-rc4.tar
+  原始大小: 202.15 MiB
+  LZ4压缩大小: 71.73 MiB
+  压缩率: 2.81x
+  压缩时间: 0.62 秒
+  压缩吞吐量: 326.048387 MiB/s
+  解压时间: 0.16 秒
+  解压吞吐量: 1246.84 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.12-rc4.tar.lz4
+
+文件 #5: v2.6.12-rc5.tar
+  原始大小: 202.28 MiB
+  LZ4压缩大小: 71.78 MiB
+  压缩率: 2.81x
+  压缩时间: 0.62 秒
+  压缩吞吐量: 326.258064 MiB/s
+  解压时间: 0.16 秒
+  解压吞吐量: 1241.12 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.12-rc5.tar.lz4
+
+文件 #6: v2.6.12-rc6.tar
+  原始大小: 202.85 MiB
+  LZ4压缩大小: 71.97 MiB
+  压缩率: 2.81x
+  压缩时间: 0.63 秒
+  压缩吞吐量: 321.984126 MiB/s
+  解压时间: 0.16 秒
+  解压吞吐量: 1250.29 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.12-rc6.tar.lz4
+
+文件 #7: v2.6.12.tar
+  原始大小: 202.87 MiB
+  LZ4压缩大小: 73.14 MiB
+  压缩率: 2.77x
+  压缩时间: 0.63 秒
+  压缩吞吐量: 322.015873 MiB/s
+  解压时间: 0.17 秒
+  解压吞吐量: 1185.87 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.12.tar.lz4
+
+文件 #8: v2.6.13-rc1.tar
+  原始大小: 205.94 MiB
+  LZ4压缩大小: 73.12 MiB
+  压缩率: 2.81x
+  压缩时间: 0.64 秒
+  压缩吞吐量: 321.781250 MiB/s
+  解压时间: 0.17 秒
+  解压吞吐量: 1247.27 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.13-rc1.tar.lz4
+
+文件 #9: v2.6.13-rc2.tar
+  原始大小: 205.86 MiB
+  LZ4压缩大小: 73.08 MiB
+  压缩率: 2.81x
+  压缩时间: 0.64 秒
+  压缩吞吐量: 321.656250 MiB/s
+  解压时间: 0.17 秒
+  解压吞吐量: 1227.24 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.13-rc2.tar.lz4
+
+文件 #10: v2.6.13-rc3.tar
+  原始大小: 206.53 MiB
+  LZ4压缩大小: 73.28 MiB
+  压缩率: 2.81x
+  压缩时间: 1.37 秒
+  压缩吞吐量: 150.751824 MiB/s
+  解压时间: 0.17 秒
+  解压吞吐量: 1202.25 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.13-rc3.tar.lz4
+
+文件 #11: v2.6.13-rc4.tar
+  原始大小: 209.09 MiB
+  LZ4压缩大小: 73.93 MiB
+  压缩率: 2.82x
+  压缩时间: 0.68 秒
+  压缩吞吐量: 307.485294 MiB/s
+  解压时间: 0.17 秒
+  解压吞吐量: 1227.31 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.13-rc4.tar.lz4
+
+文件 #12: v2.6.13-rc5.tar
+  原始大小: 209.19 MiB
+  LZ4压缩大小: 73.97 MiB
+  压缩率: 2.82x
+  压缩时间: 0.65 秒
+  压缩吞吐量: 321.830769 MiB/s
+  解压时间: 0.17 秒
+  解压吞吐量: 1218.62 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.13-rc5.tar.lz4
+
+文件 #13: v2.6.13-rc6.tar
+  原始大小: 209.23 MiB
+  LZ4压缩大小: 73.99 MiB
+  压缩率: 2.82x
+  压缩时间: 0.64 秒
+  压缩吞吐量: 326.921875 MiB/s
+  解压时间: 0.17 秒
+  解压吞吐量: 1236.58 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.13-rc6.tar.lz4
+
+文件 #14: v2.6.13-rc7.tar
+  原始大小: 209.26 MiB
+  LZ4压缩大小: 74.00 MiB
+  压缩率: 2.82x
+  压缩时间: 0.64 秒
+  压缩吞吐量: 326.968750 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1190.44 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.13-rc7.tar.lz4
+
+文件 #15: v2.6.13.tar
+  原始大小: 209.26 MiB
+  LZ4压缩大小: 75.16 MiB
+  压缩率: 2.78x
+  压缩时间: 0.65 秒
+  压缩吞吐量: 321.938461 MiB/s
+  解压时间: 0.17 秒
+  解压吞吐量: 1223.56 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.13.tar.lz4
+
+文件 #16: v2.6.14-rc1.tar
+  原始大小: 212.76 MiB
+  LZ4压缩大小: 75.30 MiB
+  压缩率: 2.82x
+  压缩时间: 0.65 秒
+  压缩吞吐量: 327.323076 MiB/s
+  解压时间: 0.17 秒
+  解压吞吐量: 1237.01 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.14-rc1.tar.lz4
+
+文件 #17: v2.6.14-rc2.tar
+  原始大小: 212.98 MiB
+  LZ4压缩大小: 75.38 MiB
+  压缩率: 2.82x
+  压缩时间: 0.66 秒
+  压缩吞吐量: 322.696969 MiB/s
+  解压时间: 0.17 秒
+  解压吞吐量: 1258.27 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.14-rc2.tar.lz4
+
+文件 #18: v2.6.14-rc3.tar
+  原始大小: 213.45 MiB
+  LZ4压缩大小: 75.55 MiB
+  压缩率: 2.82x
+  压缩时间: 0.74 秒
+  压缩吞吐量: 288.445945 MiB/s
+  解压时间: 0.17 秒
+  解压吞吐量: 1233.71 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.14-rc3.tar.lz4
+
+文件 #19: v2.6.14-rc4.tar
+  原始大小: 213.69 MiB
+  LZ4压缩大小: 75.62 MiB
+  压缩率: 2.82x
+  压缩时间: 0.71 秒
+  压缩吞吐量: 300.971830 MiB/s
+  解压时间: 0.17 秒
+  解压吞吐量: 1235.84 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.14-rc4.tar.lz4
+
+文件 #20: v2.6.14-rc5.tar
+  原始大小: 213.70 MiB
+  LZ4压缩大小: 75.62 MiB
+  压缩率: 2.82x
+  压缩时间: 0.68 秒
+  压缩吞吐量: 314.264705 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1201.62 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.14-rc5.tar.lz4
+
+文件 #21: v2.6.14.tar
+  原始大小: 213.71 MiB
+  LZ4压缩大小: 76.82 MiB
+  压缩率: 2.78x
+  压缩时间: 0.68 秒
+  压缩吞吐量: 314.279411 MiB/s
+  解压时间: 0.21 秒
+  解压吞吐量: 998.66 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.14.tar.lz4
+
+文件 #22: v2.6.15-rc1.tar
+  原始大小: 217.68 MiB
+  LZ4压缩大小: 76.92 MiB
+  压缩率: 2.82x
+  压缩时间: 0.67 秒
+  压缩吞吐量: 324.895522 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1225.86 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.15-rc1.tar.lz4
+
+文件 #23: v2.6.15-rc2.tar
+  原始大小: 217.57 MiB
+  LZ4压缩大小: 76.89 MiB
+  压缩率: 2.82x
+  压缩时间: 0.67 秒
+  压缩吞吐量: 324.731343 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1116.44 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.15-rc2.tar.lz4
+
+文件 #24: v2.6.15-rc3.tar
+  原始大小: 217.59 MiB
+  LZ4压缩大小: 76.89 MiB
+  压缩率: 2.82x
+  压缩时间: 0.67 秒
+  压缩吞吐量: 324.761194 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1219.08 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.15-rc3.tar.lz4
+
+文件 #25: v2.6.15-rc4.tar
+  原始大小: 217.61 MiB
+  LZ4压缩大小: 76.90 MiB
+  压缩率: 2.82x
+  压缩时间: 0.67 秒
+  压缩吞吐量: 324.791044 MiB/s
+  解压时间: 0.20 秒
+  解压吞吐量: 1094.19 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.15-rc4.tar.lz4
+
+文件 #26: v2.6.15-rc5.tar
+  原始大小: 217.59 MiB
+  LZ4压缩大小: 76.90 MiB
+  压缩率: 2.82x
+  压缩时间: 0.67 秒
+  压缩吞吐量: 324.761194 MiB/s
+  解压时间: 0.23 秒
+  解压吞吐量: 941.57 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.15-rc5.tar.lz4
+
+文件 #27: v2.6.15-rc6.tar
+  原始大小: 217.57 MiB
+  LZ4压缩大小: 76.91 MiB
+  压缩率: 2.82x
+  压缩时间: 0.73 秒
+  压缩吞吐量: 298.041095 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1216.34 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.15-rc6.tar.lz4
+
+文件 #28: v2.6.15-rc7.tar
+  原始大小: 217.58 MiB
+  LZ4压缩大小: 76.91 MiB
+  压缩率: 2.82x
+  压缩时间: 0.72 秒
+  压缩吞吐量: 302.194444 MiB/s
+  解压时间: 0.17 秒
+  解压吞吐量: 1244.53 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.15-rc7.tar.lz4
+
+文件 #29: v2.6.15.tar
+  原始大小: 217.58 MiB
+  LZ4压缩大小: 78.13 MiB
+  压缩率: 2.78x
+  压缩时间: 0.70 秒
+  压缩吞吐量: 310.828571 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1235.00 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.15.tar.lz4
+
+文件 #30: v2.6.16-rc1.tar
+  原始大小: 222.30 MiB
+  LZ4压缩大小: 78.53 MiB
+  压缩率: 2.83x
+  压缩时间: 0.79 秒
+  压缩吞吐量: 281.392405 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1221.49 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.16-rc1.tar.lz4
+
+文件 #31: v2.6.16-rc2.tar
+  原始大小: 222.85 MiB
+  LZ4压缩大小: 78.74 MiB
+  压缩率: 2.83x
+  压缩时间: 0.71 秒
+  压缩吞吐量: 313.873239 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1224.99 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.16-rc2.tar.lz4
+
+文件 #32: v2.6.16-rc3.tar
+  原始大小: 223.03 MiB
+  LZ4压缩大小: 78.83 MiB
+  压缩率: 2.82x
+  压缩时间: 0.81 秒
+  压缩吞吐量: 275.345679 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1227.96 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.16-rc3.tar.lz4
+
+文件 #33: v2.6.16-rc4.tar
+  原始大小: 223.09 MiB
+  LZ4压缩大小: 78.85 MiB
+  压缩率: 2.82x
+  压缩时间: 0.69 秒
+  压缩吞吐量: 323.318840 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1214.60 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.16-rc4.tar.lz4
+
+文件 #34: v2.6.16-rc5.tar
+  原始大小: 223.07 MiB
+  LZ4压缩大小: 78.84 MiB
+  压缩率: 2.82x
+  压缩时间: 0.69 秒
+  压缩吞吐量: 323.289855 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1174.26 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.16-rc5.tar.lz4
+
+文件 #35: v2.6.16-rc6.tar
+  原始大小: 223.09 MiB
+  LZ4压缩大小: 78.85 MiB
+  压缩率: 2.82x
+  压缩时间: 0.72 秒
+  压缩吞吐量: 309.847222 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1145.03 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.16-rc6.tar.lz4
+
+文件 #36: v2.6.16.tar
+  原始大小: 223.11 MiB
+  LZ4压缩大小: 80.11 MiB
+  压缩率: 2.78x
+  压缩时间: 0.69 秒
+  压缩吞吐量: 323.347826 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1232.99 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.16.tar.lz4
+
+文件 #37: v2.6.17-rc1.tar
+  原始大小: 226.68 MiB
+  LZ4压缩大小: 80.04 MiB
+  压缩率: 2.83x
+  压缩时间: 0.70 秒
+  压缩吞吐量: 323.828571 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1241.55 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.17-rc1.tar.lz4
+
+文件 #38: v2.6.17-rc2.tar
+  原始大小: 225.35 MiB
+  LZ4压缩大小: 79.56 MiB
+  压缩率: 2.83x
+  压缩时间: 0.72 秒
+  压缩吞吐量: 312.986111 MiB/s
+  解压时间: 0.20 秒
+  解压吞吐量: 1111.08 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.17-rc2.tar.lz4
+
+文件 #39: v2.6.17-rc3.tar
+  原始大小: 225.41 MiB
+  LZ4压缩大小: 79.59 MiB
+  压缩率: 2.83x
+  压缩时间: 0.70 秒
+  压缩吞吐量: 322.014285 MiB/s
+  解压时间: 0.21 秒
+  解压吞吐量: 1095.88 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.17-rc3.tar.lz4
+
+文件 #40: v2.6.17-rc4.tar
+  原始大小: 225.49 MiB
+  LZ4压缩大小: 79.63 MiB
+  压缩率: 2.83x
+  压缩时间: 0.73 秒
+  压缩吞吐量: 308.890410 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1246.10 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.17-rc4.tar.lz4
+
+文件 #41: v2.6.17-rc5.tar
+  原始大小: 225.62 MiB
+  LZ4压缩大小: 79.68 MiB
+  压缩率: 2.83x
+  压缩时间: 0.69 秒
+  压缩吞吐量: 326.985507 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1242.19 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.17-rc5.tar.lz4
+
+文件 #42: v2.6.17-rc6.tar
+  原始大小: 225.63 MiB
+  LZ4压缩大小: 79.69 MiB
+  压缩率: 2.83x
+  压缩时间: 0.70 秒
+  压缩吞吐量: 322.328571 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1247.03 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.17-rc6.tar.lz4
+
+文件 #43: v2.6.17.tar
+  原始大小: 225.64 MiB
+  LZ4压缩大小: 80.97 MiB
+  压缩率: 2.78x
+  压缩时间: 0.70 秒
+  压缩吞吐量: 322.342857 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1235.22 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.17.tar.lz4
+
+文件 #44: v2.6.18-rc1.tar
+  原始大小: 228.32 MiB
+  LZ4压缩大小: 80.45 MiB
+  压缩率: 2.83x
+  压缩时间: 0.71 秒
+  压缩吞吐量: 321.577464 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1241.38 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.18-rc1.tar.lz4
+
+文件 #45: v2.6.18-rc2.tar
+  原始大小: 228.55 MiB
+  LZ4压缩大小: 80.53 MiB
+  压缩率: 2.83x
+  压缩时间: 0.71 秒
+  压缩吞吐量: 321.901408 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1226.11 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.18-rc2.tar.lz4
+
+文件 #46: v2.6.18-rc3.tar
+  原始大小: 228.56 MiB
+  LZ4压缩大小: 80.54 MiB
+  压缩率: 2.83x
+  压缩时间: 0.70 秒
+  压缩吞吐量: 326.514285 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1245.34 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.18-rc3.tar.lz4
+
+文件 #47: v2.6.18-rc4.tar
+  原始大小: 228.62 MiB
+  LZ4压缩大小: 80.57 MiB
+  压缩率: 2.83x
+  压缩时间: 0.76 秒
+  压缩吞吐量: 300.815789 MiB/s
+  解压时间: 0.22 秒
+  解压吞吐量: 1050.08 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.18-rc4.tar.lz4
+
+文件 #48: v2.6.18-rc5.tar
+  原始大小: 228.93 MiB
+  LZ4压缩大小: 80.67 MiB
+  压缩率: 2.83x
+  压缩时间: 0.71 秒
+  压缩吞吐量: 322.436619 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1235.59 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.18-rc5.tar.lz4
+
+文件 #49: v2.6.18-rc6.tar
+  原始大小: 228.98 MiB
+  LZ4压缩大小: 80.70 MiB
+  压缩率: 2.83x
+  压缩时间: 0.71 秒
+  压缩吞吐量: 322.507042 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1185.23 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.18-rc6.tar.lz4
+
+文件 #50: v2.6.18-rc7.tar
+  原始大小: 228.99 MiB
+  LZ4压缩大小: 80.69 MiB
+  压缩率: 2.83x
+  压缩时间: 0.71 秒
+  压缩吞吐量: 322.521126 MiB/s
+  解压时间: 0.18 秒
+  解压吞吐量: 1243.18 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.18-rc7.tar.lz4
+
+文件 #51: v2.6.18.tar
+  原始大小: 229.01 MiB
+  LZ4压缩大小: 81.99 MiB
+  压缩率: 2.79x
+  压缩时间: 0.72 秒
+  压缩吞吐量: 318.069444 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1230.74 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.18.tar.lz4
+
+文件 #52: v2.6.19-rc1.tar
+  原始大小: 234.01 MiB
+  LZ4压缩大小: 82.29 MiB
+  压缩率: 2.84x
+  压缩时间: 0.90 秒
+  压缩吞吐量: 260.011111 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1231.02 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.19-rc1.tar.lz4
+
+文件 #53: v2.6.19-rc2.tar
+  原始大小: 234.75 MiB
+  LZ4压缩大小: 82.57 MiB
+  压缩率: 2.84x
+  压缩时间: 0.72 秒
+  压缩吞吐量: 326.041666 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1228.39 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.19-rc2.tar.lz4
+
+文件 #54: v2.6.19-rc3.tar
+  原始大小: 234.97 MiB
+  LZ4压缩大小: 82.65 MiB
+  压缩率: 2.84x
+  压缩时间: 1.16 秒
+  压缩吞吐量: 202.560344 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1237.01 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.19-rc3.tar.lz4
+
+文件 #55: v2.6.19-rc4.tar
+  原始大小: 235.00 MiB
+  LZ4压缩大小: 82.66 MiB
+  压缩率: 2.84x
+  压缩时间: 0.74 秒
+  压缩吞吐量: 317.567567 MiB/s
+  解压时间: 0.20 秒
+  解压吞吐量: 1179.68 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.19-rc4.tar.lz4
+
+文件 #56: v2.6.19-rc5.tar
+  原始大小: 235.00 MiB
+  LZ4压缩大小: 82.67 MiB
+  压缩率: 2.84x
+  压缩时间: 0.73 秒
+  压缩吞吐量: 321.917808 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1241.67 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.19-rc5.tar.lz4
+
+文件 #57: v2.6.19-rc6.tar
+  原始大小: 235.02 MiB
+  LZ4压缩大小: 82.68 MiB
+  压缩率: 2.84x
+  压缩时间: 0.81 秒
+  压缩吞吐量: 290.148148 MiB/s
+  解压时间: 0.20 秒
+  解压吞吐量: 1204.45 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.19-rc6.tar.lz4
+
+文件 #58: v2.6.19.tar
+  原始大小: 235.04 MiB
+  LZ4压缩大小: 84.04 MiB
+  压缩率: 2.79x
+  压缩时间: 0.77 秒
+  压缩吞吐量: 305.246753 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1254.00 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.19.tar.lz4
+
+文件 #59: v2.6.20-rc1.tar
+  原始大小: 238.40 MiB
+  LZ4压缩大小: 83.78 MiB
+  压缩率: 2.84x
+  压缩时间: 0.75 秒
+  压缩吞吐量: 317.866666 MiB/s
+  解压时间: 0.20 秒
+  解压吞吐量: 1184.99 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.20-rc1.tar.lz4
+
+文件 #60: v2.6.20-rc2.tar
+  原始大小: 238.43 MiB
+  LZ4压缩大小: 83.79 MiB
+  压缩率: 2.84x
+  压缩时间: 0.73 秒
+  压缩吞吐量: 326.616438 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1230.57 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.20-rc2.tar.lz4
+
+文件 #61: v2.6.20-rc3.tar
+  原始大小: 238.44 MiB
+  LZ4压缩大小: 83.80 MiB
+  压缩率: 2.84x
+  压缩时间: 0.76 秒
+  压缩吞吐量: 313.736842 MiB/s
+  解压时间: 0.22 秒
+  解压吞吐量: 1085.99 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.20-rc3.tar.lz4
+
+文件 #62: v2.6.20-rc4.tar
+  原始大小: 238.50 MiB
+  LZ4压缩大小: 83.82 MiB
+  压缩率: 2.84x
+  压缩时间: 0.80 秒
+  压缩吞吐量: 298.125000 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1239.04 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.20-rc4.tar.lz4
+
+文件 #63: v2.6.20-rc5.tar
+  原始大小: 238.54 MiB
+  LZ4压缩大小: 83.83 MiB
+  压缩率: 2.84x
+  压缩时间: 0.82 秒
+  压缩吞吐量: 290.902439 MiB/s
+  解压时间: 0.20 秒
+  解压吞吐量: 1211.30 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.20-rc5.tar.lz4
+
+文件 #64: v2.6.20-rc6.tar
+  原始大小: 238.69 MiB
+  LZ4压缩大小: 83.88 MiB
+  压缩率: 2.84x
+  压缩时间: 0.79 秒
+  压缩吞吐量: 302.139240 MiB/s
+  解压时间: 0.20 秒
+  解压吞吐量: 1200.94 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.20-rc6.tar.lz4
+
+文件 #65: v2.6.20-rc7.tar
+  原始大小: 238.71 MiB
+  LZ4压缩大小: 83.88 MiB
+  压缩率: 2.84x
+  压缩时间: 1.15 秒
+  压缩吞吐量: 207.573913 MiB/s
+  解压时间: 0.37 秒
+  解压吞吐量: 647.40 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.20-rc7.tar.lz4
+
+文件 #66: v2.6.20.tar
+  原始大小: 238.72 MiB
+  LZ4压缩大小: 85.30 MiB
+  压缩率: 2.79x
+  压缩时间: 0.78 秒
+  压缩吞吐量: 306.051282 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1230.00 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.20.tar.lz4
+
+文件 #67: v2.6.21-rc1.tar
+  原始大小: 242.35 MiB
+  LZ4压缩大小: 84.96 MiB
+  压缩率: 2.85x
+  压缩时间: 0.75 秒
+  压缩吞吐量: 323.133333 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1251.59 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.21-rc1.tar.lz4
+
+文件 #68: v2.6.21-rc2.tar
+  原始大小: 242.57 MiB
+  LZ4压缩大小: 85.04 MiB
+  压缩率: 2.85x
+  压缩时间: 0.77 秒
+  压缩吞吐量: 315.025974 MiB/s
+  解压时间: 0.20 秒
+  解压吞吐量: 1208.99 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.21-rc2.tar.lz4
+
+文件 #69: v2.6.21-rc3.tar
+  原始大小: 242.59 MiB
+  LZ4压缩大小: 85.05 MiB
+  压缩率: 2.85x
+  压缩时间: 0.76 秒
+  压缩吞吐量: 319.197368 MiB/s
+  解压时间: 0.20 秒
+  解压吞吐量: 1224.87 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.21-rc3.tar.lz4
+
+文件 #70: v2.6.21-rc4.tar
+  原始大小: 242.57 MiB
+  LZ4压缩大小: 85.04 MiB
+  压缩率: 2.85x
+  压缩时间: 1.16 秒
+  压缩吞吐量: 209.112068 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1256.63 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.21-rc4.tar.lz4
+
+文件 #71: v2.6.21-rc5.tar
+  原始大小: 242.61 MiB
+  LZ4压缩大小: 85.06 MiB
+  压缩率: 2.85x
+  压缩时间: 0.83 秒
+  压缩吞吐量: 292.301204 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1247.31 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.21-rc5.tar.lz4
+
+文件 #72: v2.6.21-rc6.tar
+  原始大小: 242.58 MiB
+  LZ4压缩大小: 85.04 MiB
+  压缩率: 2.85x
+  压缩时间: 0.77 秒
+  压缩吞吐量: 315.038961 MiB/s
+  解压时间: 0.20 秒
+  解压吞吐量: 1233.24 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.21-rc6.tar.lz4
+
+文件 #73: v2.6.21-rc7.tar
+  原始大小: 242.60 MiB
+  LZ4压缩大小: 85.06 MiB
+  压缩率: 2.85x
+  压缩时间: 0.75 秒
+  压缩吞吐量: 323.466666 MiB/s
+  解压时间: 0.23 秒
+  解压吞吐量: 1048.26 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.21-rc7.tar.lz4
+
+文件 #74: v2.6.21.tar
+  原始大小: 242.61 MiB
+  LZ4压缩大小: 86.49 MiB
+  压缩率: 2.80x
+  压缩时间: 0.75 秒
+  压缩吞吐量: 323.480000 MiB/s
+  解压时间: 0.19 秒
+  解压吞吐量: 1258.38 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.21.tar.lz4
+
+文件 #75: v2.6.22.tar
+  原始大小: 250.74 MiB
+  LZ4压缩大小: 89.01 MiB
+  压缩率: 2.81x
+  压缩时间: 0.80 秒
+  压缩吞吐量: 313.425000 MiB/s
+  解压时间: 0.20 秒
+  解压吞吐量: 1244.24 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.22.tar.lz4
+
+文件 #76: v2.6.23.tar
+  原始大小: 252.44 MiB
+  LZ4压缩大小: 89.75 MiB
+  压缩率: 2.81x
+  压缩时间: 0.79 秒
+  压缩吞吐量: 319.544303 MiB/s
+  解压时间: 0.23 秒
+  解压吞吐量: 1087.35 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.23.tar.lz4
+
+文件 #77: v2.6.24.tar
+  原始大小: 260.19 MiB
+  LZ4压缩大小: 92.47 MiB
+  压缩率: 2.81x
+  压缩时间: 0.82 秒
+  压缩吞吐量: 317.304878 MiB/s
+  解压时间: 0.21 秒
+  解压吞吐量: 1245.08 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.24.tar.lz4
+
+文件 #78: v2.6.25.tar
+  原始大小: 271.46 MiB
+  LZ4压缩大小: 96.24 MiB
+  压缩率: 2.82x
+  压缩时间: 0.86 秒
+  压缩吞吐量: 315.651162 MiB/s
+  解压时间: 0.22 秒
+  解压吞吐量: 1245.23 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.25.tar.lz4
+
+文件 #79: v2.6.26.tar
+  原始大小: 276.16 MiB
+  LZ4压缩大小: 97.80 MiB
+  压缩率: 2.82x
+  压缩时间: 0.86 秒
+  压缩吞吐量: 321.116279 MiB/s
+  解压时间: 0.44 秒
+  解压吞吐量: 623.02 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.26.tar.lz4
+
+文件 #80: v2.6.27.tar
+  原始大小: 280.21 MiB
+  LZ4压缩大小: 99.35 MiB
+  压缩率: 2.82x
+  压缩时间: 0.87 秒
+  压缩吞吐量: 322.080459 MiB/s
+  解压时间: 0.23 秒
+  解压吞吐量: 1229.32 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.27.tar.lz4
+
+文件 #81: v2.6.28.tar
+  原始大小: 295.88 MiB
+  LZ4压缩大小: 104.33 MiB
+  压缩率: 2.83x
+  压缩时间: 0.95 秒
+  压缩吞吐量: 311.452631 MiB/s
+  解压时间: 0.24 秒
+  解压吞吐量: 1214.71 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.28.tar.lz4
+
+文件 #82: v2.6.29.tar
+  原始大小: 320.60 MiB
+  LZ4压缩大小: 112.38 MiB
+  压缩率: 2.85x
+  压缩时间: 1.03 秒
+  压缩吞吐量: 311.262135 MiB/s
+  解压时间: 0.27 秒
+  解压吞吐量: 1200.98 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.29.tar.lz4
+
+文件 #83: v2.6.30.tar
+  原始大小: 336.78 MiB
+  LZ4压缩大小: 117.95 MiB
+  压缩率: 2.85x
+  压缩时间: 1.04 秒
+  压缩吞吐量: 323.826923 MiB/s
+  解压时间: 0.27 秒
+  解压吞吐量: 1263.19 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.30.tar.lz4
+
+文件 #84: v2.6.31.tar
+  原始大小: 348.76 MiB
+  LZ4压缩大小: 122.11 MiB
+  压缩率: 2.85x
+  压缩时间: 1.17 秒
+  压缩吞吐量: 298.085470 MiB/s
+  解压时间: 0.28 秒
+  解压吞吐量: 1255.27 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.31.tar.lz4
+
+文件 #85: v2.6.32.tar
+  原始大小: 364.67 MiB
+  LZ4压缩大小: 127.49 MiB
+  压缩率: 2.86x
+  压缩时间: 1.32 秒
+  压缩吞吐量: 276.265151 MiB/s
+  解压时间: 0.29 秒
+  解压吞吐量: 1253.59 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.32.tar.lz4
+
+文件 #86: v2.6.33.tar
+  原始大小: 376.79 MiB
+  LZ4压缩大小: 131.61 MiB
+  压缩率: 2.86x
+  压缩时间: 1.17 秒
+  压缩吞吐量: 322.042735 MiB/s
+  解压时间: 0.50 秒
+  解压吞吐量: 759.42 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.33.tar.lz4
+
+文件 #87: v2.6.34.tar
+  原始大小: 385.92 MiB
+  LZ4压缩大小: 134.65 MiB
+  压缩率: 2.86x
+  压缩时间: 1.24 秒
+  压缩吞吐量: 311.225806 MiB/s
+  解压时间: 0.31 秒
+  解压吞吐量: 1243.06 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.34.tar.lz4
+
+文件 #88: v2.6.35.tar
+  原始大小: 393.76 MiB
+  LZ4压缩大小: 137.55 MiB
+  压缩率: 2.86x
+  压缩时间: 1.29 秒
+  压缩吞吐量: 305.240310 MiB/s
+  解压时间: 0.33 秒
+  解压吞吐量: 1198.64 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.35.tar.lz4
+
+文件 #89: v2.6.36.tar
+  原始大小: 394.49 MiB
+  LZ4压缩大小: 138.83 MiB
+  压缩率: 2.84x
+  压缩时间: 1.24 秒
+  压缩吞吐量: 318.137096 MiB/s
+  解压时间: 0.39 秒
+  解压吞吐量: 1010.66 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.36.tar.lz4
+
+文件 #90: v2.6.37.tar
+  原始大小: 411.36 MiB
+  LZ4压缩大小: 144.61 MiB
+  压缩率: 2.84x
+  压缩时间: 1.37 秒
+  压缩吞吐量: 300.262773 MiB/s
+  解压时间: 0.35 秒
+  解压吞吐量: 1190.41 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.37.tar.lz4
+
+文件 #91: v2.6.38.tar
+  原始大小: 420.08 MiB
+  LZ4压缩大小: 147.25 MiB
+  压缩率: 2.85x
+  压缩时间: 1.30 秒
+  压缩吞吐量: 323.138461 MiB/s
+  解压时间: 0.33 秒
+  解压吞吐量: 1267.81 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.38.tar.lz4
+
+文件 #92: v2.6.39.tar
+  原始大小: 428.76 MiB
+  LZ4压缩大小: 150.07 MiB
+  压缩率: 2.85x
+  压缩时间: 1.35 秒
+  压缩吞吐量: 317.600000 MiB/s
+  解压时间: 0.34 秒
+  解压吞吐量: 1267.86 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v2.6.39.tar.lz4
+
+文件 #93: v3.0.tar
+  原始大小: 430.08 MiB
+  LZ4压缩大小: 151.14 MiB
+  压缩率: 2.84x
+  压缩时间: 1.74 秒
+  压缩吞吐量: 247.172413 MiB/s
+  解压时间: 0.44 秒
+  解压吞吐量: 968.93 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.0.tar.lz4
+
+文件 #94: v3.1.tar
+  原始大小: 433.41 MiB
+  LZ4压缩大小: 152.25 MiB
+  压缩率: 2.84x
+  压缩时间: 1.38 秒
+  压缩吞吐量: 314.065217 MiB/s
+  解压时间: 0.36 秒
+  解压吞吐量: 1216.89 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.1.tar.lz4
+
+文件 #95: v3.2.tar
+  原始大小: 439.56 MiB
+  LZ4压缩大小: 154.29 MiB
+  压缩率: 2.84x
+  压缩时间: 1.36 秒
+  压缩吞吐量: 323.205882 MiB/s
+  解压时间: 0.36 秒
+  解压吞吐量: 1235.77 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.2.tar.lz4
+
+文件 #96: v3.3.tar
+  原始大小: 444.49 MiB
+  LZ4压缩大小: 156.00 MiB
+  压缩率: 2.84x
+  压缩时间: 1.38 秒
+  压缩吞吐量: 322.094202 MiB/s
+  解压时间: 0.36 秒
+  解压吞吐量: 1240.47 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.3.tar.lz4
+
+文件 #97: v3.4.tar
+  原始大小: 450.67 MiB
+  LZ4压缩大小: 158.13 MiB
+  压缩率: 2.85x
+  压缩时间: 1.45 秒
+  压缩吞吐量: 310.806896 MiB/s
+  解压时间: 0.36 秒
+  解压吞吐量: 1260.64 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.4.tar.lz4
+
+文件 #98: v3.5.tar
+  原始大小: 457.50 MiB
+  LZ4压缩大小: 160.11 MiB
+  压缩率: 2.85x
+  压缩时间: 1.48 秒
+  压缩吞吐量: 309.121621 MiB/s
+  解压时间: 0.37 秒
+  解压吞吐量: 1251.69 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.5.tar.lz4
+
+文件 #99: v3.6.tar
+  原始大小: 466.54 MiB
+  LZ4压缩大小: 162.74 MiB
+  压缩率: 2.86x
+  压缩时间: 1.48 秒
+  压缩吞吐量: 315.229729 MiB/s
+  解压时间: 0.38 秒
+  解压吞吐量: 1238.82 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.6.tar.lz4
+
+文件 #100: v3.7.tar
+  原始大小: 475.90 MiB
+  LZ4压缩大小: 165.42 MiB
+  压缩率: 2.87x
+  压缩时间: 1.50 秒
+  压缩吞吐量: 317.266666 MiB/s
+  解压时间: 0.38 秒
+  解压吞吐量: 1236.17 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.7.tar.lz4
+
+文件 #101: v3.8.tar
+  原始大小: 482.23 MiB
+  LZ4压缩大小: 167.59 MiB
+  压缩率: 2.87x
+  压缩时间: 1.48 秒
+  压缩吞吐量: 325.831081 MiB/s
+  解压时间: 0.38 秒
+  解压吞吐量: 1255.74 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.8.tar.lz4
+
+文件 #102: v3.9.tar
+  原始大小: 490.02 MiB
+  LZ4压缩大小: 170.21 MiB
+  压缩率: 2.87x
+  压缩时间: 1.52 秒
+  压缩吞吐量: 322.381578 MiB/s
+  解压时间: 0.42 秒
+  解压吞吐量: 1154.15 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.9.tar.lz4
+
+文件 #103: v3.10.tar
+  原始大小: 497.40 MiB
+  LZ4压缩大小: 172.77 MiB
+  压缩率: 2.87x
+  压缩时间: 1.54 秒
+  压缩吞吐量: 322.987012 MiB/s
+  解压时间: 0.40 秒
+  解压吞吐量: 1257.32 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.10.tar.lz4
+
+文件 #104: v3.11.tar
+  原始大小: 509.38 MiB
+  LZ4压缩大小: 177.25 MiB
+  压缩率: 2.87x
+  压缩时间: 1.60 秒
+  压缩吞吐量: 318.362500 MiB/s
+  解压时间: 0.40 秒
+  解压吞吐量: 1268.26 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.11.tar.lz4
+
+文件 #105: v3.12.tar
+  原始大小: 518.76 MiB
+  LZ4压缩大小: 180.54 MiB
+  压缩率: 2.87x
+  压缩时间: 1.62 秒
+  压缩吞吐量: 320.222222 MiB/s
+  解压时间: 0.44 秒
+  解压吞吐量: 1187.21 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.12.tar.lz4
+
+文件 #106: v3.13.tar
+  原始大小: 524.34 MiB
+  LZ4压缩大小: 182.41 MiB
+  压缩率: 2.87x
+  压缩时间: 1.64 秒
+  压缩吞吐量: 319.719512 MiB/s
+  解压时间: 0.42 秒
+  解压吞吐量: 1250.63 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.13.tar.lz4
+
+文件 #107: v3.14.tar
+  原始大小: 534.11 MiB
+  LZ4压缩大小: 185.38 MiB
+  压缩率: 2.88x
+  压缩时间: 1.69 秒
+  压缩吞吐量: 316.041420 MiB/s
+  解压时间: 0.42 秒
+  解压吞吐量: 1261.77 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.14.tar.lz4
+
+文件 #108: v3.15.tar
+  原始大小: 545.03 MiB
+  LZ4压缩大小: 188.78 MiB
+  压缩率: 2.88x
+  压缩时间: 1.69 秒
+  压缩吞吐量: 322.502958 MiB/s
+  解压时间: 0.46 秒
+  解压吞吐量: 1174.83 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.15.tar.lz4
+
+文件 #109: v3.16.tar
+  原始大小: 551.85 MiB
+  LZ4压缩大小: 190.93 MiB
+  压缩率: 2.89x
+  压缩时间: 1.70 秒
+  压缩吞吐量: 324.617647 MiB/s
+  解压时间: 0.44 秒
+  解压吞吐量: 1266.55 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.16.tar.lz4
+
+文件 #110: v3.17.tar
+  原始大小: 549.89 MiB
+  LZ4压缩大小: 190.28 MiB
+  压缩率: 2.88x
+  压缩时间: 1.70 秒
+  压缩吞吐量: 323.464705 MiB/s
+  解压时间: 0.44 秒
+  解压吞吐量: 1256.79 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.17.tar.lz4
+
+文件 #111: v3.18.tar
+  原始大小: 553.53 MiB
+  LZ4压缩大小: 191.70 MiB
+  压缩率: 2.88x
+  压缩时间: 1.75 秒
+  压缩吞吐量: 316.302857 MiB/s
+  解压时间: 0.45 秒
+  解压吞吐量: 1235.38 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.18.tar.lz4
+
+文件 #112: v3.19.tar
+  原始大小: 557.38 MiB
+  LZ4压缩大小: 193.10 MiB
+  压缩率: 2.88x
+  压缩时间: 1.74 秒
+  压缩吞吐量: 320.333333 MiB/s
+  解压时间: 0.44 秒
+  解压吞吐量: 1260.47 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v3.19.tar.lz4
+
+文件 #113: v4.0.tar
+  原始大小: 562.66 MiB
+  LZ4压缩大小: 194.78 MiB
+  压缩率: 2.88x
+  压缩时间: 1.77 秒
+  压缩吞吐量: 317.887005 MiB/s
+  解压时间: 0.45 秒
+  解压吞吐量: 1248.88 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.0.tar.lz4
+
+文件 #114: v4.1.tar
+  原始大小: 568.32 MiB
+  LZ4压缩大小: 196.61 MiB
+  压缩率: 2.89x
+  压缩时间: 1.76 秒
+  压缩吞吐量: 322.909090 MiB/s
+  解压时间: 0.45 秒
+  解压吞吐量: 1258.49 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.1.tar.lz4
+
+文件 #115: v4.2.tar
+  原始大小: 601.72 MiB
+  LZ4压缩大小: 204.83 MiB
+  压缩率: 2.93x
+  压缩时间: 1.92 秒
+  压缩吞吐量: 313.395833 MiB/s
+  解压时间: 0.48 秒
+  解压吞吐量: 1244.16 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.2.tar.lz4
+
+文件 #116: v4.3.tar
+  原始大小: 611.15 MiB
+  LZ4压缩大小: 207.76 MiB
+  压缩率: 2.94x
+  压缩时间: 1.87 秒
+  压缩吞吐量: 326.818181 MiB/s
+  解压时间: 0.48 秒
+  解压吞吐量: 1266.12 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.3.tar.lz4
+
+文件 #117: v4.4.tar
+  原始大小: 618.32 MiB
+  LZ4压缩大小: 209.60 MiB
+  压缩率: 2.94x
+  压缩时间: 1.89 秒
+  压缩吞吐量: 327.153439 MiB/s
+  解压时间: 0.50 秒
+  解压吞吐量: 1235.24 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.4.tar.lz4
+
+文件 #118: v4.5.tar
+  原始大小: 627.56 MiB
+  LZ4压缩大小: 212.20 MiB
+  压缩率: 2.95x
+  压缩时间: 1.93 秒
+  压缩吞吐量: 325.160621 MiB/s
+  解压时间: 0.59 秒
+  解压吞吐量: 1070.86 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.5.tar.lz4
+
+文件 #119: v4.6.tar
+  原始大小: 635.34 MiB
+  LZ4压缩大小: 214.80 MiB
+  压缩率: 2.95x
+  压缩时间: 1.98 秒
+  压缩吞吐量: 320.878787 MiB/s
+  解压时间: 0.57 秒
+  解压吞吐量: 1111.79 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.6.tar.lz4
+
+文件 #120: v4.7.tar
+  原始大小: 645.61 MiB
+  LZ4压缩大小: 217.46 MiB
+  压缩率: 2.96x
+  压缩时间: 1.99 秒
+  压缩吞吐量: 324.427135 MiB/s
+  解压时间: 0.52 秒
+  解压吞吐量: 1252.54 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.7.tar.lz4
+
+文件 #121: v4.8.tar
+  原始大小: 655.14 MiB
+  LZ4压缩大小: 220.76 MiB
+  压缩率: 2.96x
+  压缩时间: 2.00 秒
+  压缩吞吐量: 327.570000 MiB/s
+  解压时间: 0.52 秒
+  解压吞吐量: 1262.02 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.8.tar.lz4
+
+文件 #122: v4.9.tar
+  原始大小: 663.35 MiB
+  LZ4压缩大小: 223.41 MiB
+  压缩率: 2.96x
+  压缩时间: 2.10 秒
+  压缩吞吐量: 315.880952 MiB/s
+  解压时间: 0.54 秒
+  解压吞吐量: 1229.44 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.9.tar.lz4
+
+文件 #123: v4.10.tar
+  原始大小: 680.06 MiB
+  LZ4压缩大小: 227.46 MiB
+  压缩率: 2.98x
+  压缩时间: 2.11 秒
+  压缩吞吐量: 322.303317 MiB/s
+  解压时间: 0.53 秒
+  解压吞吐量: 1275.04 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.10.tar.lz4
+
+文件 #124: v4.11.tar
+  原始大小: 688.81 MiB
+  LZ4压缩大小: 230.28 MiB
+  压缩率: 2.99x
+  压缩时间: 2.09 秒
+  压缩吞吐量: 329.574162 MiB/s
+  解压时间: 0.53 秒
+  解压吞吐量: 1290.44 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.11.tar.lz4
+
+文件 #125: v4.12.tar
+  原始大小: 743.61 MiB
+  LZ4压缩大小: 241.00 MiB
+  压缩率: 3.08x
+  压缩时间: 2.53 秒
+  压缩吞吐量: 293.916996 MiB/s
+  解压时间: 0.59 秒
+  解压吞吐量: 1270.53 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.12.tar.lz4
+
+文件 #126: v4.13.tar
+  原始大小: 780.13 MiB
+  LZ4压缩大小: 247.64 MiB
+  压缩率: 3.15x
+  压缩时间: 2.31 秒
+  压缩吞吐量: 337.718614 MiB/s
+  解压时间: 0.60 秒
+  解压吞吐量: 1291.64 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.13.tar.lz4
+
+文件 #127: v4.14.tar
+  原始大小: 786.83 MiB
+  LZ4压缩大小: 248.06 MiB
+  压缩率: 3.17x
+  压缩时间: 2.43 秒
+  压缩吞吐量: 323.798353 MiB/s
+  解压时间: 0.62 秒
+  解压吞吐量: 1272.23 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.14.tar.lz4
+
+文件 #128: v4.15.tar
+  原始大小: 795.70 MiB
+  LZ4压缩大小: 251.05 MiB
+  压缩率: 3.16x
+  压缩时间: 2.39 秒
+  压缩吞吐量: 332.928870 MiB/s
+  解压时间: 0.78 秒
+  解压吞吐量: 1019.71 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.15.tar.lz4
+
+文件 #129: v4.16.tar
+  原始大小: 797.21 MiB
+  LZ4压缩大小: 252.89 MiB
+  压缩率: 3.15x
+  压缩时间: 2.37 秒
+  压缩吞吐量: 336.375527 MiB/s
+  解压时间: 0.62 秒
+  解压吞吐量: 1282.27 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.16.tar.lz4
+
+文件 #130: v4.17.tar
+  原始大小: 795.18 MiB
+  LZ4压缩大小: 251.33 MiB
+  压缩率: 3.16x
+  压缩时间: 2.39 秒
+  压缩吞吐量: 332.711297 MiB/s
+  解压时间: 0.62 秒
+  解压吞吐量: 1276.97 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.17.tar.lz4
+
+文件 #131: v4.18.tar
+  原始大小: 791.48 MiB
+  LZ4压缩大小: 250.50 MiB
+  压缩率: 3.15x
+  压缩时间: 2.35 秒
+  压缩吞吐量: 336.800000 MiB/s
+  解压时间: 0.64 秒
+  解压吞吐量: 1245.88 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.18.tar.lz4
+
+文件 #132: v4.19.tar
+  原始大小: 800.57 MiB
+  LZ4压缩大小: 253.63 MiB
+  压缩率: 3.15x
+  压缩时间: 2.42 秒
+  压缩吞吐量: 330.814049 MiB/s
+  解压时间: 0.63 秒
+  解压吞吐量: 1274.36 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.19.tar.lz4
+
+文件 #133: v4.20.tar
+  原始大小: 815.17 MiB
+  LZ4压缩大小: 257.12 MiB
+  压缩率: 3.17x
+  压缩时间: 2.48 秒
+  压缩吞吐量: 328.697580 MiB/s
+  解压时间: 0.64 秒
+  解压吞吐量: 1282.07 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v4.20.tar.lz4
+
+文件 #134: v5.0.tar
+  原始大小: 823.31 MiB
+  LZ4压缩大小: 259.44 MiB
+  压缩率: 3.17x
+  压缩时间: 2.49 秒
+  压缩吞吐量: 330.646586 MiB/s
+  解压时间: 0.69 秒
+  解压吞吐量: 1195.46 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.0.tar.lz4
+
+文件 #135: v5.1.tar
+  原始大小: 831.27 MiB
+  LZ4压缩大小: 261.88 MiB
+  压缩率: 3.17x
+  压缩时间: 2.47 秒
+  压缩吞吐量: 336.546558 MiB/s
+  解压时间: 0.64 秒
+  解压吞吐量: 1291.30 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.1.tar.lz4
+
+文件 #136: v5.2.tar
+  原始大小: 830.86 MiB
+  LZ4压缩大小: 262.63 MiB
+  压缩率: 3.16x
+  压缩时间: 2.77 秒
+  压缩吞吐量: 299.949458 MiB/s
+  解压时间: 0.66 秒
+  解压吞吐量: 1261.72 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.2.tar.lz4
+
+文件 #137: v5.3.tar
+  原始大小: 871.02 MiB
+  LZ4压缩大小: 269.44 MiB
+  压缩率: 3.23x
+  压缩时间: 2.57 秒
+  压缩吞吐量: 338.918287 MiB/s
+  解压时间: 0.68 秒
+  解压吞吐量: 1276.54 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.3.tar.lz4
+
+文件 #138: v5.4.tar
+  原始大小: 894.67 MiB
+  LZ4压缩大小: 273.63 MiB
+  压缩率: 3.26x
+  压缩时间: 2.84 秒
+  压缩吞吐量: 315.024647 MiB/s
+  解压时间: 0.70 秒
+  解压吞吐量: 1287.09 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.4.tar.lz4
+
+文件 #139: v5.5.tar
+  原始大小: 903.78 MiB
+  LZ4压缩大小: 276.56 MiB
+  压缩率: 3.26x
+  压缩时间: 2.62 秒
+  压缩吞吐量: 344.954198 MiB/s
+  解压时间: 0.70 秒
+  解压吞吐量: 1299.49 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.5.tar.lz4
+
+文件 #140: v5.6.tar
+  原始大小: 913.25 MiB
+  LZ4压缩大小: 279.42 MiB
+  压缩率: 3.26x
+  压缩时间: 2.71 秒
+  压缩吞吐量: 336.992619 MiB/s
+  解压时间: 0.71 秒
+  解压吞吐量: 1287.38 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.6.tar.lz4
+
+文件 #141: v5.7.tar
+  原始大小: 921.03 MiB
+  LZ4压缩大小: 281.92 MiB
+  压缩率: 3.26x
+  压缩时间: 2.68 秒
+  压缩吞吐量: 343.667910 MiB/s
+  解压时间: 0.75 秒
+  解压吞吐量: 1226.70 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.7.tar.lz4
+
+文件 #142: v5.8.tar
+  原始大小: 938.30 MiB
+  LZ4压缩大小: 286.66 MiB
+  压缩率: 3.27x
+  压缩时间: 2.74 秒
+  压缩吞吐量: 342.445255 MiB/s
+  解压时间: 0.79 秒
+  解压吞吐量: 1191.65 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.8.tar.lz4
+
+文件 #143: v5.9.tar
+  原始大小: 964.17 MiB
+  LZ4压缩大小: 286.06 MiB
+  压缩率: 3.37x
+  压缩时间: 2.77 秒
+  压缩吞吐量: 348.075812 MiB/s
+  解压时间: 0.74 秒
+  解压吞吐量: 1299.12 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.9.tar.lz4
+
+文件 #144: v5.10-rc1.tar
+  原始大小: 972.39 MiB
+  LZ4压缩大小: 288.74 MiB
+  压缩率: 3.36x
+  压缩时间: 2.88 秒
+  压缩吞吐量: 337.635416 MiB/s
+  解压时间: 0.75 秒
+  解压吞吐量: 1289.96 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.10-rc1.tar.lz4
+
+文件 #145: v5.10-rc2.tar
+  原始大小: 971.69 MiB
+  LZ4压缩大小: 288.54 MiB
+  压缩率: 3.36x
+  压缩时间: 2.79 秒
+  压缩吞吐量: 348.275985 MiB/s
+  解压时间: 0.76 秒
+  解压吞吐量: 1274.29 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.10-rc2.tar.lz4
+
+文件 #146: v5.10-rc3.tar
+  原始大小: 971.74 MiB
+  LZ4压缩大小: 288.54 MiB
+  压缩率: 3.36x
+  压缩时间: 2.80 秒
+  压缩吞吐量: 347.050000 MiB/s
+  解压时间: 0.75 秒
+  解压吞吐量: 1295.95 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.10-rc3.tar.lz4
+
+文件 #147: v5.10-rc4.tar
+  原始大小: 971.85 MiB
+  LZ4压缩大小: 288.55 MiB
+  压缩率: 3.36x
+  压缩时间: 2.83 秒
+  压缩吞吐量: 343.409893 MiB/s
+  解压时间: 0.78 秒
+  解压吞吐量: 1244.87 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.10-rc4.tar.lz4
+
+文件 #148: v5.10-rc5.tar
+  原始大小: 971.92 MiB
+  LZ4压缩大小: 288.58 MiB
+  压缩率: 3.36x
+  压缩时间: 2.93 秒
+  压缩吞吐量: 331.713310 MiB/s
+  解压时间: 0.75 秒
+  解压吞吐量: 1300.42 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.10-rc5.tar.lz4
+
+文件 #149: v5.10-rc6.tar
+  原始大小: 971.99 MiB
+  LZ4压缩大小: 288.62 MiB
+  压缩率: 3.36x
+  压缩时间: 2.96 秒
+  压缩吞吐量: 328.375000 MiB/s
+  解压时间: 0.76 秒
+  解压吞吐量: 1273.65 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.10-rc6.tar.lz4
+
+文件 #150: v5.10-rc7.tar
+  原始大小: 972.00 MiB
+  LZ4压缩大小: 288.61 MiB
+  压缩率: 3.36x
+  压缩时间: 2.91 秒
+  压缩吞吐量: 334.020618 MiB/s
+  解压时间: 0.79 秒
+  解压吞吐量: 1225.65 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.10-rc7.tar.lz4
+
+文件 #151: v5.10.tar
+  原始大小: 972.02 MiB
+  LZ4压缩大小: 288.60 MiB
+  压缩率: 3.36x
+  压缩时间: 2.85 秒
+  压缩吞吐量: 341.059649 MiB/s
+  解压时间: 0.79 秒
+  解压吞吐量: 1231.36 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.10.tar.lz4
+
+文件 #152: v5.11-rc1.tar
+  原始大小: 1014.61 MiB
+  LZ4压缩大小: 295.64 MiB
+  压缩率: 3.43x
+  压缩时间: 3.12 秒
+  压缩吞吐量: 325.195512 MiB/s
+  解压时间: 0.96 秒
+  解压吞吐量: 1055.63 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.11-rc1.tar.lz4
+
+文件 #153: v5.11-rc2.tar
+  原始大小: 1014.61 MiB
+  LZ4压缩大小: 295.62 MiB
+  压缩率: 3.43x
+  压缩时间: 2.89 秒
+  压缩吞吐量: 351.076124 MiB/s
+  解压时间: 0.78 秒
+  解压吞吐量: 1301.52 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.11-rc2.tar.lz4
+
+文件 #154: v5.11-rc3.tar
+  原始大小: 1014.66 MiB
+  LZ4压缩大小: 295.65 MiB
+  压缩率: 3.43x
+  压缩时间: 3.38 秒
+  压缩吞吐量: 300.195266 MiB/s
+  解压时间: 0.93 秒
+  解压吞吐量: 1093.08 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.11-rc3.tar.lz4
+
+文件 #155: v5.11-rc4.tar
+  原始大小: 1014.75 MiB
+  LZ4压缩大小: 295.69 MiB
+  压缩率: 3.43x
+  压缩时间: 2.90 秒
+  压缩吞吐量: 349.913793 MiB/s
+  解压时间: 0.78 秒
+  解压吞吐量: 1304.97 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.11-rc4.tar.lz4
+
+文件 #156: v5.11-rc5.tar
+  原始大小: 1014.78 MiB
+  LZ4压缩大小: 295.70 MiB
+  压缩率: 3.43x
+  压缩时间: 2.91 秒
+  压缩吞吐量: 348.721649 MiB/s
+  解压时间: 0.77 秒
+  解压吞吐量: 1315.82 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.11-rc5.tar.lz4
+
+文件 #157: v5.11-rc6.tar
+  原始大小: 1014.83 MiB
+  LZ4压缩大小: 295.72 MiB
+  压缩率: 3.43x
+  压缩时间: 3.00 秒
+  压缩吞吐量: 338.276666 MiB/s
+  解压时间: 0.79 秒
+  解压吞吐量: 1292.52 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.11-rc6.tar.lz4
+
+文件 #158: v5.11-rc7.tar
+  原始大小: 1014.89 MiB
+  LZ4压缩大小: 295.73 MiB
+  压缩率: 3.43x
+  压缩时间: 2.88 秒
+  压缩吞吐量: 352.392361 MiB/s
+  解压时间: 0.79 秒
+  解压吞吐量: 1282.30 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.11-rc7.tar.lz4
+
+文件 #159: v5.11.tar
+  原始大小: 1014.91 MiB
+  LZ4压缩大小: 295.73 MiB
+  压缩率: 3.43x
+  压缩时间: 2.90 秒
+  压缩吞吐量: 349.968965 MiB/s
+  解压时间: 0.89 秒
+  解压吞吐量: 1137.92 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.11.tar.lz4
+
+文件 #160: v5.12-rc1-dontuse.tar
+  原始大小: 1020.49 MiB
+  LZ4压缩大小: 297.37 MiB
+  压缩率: 3.43x
+  压缩时间: 2.90 秒
+  压缩吞吐量: 351.893103 MiB/s
+  解压时间: 0.81 秒
+  解压吞吐量: 1261.29 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.12-rc1-dontuse.tar.lz4
+
+文件 #161: v5.12-rc2.tar
+  原始大小: 1020.53 MiB
+  LZ4压缩大小: 297.34 MiB
+  压缩率: 3.43x
+  压缩时间: 3.07 秒
+  压缩吞吐量: 332.420195 MiB/s
+  解压时间: 0.79 秒
+  解压吞吐量: 1293.07 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.12-rc2.tar.lz4
+
+文件 #162: v5.12-rc3.tar
+  原始大小: 1020.59 MiB
+  LZ4压缩大小: 297.36 MiB
+  压缩率: 3.43x
+  压缩时间: 2.95 秒
+  压缩吞吐量: 345.962711 MiB/s
+  解压时间: 0.78 秒
+  解压吞吐量: 1305.54 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.12-rc3.tar.lz4
+
+文件 #163: v5.12-rc4.tar
+  原始大小: 1020.60 MiB
+  LZ4压缩大小: 297.38 MiB
+  压缩率: 3.43x
+  压缩时间: 2.92 秒
+  压缩吞吐量: 349.520547 MiB/s
+  解压时间: 0.78 秒
+  解压吞吐量: 1303.04 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.12-rc4.tar.lz4
+
+文件 #164: v5.12-rc5.tar
+  原始大小: 1020.67 MiB
+  LZ4压缩大小: 297.39 MiB
+  压缩率: 3.43x
+  压缩时间: 3.56 秒
+  压缩吞吐量: 286.705056 MiB/s
+  解压时间: 0.78 秒
+  解压吞吐量: 1305.26 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.12-rc5.tar.lz4
+
+文件 #165: v5.12-rc6.tar
+  原始大小: 1020.68 MiB
+  LZ4压缩大小: 297.40 MiB
+  压缩率: 3.43x
+  压缩时间: 4.02 秒
+  压缩吞吐量: 253.900497 MiB/s
+  解压时间: 0.78 秒
+  解压吞吐量: 1310.07 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.12-rc6.tar.lz4
+
+文件 #166: v5.12-rc7.tar
+  原始大小: 1020.72 MiB
+  LZ4压缩大小: 297.42 MiB
+  压缩率: 3.43x
+  压缩时间: 2.95 秒
+  压缩吞吐量: 346.006779 MiB/s
+  解压时间: 0.79 秒
+  解压吞吐量: 1289.81 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.12-rc7.tar.lz4
+
+文件 #167: v5.12-rc8.tar
+  原始大小: 1020.73 MiB
+  LZ4压缩大小: 297.41 MiB
+  压缩率: 3.43x
+  压缩时间: 2.94 秒
+  压缩吞吐量: 347.187074 MiB/s
+  解压时间: 0.79 秒
+  解压吞吐量: 1299.15 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.12-rc8.tar.lz4
+
+文件 #168: v5.12.tar
+  原始大小: 1020.73 MiB
+  LZ4压缩大小: 297.39 MiB
+  压缩率: 3.43x
+  压缩时间: 2.94 秒
+  压缩吞吐量: 347.187074 MiB/s
+  解压时间: 0.78 秒
+  解压吞吐量: 1301.27 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.12.tar.lz4
+
+文件 #169: v5.13-rc1.tar
+  原始大小: 1040.90 MiB
+  LZ4压缩大小: 301.27 MiB
+  压缩率: 3.45x
+  压缩时间: 3.25 秒
+  压缩吞吐量: 320.276923 MiB/s
+  解压时间: 0.81 秒
+  解压吞吐量: 1289.25 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.13-rc1.tar.lz4
+
+文件 #170: v5.13-rc2.tar
+  原始大小: 1040.93 MiB
+  LZ4压缩大小: 301.30 MiB
+  压缩率: 3.45x
+  压缩时间: 3.25 秒
+  压缩吞吐量: 320.286153 MiB/s
+  解压时间: 0.81 秒
+  解压吞吐量: 1286.70 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.13-rc2.tar.lz4
+
+文件 #171: v5.13-rc3.tar
+  原始大小: 1040.96 MiB
+  LZ4压缩大小: 301.31 MiB
+  压缩率: 3.45x
+  压缩时间: 3.19 秒
+  压缩吞吐量: 326.319749 MiB/s
+  解压时间: 0.80 秒
+  解压吞吐量: 1296.58 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.13-rc3.tar.lz4
+
+文件 #172: v5.13-rc4.tar
+  原始大小: 1041.08 MiB
+  LZ4压缩大小: 301.36 MiB
+  压缩率: 3.45x
+  压缩时间: 3.19 秒
+  压缩吞吐量: 326.357366 MiB/s
+  解压时间: 0.81 秒
+  解压吞吐量: 1290.21 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.13-rc4.tar.lz4
+
+文件 #173: v5.13-rc5.tar
+  原始大小: 1041.11 MiB
+  LZ4压缩大小: 301.35 MiB
+  压缩率: 3.45x
+  压缩时间: 3.26 秒
+  压缩吞吐量: 319.358895 MiB/s
+  解压时间: 0.80 秒
+  解压吞吐量: 1307.38 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.13-rc5.tar.lz4
+
+文件 #174: v5.13-rc6.tar
+  原始大小: 1041.14 MiB
+  LZ4压缩大小: 301.37 MiB
+  压缩率: 3.45x
+  压缩时间: 3.15 秒
+  压缩吞吐量: 330.520634 MiB/s
+  解压时间: 0.80 秒
+  解压吞吐量: 1293.49 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.13-rc6.tar.lz4
+
+文件 #175: v5.13-rc7.tar
+  原始大小: 1041.19 MiB
+  LZ4压缩大小: 301.37 MiB
+  压缩率: 3.45x
+  压缩时间: 3.17 秒
+  压缩吞吐量: 328.451104 MiB/s
+  解压时间: 0.81 秒
+  解压吞吐量: 1292.75 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.13-rc7.tar.lz4
+
+文件 #176: v5.13.tar
+  原始大小: 1041.20 MiB
+  LZ4压缩大小: 301.37 MiB
+  压缩率: 3.45x
+  压缩时间: 3.20 秒
+  压缩吞吐量: 325.375000 MiB/s
+  解压时间: 0.79 秒
+  解压吞吐量: 1316.90 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.13.tar.lz4
+
+文件 #177: v5.14-rc1.tar
+  原始大小: 1074.36 MiB
+  LZ4压缩大小: 307.38 MiB
+  压缩率: 3.49x
+  压缩时间: 3.24 秒
+  压缩吞吐量: 331.592592 MiB/s
+  解压时间: 0.82 秒
+  解压吞吐量: 1316.93 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.14-rc1.tar.lz4
+
+文件 #178: v5.14-rc2.tar
+  原始大小: 1074.36 MiB
+  LZ4压缩大小: 307.41 MiB
+  压缩率: 3.49x
+  压缩时间: 3.25 秒
+  压缩吞吐量: 330.572307 MiB/s
+  解压时间: 0.82 秒
+  解压吞吐量: 1306.04 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.14-rc2.tar.lz4
+
+文件 #179: v5.14-rc3.tar
+  原始大小: 1074.40 MiB
+  LZ4压缩大小: 307.43 MiB
+  压缩率: 3.49x
+  压缩时间: 3.47 秒
+  压缩吞吐量: 309.625360 MiB/s
+  解压时间: 0.83 秒
+  解压吞吐量: 1290.49 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.14-rc3.tar.lz4
+
+文件 #180: v5.14-rc4.tar
+  原始大小: 1074.46 MiB
+  LZ4压缩大小: 307.45 MiB
+  压缩率: 3.49x
+  压缩时间: 3.27 秒
+  压缩吞吐量: 328.581039 MiB/s
+  解压时间: 0.84 秒
+  解压吞吐量: 1285.11 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.14-rc4.tar.lz4
+
+文件 #181: v5.14-rc5.tar
+  原始大小: 1074.50 MiB
+  LZ4压缩大小: 307.46 MiB
+  压缩率: 3.49x
+  压缩时间: 3.28 秒
+  压缩吞吐量: 327.591463 MiB/s
+  解压时间: 0.84 秒
+  解压吞吐量: 1281.99 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.14-rc5.tar.lz4
+
+文件 #182: v5.14-rc6.tar
+  原始大小: 1074.52 MiB
+  LZ4压缩大小: 307.45 MiB
+  压缩率: 3.49x
+  压缩时间: 3.28 秒
+  压缩吞吐量: 327.597560 MiB/s
+  解压时间: 0.85 秒
+  解压吞吐量: 1271.47 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.14-rc6.tar.lz4
+
+文件 #183: v5.14-rc7.tar
+  原始大小: 1074.53 MiB
+  LZ4压缩大小: 307.47 MiB
+  压缩率: 3.49x
+  压缩时间: 3.24 秒
+  压缩吞吐量: 331.645061 MiB/s
+  解压时间: 0.82 秒
+  解压吞吐量: 1309.67 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.14-rc7.tar.lz4
+
+文件 #184: v5.14.tar
+  原始大小: 1074.54 MiB
+  LZ4压缩大小: 307.43 MiB
+  压缩率: 3.49x
+  压缩时间: 3.29 秒
+  压缩吞吐量: 326.607902 MiB/s
+  解压时间: 0.83 秒
+  解压吞吐量: 1290.61 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.14.tar.lz4
+
+文件 #185: v5.15-rc1.tar
+  原始大小: 1084.10 MiB
+  LZ4压缩大小: 310.52 MiB
+  压缩率: 3.49x
+  压缩时间: 3.31 秒
+  压缩吞吐量: 327.522658 MiB/s
+  解压时间: 0.82 秒
+  解压吞吐量: 1316.12 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.15-rc1.tar.lz4
+
+文件 #186: v5.15-rc2.tar
+  原始大小: 1084.14 MiB
+  LZ4压缩大小: 310.53 MiB
+  压缩率: 3.49x
+  压缩时间: 3.27 秒
+  压缩吞吐量: 331.541284 MiB/s
+  解压时间: 0.84 秒
+  解压吞吐量: 1296.79 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.15-rc2.tar.lz4
+
+文件 #187: v5.15-rc3.tar
+  原始大小: 1084.18 MiB
+  LZ4压缩大小: 310.55 MiB
+  压缩率: 3.49x
+  压缩时间: 3.41 秒
+  压缩吞吐量: 317.941348 MiB/s
+  解压时间: 0.83 秒
+  解压吞吐量: 1306.76 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.15-rc3.tar.lz4
+
+文件 #188: v5.15-rc4.tar
+  原始大小: 1084.23 MiB
+  LZ4压缩大小: 310.57 MiB
+  压缩率: 3.49x
+  压缩时间: 3.33 秒
+  压缩吞吐量: 325.594594 MiB/s
+  解压时间: 0.82 秒
+  解压吞吐量: 1316.75 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.15-rc4.tar.lz4
+
+文件 #189: v5.15-rc5.tar
+  原始大小: 1084.26 MiB
+  LZ4压缩大小: 310.59 MiB
+  压缩率: 3.49x
+  压缩时间: 3.27 秒
+  压缩吞吐量: 331.577981 MiB/s
+  解压时间: 0.83 秒
+  解压吞吐量: 1301.66 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.15-rc5.tar.lz4
+
+文件 #190: v5.15-rc6.tar
+  原始大小: 1084.30 MiB
+  LZ4压缩大小: 310.61 MiB
+  压缩率: 3.49x
+  压缩时间: 3.28 秒
+  压缩吞吐量: 330.579268 MiB/s
+  解压时间: 0.85 秒
+  解压吞吐量: 1277.22 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.15-rc6.tar.lz4
+
+文件 #191: v5.15-rc7.tar
+  原始大小: 1084.33 MiB
+  LZ4压缩大小: 310.62 MiB
+  压缩率: 3.49x
+  压缩时间: 3.26 秒
+  压缩吞吐量: 332.616564 MiB/s
+  解压时间: 0.83 秒
+  解压吞吐量: 1303.04 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.15-rc7.tar.lz4
+
+文件 #192: v5.15.tar
+  原始大小: 1084.34 MiB
+  LZ4压缩大小: 310.60 MiB
+  压缩率: 3.49x
+  压缩时间: 3.43 秒
+  压缩吞吐量: 316.134110 MiB/s
+  解压时间: 0.83 秒
+  解压吞吐量: 1305.40 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.15.tar.lz4
+
+文件 #193: v5.16-rc1.tar
+  原始大小: 1098.46 MiB
+  LZ4压缩大小: 314.11 MiB
+  压缩率: 3.49x
+  压缩时间: 3.33 秒
+  压缩吞吐量: 329.867867 MiB/s
+  解压时间: 0.83 秒
+  解压吞吐量: 1322.72 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.16-rc1.tar.lz4
+
+文件 #194: v5.16-rc2.tar
+  原始大小: 1098.51 MiB
+  LZ4压缩大小: 314.12 MiB
+  压缩率: 3.49x
+  压缩时间: 3.45 秒
+  压缩吞吐量: 318.408695 MiB/s
+  解压时间: 0.85 秒
+  解压吞吐量: 1298.41 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.16-rc2.tar.lz4
+
+文件 #195: v5.16-rc3.tar
+  原始大小: 1098.47 MiB
+  LZ4压缩大小: 314.13 MiB
+  压缩率: 3.49x
+  压缩时间: 3.33 秒
+  压缩吞吐量: 329.870870 MiB/s
+  解压时间: 0.84 秒
+  解压吞吐量: 1306.12 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.16-rc3.tar.lz4
+
+文件 #196: v5.16-rc4.tar
+  原始大小: 1098.52 MiB
+  LZ4压缩大小: 314.12 MiB
+  压缩率: 3.49x
+  压缩时间: 3.31 秒
+  压缩吞吐量: 331.879154 MiB/s
+  解压时间: 0.85 秒
+  解压吞吐量: 1288.04 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.16-rc4.tar.lz4
+
+文件 #197: v5.16-rc5.tar
+  原始大小: 1098.58 MiB
+  LZ4压缩大小: 314.15 MiB
+  压缩率: 3.49x
+  压缩时间: 3.35 秒
+  压缩吞吐量: 327.934328 MiB/s
+  解压时间: 0.85 秒
+  解压吞吐量: 1291.54 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.16-rc5.tar.lz4
+
+文件 #198: v5.16-rc6.tar
+  原始大小: 1098.61 MiB
+  LZ4压缩大小: 314.15 MiB
+  压缩率: 3.49x
+  压缩时间: 3.92 秒
+  压缩吞吐量: 280.257653 MiB/s
+  解压时间: 0.84 秒
+  解压吞吐量: 1309.18 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.16-rc6.tar.lz4
+
+文件 #199: v5.16-rc7.tar
+  原始大小: 1098.63 MiB
+  LZ4压缩大小: 314.15 MiB
+  压缩率: 3.49x
+  压缩时间: 3.65 秒
+  压缩吞吐量: 300.994520 MiB/s
+  解压时间: 0.84 秒
+  解压吞吐量: 1307.93 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.16-rc7.tar.lz4
+
+文件 #200: v5.16-rc8.tar
+  原始大小: 1098.65 MiB
+  LZ4压缩大小: 314.16 MiB
+  压缩率: 3.49x
+  压缩时间: 3.40 秒
+  压缩吞吐量: 323.132352 MiB/s
+  解压时间: 0.91 秒
+  解压吞吐量: 1201.99 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.16-rc8.tar.lz4
+
+文件 #201: v5.16.tar
+  原始大小: 1098.66 MiB
+  LZ4压缩大小: 314.16 MiB
+  压缩率: 3.49x
+  压缩时间: 3.35 秒
+  压缩吞吐量: 327.958208 MiB/s
+  解压时间: 0.85 秒
+  解压吞吐量: 1286.25 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.16.tar.lz4
+
+文件 #202: v5.17-rc1.tar
+  原始大小: 1105.87 MiB
+  LZ4压缩大小: 316.32 MiB
+  压缩率: 3.49x
+  压缩时间: 3.35 秒
+  压缩吞吐量: 330.110447 MiB/s
+  解压时间: 0.84 秒
+  解压吞吐量: 1318.43 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.17-rc1.tar.lz4
+
+文件 #203: v5.17-rc2.tar
+  原始大小: 1105.95 MiB
+  LZ4压缩大小: 316.35 MiB
+  压缩率: 3.49x
+  压缩时间: 3.32 秒
+  压缩吞吐量: 333.117469 MiB/s
+  解压时间: 0.93 秒
+  解压吞吐量: 1191.79 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.17-rc2.tar.lz4
+
+文件 #204: v5.17-rc3.tar
+  原始大小: 1106.02 MiB
+  LZ4压缩大小: 316.38 MiB
+  压缩率: 3.49x
+  压缩时间: 3.45 秒
+  压缩吞吐量: 320.585507 MiB/s
+  解压时间: 0.85 秒
+  解压吞吐量: 1303.30 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.17-rc3.tar.lz4
+
+文件 #205: v5.17-rc4.tar
+  原始大小: 1106.04 MiB
+  LZ4压缩大小: 316.36 MiB
+  压缩率: 3.49x
+  压缩时间: 3.35 秒
+  压缩吞吐量: 330.161194 MiB/s
+  解压时间: 0.85 秒
+  解压吞吐量: 1302.91 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.17-rc4.tar.lz4
+
+文件 #206: v5.17-rc5.tar
+  原始大小: 1106.06 MiB
+  LZ4压缩大小: 316.36 MiB
+  压缩率: 3.49x
+  压缩时间: 3.44 秒
+  压缩吞吐量: 321.529069 MiB/s
+  解压时间: 0.86 秒
+  解压吞吐量: 1282.64 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.17-rc5.tar.lz4
+
+文件 #207: v5.17-rc6.tar
+  原始大小: 1106.09 MiB
+  LZ4压缩大小: 316.39 MiB
+  压缩率: 3.49x
+  压缩时间: 3.44 秒
+  压缩吞吐量: 321.537790 MiB/s
+  解压时间: 0.88 秒
+  解压吞吐量: 1251.61 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.17-rc6.tar.lz4
+
+文件 #208: v5.17-rc7.tar
+  原始大小: 1106.12 MiB
+  LZ4压缩大小: 316.42 MiB
+  压缩率: 3.49x
+  压缩时间: 3.32 秒
+  压缩吞吐量: 333.168674 MiB/s
+  解压时间: 0.85 秒
+  解压吞吐量: 1295.08 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.17-rc7.tar.lz4
+
+文件 #209: v5.17-rc8.tar
+  原始大小: 1106.18 MiB
+  LZ4压缩大小: 316.42 MiB
+  压缩率: 3.49x
+  压缩时间: 3.58 秒
+  压缩吞吐量: 308.988826 MiB/s
+  解压时间: 0.85 秒
+  解压吞吐量: 1304.99 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.17-rc8.tar.lz4
+
+文件 #210: v5.17.tar
+  原始大小: 1106.18 MiB
+  LZ4压缩大小: 316.40 MiB
+  压缩率: 3.49x
+  压缩时间: 3.37 秒
+  压缩吞吐量: 328.243323 MiB/s
+  解压时间: 0.85 秒
+  解压吞吐量: 1298.75 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.17.tar.lz4
+
+文件 #211: v5.18-rc1.tar
+  原始大小: 1158.79 MiB
+  LZ4压缩大小: 325.18 MiB
+  压缩率: 3.56x
+  压缩时间: 3.45 秒
+  压缩吞吐量: 335.881159 MiB/s
+  解压时间: 0.93 秒
+  解压吞吐量: 1244.68 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.18-rc1.tar.lz4
+
+文件 #212: v5.18-rc2.tar
+  原始大小: 1158.82 MiB
+  LZ4压缩大小: 325.18 MiB
+  压缩率: 3.56x
+  压缩时间: 3.47 秒
+  压缩吞吐量: 333.953890 MiB/s
+  解压时间: 0.89 秒
+  解压吞吐量: 1303.90 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.18-rc2.tar.lz4
+
+文件 #213: v5.18-rc3.tar
+  原始大小: 1158.84 MiB
+  LZ4压缩大小: 325.20 MiB
+  压缩率: 3.56x
+  压缩时间: 3.59 秒
+  压缩吞吐量: 322.796657 MiB/s
+  解压时间: 1.21 秒
+  解压吞吐量: 954.68 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.18-rc3.tar.lz4
+
+文件 #214: v5.18-rc4.tar
+  原始大小: 1158.86 MiB
+  LZ4压缩大小: 325.21 MiB
+  压缩率: 3.56x
+  压缩时间: 3.48 秒
+  压缩吞吐量: 333.005747 MiB/s
+  解压时间: 0.90 秒
+  解压吞吐量: 1293.06 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.18-rc4.tar.lz4
+
+文件 #215: v5.18-rc5.tar
+  原始大小: 1158.89 MiB
+  LZ4压缩大小: 325.22 MiB
+  压缩率: 3.56x
+  压缩时间: 3.53 秒
+  压缩吞吐量: 328.297450 MiB/s
+  解压时间: 0.87 秒
+  解压吞吐量: 1327.09 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.18-rc5.tar.lz4
+
+文件 #216: v5.18-rc6.tar
+  原始大小: 1158.92 MiB
+  LZ4压缩大小: 325.24 MiB
+  压缩率: 3.56x
+  压缩时间: 3.46 秒
+  压缩吞吐量: 334.947976 MiB/s
+  解压时间: 0.91 秒
+  解压吞吐量: 1274.73 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.18-rc6.tar.lz4
+
+文件 #217: v5.18-rc7.tar
+  原始大小: 1158.95 MiB
+  LZ4压缩大小: 325.26 MiB
+  压缩率: 3.56x
+  压缩时间: 3.50 秒
+  压缩吞吐量: 331.128571 MiB/s
+  解压时间: 0.91 秒
+  解压吞吐量: 1273.83 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.18-rc7.tar.lz4
+
+文件 #218: v5.18.tar
+  原始大小: 1158.98 MiB
+  LZ4压缩大小: 325.23 MiB
+  压缩率: 3.56x
+  压缩时间: 3.54 秒
+  压缩吞吐量: 327.395480 MiB/s
+  解压时间: 0.89 秒
+  解压吞吐量: 1300.49 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.18.tar.lz4
+
+文件 #219: v5.19-rc1.tar
+  原始大小: 1210.18 MiB
+  LZ4压缩大小: 334.23 MiB
+  压缩率: 3.62x
+  压缩时间: 3.70 秒
+  压缩吞吐量: 327.075675 MiB/s
+  解压时间: 0.92 秒
+  解压吞吐量: 1310.42 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.19-rc1.tar.lz4
+
+文件 #220: v5.19-rc2.tar
+  原始大小: 1210.23 MiB
+  LZ4压缩大小: 334.27 MiB
+  压缩率: 3.62x
+  压缩时间: 5.49 秒
+  压缩吞吐量: 220.442622 MiB/s
+  解压时间: 0.92 秒
+  解压吞吐量: 1313.86 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.19-rc2.tar.lz4
+
+文件 #221: v5.19-rc3.tar
+  原始大小: 1210.26 MiB
+  LZ4压缩大小: 334.29 MiB
+  压缩率: 3.62x
+  压缩时间: 3.67 秒
+  压缩吞吐量: 329.771117 MiB/s
+  解压时间: 0.96 秒
+  解压吞吐量: 1266.24 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.19-rc3.tar.lz4
+
+文件 #222: v5.19-rc4.tar
+  原始大小: 1210.32 MiB
+  LZ4压缩大小: 334.30 MiB
+  压缩率: 3.62x
+  压缩时间: 3.69 秒
+  压缩吞吐量: 328.000000 MiB/s
+  解压时间: 0.94 秒
+  解压吞吐量: 1281.65 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.19-rc4.tar.lz4
+
+文件 #223: v5.19-rc5.tar
+  原始大小: 1210.35 MiB
+  LZ4压缩大小: 334.30 MiB
+  压缩率: 3.62x
+  压缩时间: 3.70 秒
+  压缩吞吐量: 327.121621 MiB/s
+  解压时间: 0.93 秒
+  解压吞吐量: 1304.54 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.19-rc5.tar.lz4
+
+文件 #224: v5.19-rc6.tar
+  原始大小: 1210.39 MiB
+  LZ4压缩大小: 334.30 MiB
+  压缩率: 3.62x
+  压缩时间: 3.79 秒
+  压缩吞吐量: 319.364116 MiB/s
+  解压时间: 0.92 秒
+  解压吞吐量: 1311.30 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.19-rc6.tar.lz4
+
+文件 #225: v5.19-rc7.tar
+  原始大小: 1210.45 MiB
+  LZ4压缩大小: 334.34 MiB
+  压缩率: 3.62x
+  压缩时间: 3.69 秒
+  压缩吞吐量: 328.035230 MiB/s
+  解压时间: 0.93 秒
+  解压吞吐量: 1297.03 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.19-rc7.tar.lz4
+
+文件 #226: v5.19-rc8.tar
+  原始大小: 1210.49 MiB
+  LZ4压缩大小: 334.35 MiB
+  压缩率: 3.62x
+  压缩时间: 4.17 秒
+  压缩吞吐量: 290.285371 MiB/s
+  解压时间: 0.93 秒
+  解压吞吐量: 1295.14 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.19-rc8.tar.lz4
+
+文件 #227: v5.19.tar
+  原始大小: 1210.49 MiB
+  LZ4压缩大小: 334.34 MiB
+  压缩率: 3.62x
+  压缩时间: 4.03 秒
+  压缩吞吐量: 300.369727 MiB/s
+  解压时间: 0.94 秒
+  解压吞吐量: 1282.23 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v5.19.tar.lz4
+
+文件 #228: v6.0-rc1.tar
+  原始大小: 1278.06 MiB
+  LZ4压缩大小: 345.27 MiB
+  压缩率: 3.70x
+  压缩时间: 3.75 秒
+  压缩吞吐量: 340.816000 MiB/s
+  解压时间: 1.08 秒
+  解压吞吐量: 1179.54 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.0-rc1.tar.lz4
+
+文件 #229: v6.0-rc2.tar
+  原始大小: 1278.17 MiB
+  LZ4压缩大小: 345.26 MiB
+  压缩率: 3.70x
+  压缩时间: 3.77 秒
+  压缩吞吐量: 339.037135 MiB/s
+  解压时间: 0.97 秒
+  解压吞吐量: 1314.88 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.0-rc2.tar.lz4
+
+文件 #230: v6.0-rc3.tar
+  原始大小: 1278.21 MiB
+  LZ4压缩大小: 345.29 MiB
+  压缩率: 3.70x
+  压缩时间: 4.01 秒
+  压缩吞吐量: 318.755610 MiB/s
+  解压时间: 0.99 秒
+  解压吞吐量: 1285.75 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.0-rc3.tar.lz4
+
+文件 #231: v6.0-rc4.tar
+  原始大小: 1278.25 MiB
+  LZ4压缩大小: 345.29 MiB
+  压缩率: 3.70x
+  压缩时间: 3.83 秒
+  压缩吞吐量: 333.746736 MiB/s
+  解压时间: 0.97 秒
+  解压吞吐量: 1316.95 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.0-rc4.tar.lz4
+
+文件 #232: v6.0-rc5.tar
+  原始大小: 1278.28 MiB
+  LZ4压缩大小: 345.31 MiB
+  压缩率: 3.70x
+  压缩时间: 3.80 秒
+  压缩吞吐量: 336.389473 MiB/s
+  解压时间: 0.98 秒
+  解压吞吐量: 1306.28 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.0-rc5.tar.lz4
+
+文件 #233: v6.0-rc6.tar
+  原始大小: 1278.28 MiB
+  LZ4压缩大小: 345.30 MiB
+  压缩率: 3.70x
+  压缩时间: 3.92 秒
+  压缩吞吐量: 326.091836 MiB/s
+  解压时间: 0.97 秒
+  解压吞吐量: 1314.05 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.0-rc6.tar.lz4
+
+文件 #234: v6.0-rc7.tar
+  原始大小: 1278.30 MiB
+  LZ4压缩大小: 345.32 MiB
+  压缩率: 3.70x
+  压缩时间: 3.86 秒
+  压缩吞吐量: 331.165803 MiB/s
+  解压时间: 0.99 秒
+  解压吞吐量: 1286.56 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.0-rc7.tar.lz4
+
+文件 #235: v6.0.tar
+  原始大小: 1278.32 MiB
+  LZ4压缩大小: 345.29 MiB
+  压缩率: 3.70x
+  压缩时间: 3.78 秒
+  压缩吞吐量: 338.179894 MiB/s
+  解压时间: 0.97 秒
+  解压吞吐量: 1313.81 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.0.tar.lz4
+
+文件 #236: v6.1-rc1.tar
+  原始大小: 1295.06 MiB
+  LZ4压缩大小: 349.16 MiB
+  压缩率: 3.70x
+  压缩时间: 3.83 秒
+  压缩吞吐量: 338.135770 MiB/s
+  解压时间: 1.00 秒
+  解压吞吐量: 1300.93 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.1-rc1.tar.lz4
+
+文件 #237: v6.1-rc2.tar
+  原始大小: 1295.09 MiB
+  LZ4压缩大小: 349.15 MiB
+  压缩率: 3.70x
+  压缩时间: 3.82 秒
+  压缩吞吐量: 339.028795 MiB/s
+  解压时间: 0.98 秒
+  解压吞吐量: 1317.46 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.1-rc2.tar.lz4
+
+文件 #238: v6.1-rc3.tar
+  原始大小: 1295.16 MiB
+  LZ4压缩大小: 349.20 MiB
+  压缩率: 3.70x
+  压缩时间: 3.79 秒
+  压缩吞吐量: 341.730870 MiB/s
+  解压时间: 0.99 秒
+  解压吞吐量: 1306.48 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.1-rc3.tar.lz4
+
+文件 #239: v6.1-rc4.tar
+  原始大小: 1295.23 MiB
+  LZ4压缩大小: 349.22 MiB
+  压缩率: 3.70x
+  压缩时间: 3.79 秒
+  压缩吞吐量: 341.749340 MiB/s
+  解压时间: 0.99 秒
+  解压吞吐量: 1302.59 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.1-rc4.tar.lz4
+
+文件 #240: v6.1-rc5.tar
+  原始大小: 1295.28 MiB
+  LZ4压缩大小: 349.23 MiB
+  压缩率: 3.70x
+  压缩时间: 3.89 秒
+  压缩吞吐量: 332.976863 MiB/s
+  解压时间: 0.98 秒
+  解压吞吐量: 1317.20 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.1-rc5.tar.lz4
+
+文件 #241: v6.1-rc6.tar
+  原始大小: 1295.32 MiB
+  LZ4压缩大小: 349.24 MiB
+  压缩率: 3.70x
+  压缩时间: 3.82 秒
+  压缩吞吐量: 339.089005 MiB/s
+  解压时间: 0.98 秒
+  解压吞吐量: 1316.33 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.1-rc6.tar.lz4
+
+文件 #242: v6.1-rc7.tar
+  原始大小: 1295.35 MiB
+  LZ4压缩大小: 349.25 MiB
+  压缩率: 3.70x
+  压缩时间: 3.85 秒
+  压缩吞吐量: 336.454545 MiB/s
+  解压时间: 1.01 秒
+  解压吞吐量: 1281.11 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.1-rc7.tar.lz4
+
+文件 #243: v6.1-rc8.tar
+  原始大小: 1295.37 MiB
+  LZ4压缩大小: 349.27 MiB
+  压缩率: 3.70x
+  压缩时间: 3.81 秒
+  压缩吞吐量: 339.992125 MiB/s
+  解压时间: 1.00 秒
+  解压吞吐量: 1290.03 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.1-rc8.tar.lz4
+
+文件 #244: v6.1.tar
+  原始大小: 1295.40 MiB
+  LZ4压缩大小: 349.26 MiB
+  压缩率: 3.70x
+  压缩时间: 3.77 秒
+  压缩吞吐量: 343.607427 MiB/s
+  解压时间: 0.99 秒
+  解压吞吐量: 1305.36 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.1.tar.lz4
+
+文件 #245: v6.2-rc1.tar
+  原始大小: 1307.33 MiB
+  LZ4压缩大小: 352.54 MiB
+  压缩率: 3.70x
+  压缩时间: 3.85 秒
+  压缩吞吐量: 339.566233 MiB/s
+  解压时间: 1.00 秒
+  解压吞吐量: 1304.81 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.2-rc1.tar.lz4
+
+文件 #246: v6.2-rc2.tar
+  原始大小: 1307.35 MiB
+  LZ4压缩大小: 352.54 MiB
+  压缩率: 3.70x
+  压缩时间: 3.93 秒
+  压缩吞吐量: 332.659033 MiB/s
+  解压时间: 1.01 秒
+  解压吞吐量: 1291.90 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.2-rc2.tar.lz4
+
+文件 #247: v6.2-rc3.tar
+  原始大小: 1307.48 MiB
+  LZ4压缩大小: 352.59 MiB
+  压缩率: 3.70x
+  压缩时间: 3.84 秒
+  压缩吞吐量: 340.489583 MiB/s
+  解压时间: 0.99 秒
+  解压吞吐量: 1318.56 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.2-rc3.tar.lz4
+
+文件 #248: v6.2-rc4.tar
+  原始大小: 1307.50 MiB
+  LZ4压缩大小: 352.59 MiB
+  压缩率: 3.70x
+  压缩时间: 3.87 秒
+  压缩吞吐量: 337.855297 MiB/s
+  解压时间: 1.02 秒
+  解压吞吐量: 1285.36 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.2-rc4.tar.lz4
+
+文件 #249: v6.2-rc5.tar
+  原始大小: 1307.53 MiB
+  LZ4压缩大小: 352.60 MiB
+  压缩率: 3.70x
+  压缩时间: 3.90 秒
+  压缩吞吐量: 335.264102 MiB/s
+  解压时间: 1.00 秒
+  解压吞吐量: 1307.66 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.2-rc5.tar.lz4
+
+文件 #250: v6.2-rc6.tar
+  原始大小: 1307.56 MiB
+  LZ4压缩大小: 352.62 MiB
+  压缩率: 3.70x
+  压缩时间: 3.83 秒
+  压缩吞吐量: 341.399477 MiB/s
+  解压时间: 1.00 秒
+  解压吞吐量: 1302.77 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.2-rc6.tar.lz4
+
+文件 #251: v6.2-rc7.tar
+  原始大小: 1307.60 MiB
+  LZ4压缩大小: 352.64 MiB
+  压缩率: 3.70x
+  压缩时间: 3.84 秒
+  压缩吞吐量: 340.520833 MiB/s
+  解压时间: 1.02 秒
+  解压吞吐量: 1284.09 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.2-rc7.tar.lz4
+
+文件 #252: v6.2-rc8.tar
+  原始大小: 1307.63 MiB
+  LZ4压缩大小: 352.64 MiB
+  压缩率: 3.70x
+  压缩时间: 4.00 秒
+  压缩吞吐量: 326.907500 MiB/s
+  解压时间: 0.99 秒
+  解压吞吐量: 1315.56 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.2-rc8.tar.lz4
+
+文件 #253: v6.2.tar
+  原始大小: 1307.65 MiB
+  LZ4压缩大小: 352.62 MiB
+  压缩率: 3.70x
+  压缩时间: 3.82 秒
+  压缩吞吐量: 342.316753 MiB/s
+  解压时间: 1.03 秒
+  解压吞吐量: 1265.54 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.2.tar.lz4
+
+文件 #254: v6.3-rc1.tar
+  原始大小: 1313.04 MiB
+  LZ4压缩大小: 354.02 MiB
+  压缩率: 3.70x
+  压缩时间: 3.96 秒
+  压缩吞吐量: 331.575757 MiB/s
+  解压时间: 0.99 秒
+  解压吞吐量: 1320.20 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.3-rc1.tar.lz4
+
+文件 #255: v6.3-rc2.tar
+  原始大小: 1311.66 MiB
+  LZ4压缩大小: 353.54 MiB
+  压缩率: 3.71x
+  压缩时间: 3.88 秒
+  压缩吞吐量: 338.056701 MiB/s
+  解压时间: 1.02 秒
+  解压吞吐量: 1284.92 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.3-rc2.tar.lz4
+
+文件 #256: v6.3-rc3.tar
+  原始大小: 1311.67 MiB
+  LZ4压缩大小: 353.55 MiB
+  压缩率: 3.70x
+  压缩时间: 3.86 秒
+  压缩吞吐量: 339.810880 MiB/s
+  解压时间: 1.00 秒
+  解压吞吐量: 1311.50 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.3-rc3.tar.lz4
+
+文件 #257: v6.3-rc4.tar
+  原始大小: 1311.76 MiB
+  LZ4压缩大小: 353.61 MiB
+  压缩率: 3.70x
+  压缩时间: 4.02 秒
+  压缩吞吐量: 326.308457 MiB/s
+  解压时间: 1.11 秒
+  解压吞吐量: 1182.66 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.3-rc4.tar.lz4
+
+文件 #258: v6.3-rc5.tar
+  原始大小: 1311.78 MiB
+  LZ4压缩大小: 353.61 MiB
+  压缩率: 3.70x
+  压缩时间: 3.97 秒
+  压缩吞吐量: 330.423173 MiB/s
+  解压时间: 1.05 秒
+  解压吞吐量: 1247.13 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.3-rc5.tar.lz4
+
+文件 #259: v6.3-rc6.tar
+  原始大小: 1311.81 MiB
+  LZ4压缩大小: 353.61 MiB
+  压缩率: 3.70x
+  压缩时间: 4.28 秒
+  压缩吞吐量: 306.497663 MiB/s
+  解压时间: 1.02 秒
+  解压吞吐量: 1286.83 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.3-rc6.tar.lz4
+
+文件 #260: v6.3-rc7.tar
+  原始大小: 1311.85 MiB
+  LZ4压缩大小: 353.63 MiB
+  压缩率: 3.70x
+  压缩时间: 3.83 秒
+  压缩吞吐量: 342.519582 MiB/s
+  解压时间: 0.99 秒
+  解压吞吐量: 1319.63 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.3-rc7.tar.lz4
+
+文件 #261: v6.3.tar
+  原始大小: 1311.86 MiB
+  LZ4压缩大小: 353.62 MiB
+  压缩率: 3.70x
+  压缩时间: 4.77 秒
+  压缩吞吐量: 275.023060 MiB/s
+  解压时间: 1.01 秒
+  解压吞吐量: 1303.08 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.3.tar.lz4
+
+文件 #262: v6.4-rc1.tar
+  原始大小: 1333.07 MiB
+  LZ4压缩大小: 357.71 MiB
+  压缩率: 3.72x
+  压缩时间: 3.92 秒
+  压缩吞吐量: 340.068877 MiB/s
+  解压时间: 1.01 秒
+  解压吞吐量: 1317.63 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.4-rc1.tar.lz4
+
+文件 #263: v6.4-rc2.tar
+  原始大小: 1333.09 MiB
+  LZ4压缩大小: 357.71 MiB
+  压缩率: 3.72x
+  压缩时间: 3.90 秒
+  压缩吞吐量: 341.817948 MiB/s
+  解压时间: 1.03 秒
+  解压吞吐量: 1299.61 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.4-rc2.tar.lz4
+
+文件 #264: v6.4-rc3.tar
+  原始大小: 1333.15 MiB
+  LZ4压缩大小: 357.73 MiB
+  压缩率: 3.72x
+  压缩时间: 3.94 秒
+  压缩吞吐量: 338.362944 MiB/s
+  解压时间: 1.02 秒
+  解压吞吐量: 1303.96 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.4-rc3.tar.lz4
+
+文件 #265: v6.4-rc4.tar
+  原始大小: 1333.20 MiB
+  LZ4压缩大小: 357.76 MiB
+  压缩率: 3.72x
+  压缩时间: 3.95 秒
+  压缩吞吐量: 337.518987 MiB/s
+  解压时间: 1.02 秒
+  解压吞吐量: 1307.17 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.4-rc4.tar.lz4
+
+文件 #266: v6.4-rc5.tar
+  原始大小: 1333.25 MiB
+  LZ4压缩大小: 357.77 MiB
+  压缩率: 3.72x
+  压缩时间: 3.96 秒
+  压缩吞吐量: 336.679292 MiB/s
+  解压时间: 1.02 秒
+  解压吞吐量: 1306.70 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.4-rc5.tar.lz4
+
+文件 #267: v6.4-rc6.tar
+  原始大小: 1333.29 MiB
+  LZ4压缩大小: 357.77 MiB
+  压缩率: 3.72x
+  压缩时间: 3.94 秒
+  压缩吞吐量: 338.398477 MiB/s
+  解压时间: 1.01 秒
+  解压吞吐量: 1317.02 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.4-rc6.tar.lz4
+
+文件 #268: v6.4-rc7.tar
+  原始大小: 1333.33 MiB
+  LZ4压缩大小: 357.79 MiB
+  压缩率: 3.72x
+  压缩时间: 3.92 秒
+  压缩吞吐量: 340.135204 MiB/s
+  解压时间: 1.01 秒
+  解压吞吐量: 1318.72 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.4-rc7.tar.lz4
+
+文件 #269: v6.4.tar
+  原始大小: 1333.37 MiB
+  LZ4压缩大小: 357.78 MiB
+  压缩率: 3.72x
+  压缩时间: 3.96 秒
+  压缩吞吐量: 336.709595 MiB/s
+  解压时间: 1.02 秒
+  解压吞吐量: 1306.23 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.4.tar.lz4
+
+文件 #270: v6.5-rc1.tar
+  原始大小: 1345.41 MiB
+  LZ4压缩大小: 360.90 MiB
+  压缩率: 3.72x
+  压缩时间: 3.93 秒
+  压缩吞吐量: 342.343511 MiB/s
+  解压时间: 1.11 秒
+  解压吞吐量: 1214.99 MiB/s
+  LZ4文件: ./compressed_datasets/linux/v6.5-rc1.tar.lz4
+
+=== linux LZ4总体统计 ===
+实际处理文件数量: 270
+预期文件数量: 270
+总原始大小: 202938.70 MiB
+总LZ4压缩大小: 60113.76 MiB
+总体压缩率: 3.37x
+总压缩时间: 624.68 秒
+总解压时间: 160.86 秒
+压缩总体吞吐量: 324.86 MiB/s
+解压总体吞吐量: 1261.60 MiB/s
+LZ4文件保存目录: ./compressed_datasets/linux/
+完成时间: 2025年 07月 31日 星期四 13:44:33 CST
