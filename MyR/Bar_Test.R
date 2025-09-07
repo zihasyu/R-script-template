@@ -33,3 +33,4 @@ plot <- create_comparison_barplot(
 exportPath="./"
 exportName="bar.pdf"
 ggsave(paste(exportPath, exportName, sep=""), plot = plot, width = 12, height = 6)
+
