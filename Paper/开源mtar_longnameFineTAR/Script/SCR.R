@@ -35,9 +35,9 @@ plot <- plot_line_comparison_xcdf(
   plot_height = 3.4,
   range_extension = 1,
   x_breaks = c(0,0.25,0.5,0.75,1),
-  y_breaks = c(0.1,0.2,0.3),
+  y_breaks = c(0.05,0.1,0.15,0.2,0.25),
   x_expand = c(0,0),
-  y_expand = c(0,0.05)
+  y_expand = c(0,0.12)
 )
 
 cat("图表已生成并保存到:", file.path(output_dir, "offsetchunk_comparison.pdf"), "\n")

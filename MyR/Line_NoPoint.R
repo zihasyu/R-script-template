@@ -314,9 +314,9 @@ plot_line_comparison_xcdf <- function(
     p <- p + scale_y_continuous(expand = expansion(mult = c(0.02, 0.08)))
   } else {
     # 检查最大刻度是否接近范围边界，如果太接近就移除
-    if(max(y_breaks) > y_range[2] * 0.95) {
-      y_breaks <- y_breaks[y_breaks < max(y_breaks)]
-    }
+    # if(max(y_breaks) > y_range[2] * 0.95) {
+    #   y_breaks <- y_breaks[y_breaks < max(y_breaks)]
+    # }
     p <- p + scale_y_continuous(
       breaks = y_breaks, 
       labels = y_breaks,
@@ -705,9 +705,9 @@ plot_line_comparison_xcdf <- function(
     p <- p + scale_y_continuous(expand = expansion(mult = y_expand))  # 使用自定义的扩展参数
   } else {
     # 检查最大刻度是否接近范围边界，如果太接近就移除
-    if(max(y_breaks) > y_range[2] * 0.95) {
-      y_breaks <- y_breaks[y_breaks < max(y_breaks)]
-    }
+    # if(max(y_breaks) > y_range[2] * 0.95) {
+    #   y_breaks <- y_breaks[y_breaks < max(y_breaks)]
+    # }
     p <- p + scale_y_continuous(
       breaks = y_breaks, 
       labels = y_breaks,
