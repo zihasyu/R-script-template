@@ -28,8 +28,8 @@ plot_tradeoff_dual_y_axis <- function(
   line_size = 1.5,
   point_size = 9,
   stroke_size = 4.5,
-  axis_text_size = 46,
-  title_size = 48,
+  axis_text_size = 56,  # 增大字体
+  title_size = 56,      # 增大字体
   legend_text_size = 44,
   plot_width = 12,
   plot_height = 6,
@@ -52,7 +52,12 @@ plot_tradeoff_dual_y_axis <- function(
     stop(paste("Data must contain the following columns:", paste(required_cols, collapse = ", ")))
   }
 
-  # 3. 创建绘图
+  # 3. 定义自定义的X轴刻度和标签
+  thresholds_full <- 2^(13:22)
+  custom_x_breaks <- c(8192, 65536, 524288, 4194304)  # 8K, 64K, 512K, 4M
+  custom_x_labels <- c("8K", "64K", "512K", "4M")
+
+  # 4. 创建绘图
   p <- ggplot(data, aes(x = Threshold)) +
     # DRR and ERR lines and points
     geom_line(aes(y = OCR, color = "OCR"), linewidth = line_size) +
@@ -62,13 +67,11 @@ plot_tradeoff_dual_y_axis <- function(
     
     # --- 坐标轴 ---
     scale_x_log10(
-      breaks = data$Threshold,
-      labels = function(x) {
-        ifelse(x >= 1024*1024, paste0(x / (1024*1024), "M"), paste0(x / 1024, "K"))
-      }
+    breaks = thresholds_full,        # 显示所有刻度线
+    labels = c("8K", "", "", "64K", "", "", "512K", "", "", "4M")  # 只在选定位置显示标签
     )
 
-  # 4. 构建 scale_y_continuous，根据是否指定了 primary_breaks
+  # 5. 构建 scale_y_continuous，根据是否指定了 primary_breaks
   if (is.null(primary_breaks)) {
     # Y轴自动生成刻度
     p <- p + scale_y_continuous(
@@ -105,7 +108,7 @@ plot_tradeoff_dual_y_axis <- function(
     theme(
       text = element_text(family = "Arial", color = "black"),
       axis.text = element_text(size = axis_text_size, color = "black"),
-      axis.text.x = element_text(angle = 30,  hjust = 0.8, vjust = 0.8),
+      # axis.text.x = element_text(angle = 30, hjust = 0.8, vjust = 0.8),  # 调整X轴标签对齐
       axis.title = element_text(size = title_size),
       axis.line = element_line(linewidth = 1),
       axis.ticks = element_line(linewidth = 1),
@@ -113,7 +116,7 @@ plot_tradeoff_dual_y_axis <- function(
       legend.position = "none"
     )
 
-  # 5. 保存文件
+  # 6. 保存文件
   export_name <- paste0(dataset_name, "_B.", export_format)
   ggsave(file.path(export_path, export_name), plot = p, width = plot_width, height = plot_height)
   
@@ -252,7 +255,8 @@ tryCatch({
     data = gcc_plot_data,
     dataset_name = "GCC",
     export_path = here("Paper", "impact"),
-    export_format = "pdf"
+    export_format = "pdf",
+    primary_breaks = c(25, 30, 35)  # 手动指定Y轴刻度为整数
   )
   print("'GCC' plot generated successfully.")
 }, error = function(e) {
