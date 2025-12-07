@@ -361,7 +361,7 @@ p_bw <- create_grouped_barplot_bw_pattern(
   bar_labels = bar_labels,
   x_label = "",
   y_label = "Speed (MiB/s)",
-  export_name = "Restore_bw.pdf",
+  export_name = "Restore_bw.png",
   export_path = plot_dir,
   width = 20,
   height = 8,
