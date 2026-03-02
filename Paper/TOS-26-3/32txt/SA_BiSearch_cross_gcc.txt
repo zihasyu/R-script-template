@@ -1,0 +1,72 @@
+2026-02-23 13:30:47 <Chunker>: chunking done.
+total_size is 8
+Version: 1
+-----------------CHUNK NUM-----------------------
+logical chunk num: 112
+unique chunk num: 100
+base chunk num: 84
+delta chunk num: 16
+Odess Hit is 16
+Header chunk logical num: 9
+Header chunk unique num: 9
+Header chunk base logical num: 0
+Header chunk base unique num: 8
+Header chunk delta logical num: 0
+Header chunk delta unique num: 1
+-----------------CHUNK SIZE-----------------------
+logicalchunkSize is 1034240
+uniquechunkSize is 233825
+base chunk size: 231752
+delta chunk size: 2073
+Header chunk logical size: 71680
+Header chunk unique size: 2985
+Header chunk base logical size: 65536
+Header chunk base unique size: 2968
+Header chunk delta logical size: 6144
+Header chunk delta unique size: 17
+-----------------METRICS-------------------------
+Overall Compression Ratio: 4.42314
+OCR(+Recipe): 4.35636
+OCR(vsGit): 4.16981
+DCC: 0.16
+DCR: 116.824
+DCE: 314.828
+DCE2: 0.91778
+-----------------Time------------------------------
+Version time: 0.117221s
+Throughput: 8.41424MiB/s
+Reduce data speed: 6.51191MiB/s
+SF generation time: 0.000630422s
+SF generation throughput: 1564.55MiB/s
+Chunk Time: 0.000363993s
+Dedup Time: 0.00192307s
+Locality Match Time: 0s
+Locality Delta Time: 0s
+Feature Match Time: 0.000648978s
+Feature Match Time1: 0s
+Feature Delta Time: 0.000827718s
+IOGet Time: 0.000574793s
+IOWrite Time: 0.000100453s
+Lz4 Compression Time: 0.0215038s
+Delta Compression Time: 0.000827718s
+-----------------OVERHEAD--------------------------
+Index Overhead: 0.0154305MiB
+FP Index Overhead: 0.0038147MiB
+ID Index Overhead: 0.00686646MiB
+SF Index Overhead: 0.00384521MiB
+Recipe Overhead: 0.000854492MiB
+nameTable size is 0.000904083MiB
+SF number: 252
+nameTable size: 0.000904083 MiB
+-----------------REDUCT----------------------------
+dedup reduct size : 0.0253906MiB
+delta reduct size : 0.22898MiB
+local reduct size : 0.508965MiB
+Feature reduct size: 0.22898MiB
+Locality reduct size: 0MiB
+-----------------Breakdown Reduct--------------------
+File chunk num: 91, reduct: 705096
+Header chunk num: 9, reduct: 68695
+CDC chunk num: 0, reduct: 0
+-----------------END-------------------------------
+Interrupt signal (2) received.
