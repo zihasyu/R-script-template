@@ -2,10 +2,10 @@ library(here)
 library(readxl)
 
 create_grouped_barplot_with_ci <- function(
-    data_matrix,              # 8x5的数据列表矩阵
-    group_labels,             # 8个分组的标签
-    bar_labels,               # 5个柱子的标签
-    fill_colors = c("#F2BE5C", "#1d84c9", "#B79AD1", "#75B8BF", "#FF5809"),  # 5个柱子的颜色
+    data_matrix,              # 数据列表矩阵
+    group_labels,             # 分组的标签
+    bar_labels,               # 柱子的标签
+    fill_colors,              # 柱子的颜色
     x_label = "Groups",
     y_label = "Value",
     export_name = NULL,
@@ -33,24 +33,27 @@ create_grouped_barplot_with_ci <- function(
   library(ggplot2)
   library(dplyr)
   
+  num_groups <- length(group_labels)
+  num_bars <- length(bar_labels)
+
   # 数据验证
-  if(length(data_matrix) != 8) {
-    stop("data_matrix必须包含8个分组")
+  if(length(data_matrix) != num_groups) {
+    stop(paste("data_matrix必须包含", num_groups, "个分组"))
   }
-  if(any(sapply(data_matrix, length) != 5)) {
-    stop("每个分组必须包含5个柱子的数据")
+  if(any(sapply(data_matrix, length) != num_bars)) {
+    stop(paste("每个分组必须包含", num_bars, "个柱子的数据"))
   }
   
   # 计算每个柱子的统计信息
   summary_list <- list()
-  for(i in 1:8) {
-    for(j in 1:5) {
+  for(i in 1:num_groups) {
+    for(j in 1:num_bars) {
       data_vec <- data_matrix[[i]][[j]]
       n <- sum(!is.na(data_vec))
       mean_val <- mean(data_vec, na.rm = TRUE)
       sd_val <- sd(data_vec, na.rm = TRUE)
       se <- sd_val / sqrt(n)
-      ci95 <- se * qt(0.975, df = n - 1)
+      ci95 <- if (n > 1) se * qt(0.975, df = n - 1) else 0
       
       summary_list[[length(summary_list) + 1]] <- data.frame(
         group = group_labels[i],
@@ -172,7 +175,7 @@ create_grouped_barplot_with_ci <- function(
 }
 
 # 读取Excel数据
-excel_path <- here("Paper/DSN/Throughput.xlsx")
+excel_path <- here("Paper/TOS-26-3/MergeThroughput.xlsx")
 compression_data <- read_excel(excel_path)
 
 # 获取列名
@@ -180,18 +183,18 @@ column_names <- colnames(compression_data)
 num_columns <- length(column_names)
 
 # 参数设置
-GROUP_SIZE <- 5  # 修改为5个方法
+GROUP_SIZE <- 6  # 修改为6个方法
 INTERVAL <- 8    # 数据集数量
 
 # 确保输出文件夹存在
-plot_dir <- here("Paper/DSN/PerfBar")
+plot_dir <- here("Paper/TOS-26-3/PerfBar")
 if(!dir.exists(plot_dir)) {
   dir.create(plot_dir, recursive = TRUE)
 }
 
 # 设定方法的顺序和颜色
-desired_order <- c("TL", "ML", "MO", "FineTAR", "zstd")  # 添加zstd
-fill_colors <- c("#F2BE5C", "#1d84c9", "#B79AD1", "#75B8BF", "#FF5809")  # 添加第5个颜色
+desired_order <- c("TL", "ML", "MO", "FineTAR", "Git", "TarReduceDeflate")
+fill_colors <- c("#F2BE5C", "#B79AD1", "#75B8BF", "#FF5809","#2ca02c",  "#1d84c9")  # 添加第6个颜色
 
 # 准备分组数据矩阵
 all_data_matrix <- list()
@@ -229,10 +232,11 @@ for(i in 1:INTERVAL) {
   }
   
   # 按照desired_order重新排列数据
-  original_order <- c("TL", "ML", "MO", "FineTAR", "zstd")
+  # 假设原始列顺序与desired_order中的前几个匹配
+  original_order <- c("TL", "ML", "MO", "FineTAR", "Git", "TarReduceDeflate")
   order_index <- match(desired_order, original_order)
   
-  reordered_data <- group_data[order_index[1:5]]  # 修改为1:5
+  reordered_data <- group_data[order_index[1:GROUP_SIZE]]
   all_data_matrix[[i]] <- reordered_data
   
   cat("收集数据集", i, ":", dataset_name, "\n")
@@ -293,17 +297,17 @@ for(i in 1:length(custom_group_order)) {
 }
 
 # 设置柱子标签和颜色
-bar_labels <- desired_order[1:5]  # 修改为1:5
-fill_colors_5 <- fill_colors[1:5]  # 使用5个颜色
+bar_labels <- desired_order[1:GROUP_SIZE]
+fill_colors_6 <- fill_colors[1:GROUP_SIZE]
 
 p <- create_grouped_barplot_with_ci(
   data_matrix = data_matrix,
   group_labels = group_labels,
   bar_labels = bar_labels,
-  fill_colors = fill_colors_5,  # 使用新变量
+  fill_colors = fill_colors_6,
   x_label = "",
   y_label = "Speed (MiB/s)",
-  export_name = "grouped_performance_comparison.pdf",
+  export_name = "grouped_performance_comparison_6bars.pdf",
   export_path = plot_dir,
   width = 20,
   height = 8,
@@ -323,5 +327,5 @@ p <- create_grouped_barplot_with_ci(
   x_text_angle = 20,
   y_axis_margin = 0.02
 )
-cat("已生成分组柱状图（5个柱子版本）: grouped_performance_comparison.pdf\n")
+cat("已生成分组柱状图（6个柱子版本）: grouped_performance_comparison_6bars.pdf\n")
 print(p)
